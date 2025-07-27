@@ -270,8 +270,8 @@
   ],
                         "2 Marks": [
                             {
-                                "question": "State Newton's law of universal gravitation.",
-                                "answer": "Every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+                                "question": "Ohm's law.",
+                                "answer": "The potential difference across a given conductor I directly proportional to the current passing through it when the temperature remains constant. V=IR.",
                                 "image": null
                             },
                             {
