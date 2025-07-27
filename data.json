@@ -175,39 +175,99 @@
                             }
                         ]
                     },
-                    "Gravitation": {
-                        "MCQs": [
-                            {
-                                "question": "The value of acceleration due to gravity on Earth is approximately:",
-                                "options": ["9.8 m/s²", "9.8 m/s", "10 m/s²", "Both A and C"],
-                                "correct": 3,
-                                "image": null
-                            },
-                            {
-                                "question": "Newton's law of universal gravitation states that gravitational force is:",
-                                "options": ["Directly proportional to distance", "Inversely proportional to mass", "Inversely proportional to square of distance", "Independent of mass"],
-                                "correct": 2,
-                                "image": null
-                            },
-                            {
-                                "question": "The gravitational constant G has units:",
-                                "options": ["N⋅m²/kg²", "N⋅m²/kg", "N⋅m/kg²", "N/kg²"],
-                                "correct": 0,
-                                "image": null
-                            },
-                            {
-                                "question": "At what height above Earth's surface does gravity become zero?",
-                                "options": ["At 100 km", "At Moon's distance", "Never becomes zero", "At 1000 km"],
-                                "correct": 2,
-                                "image": null
-                            },
-                            {
-                                "question": "The weight of an object on Moon is:",
-                                "options": ["Same as on Earth", "6 times more than Earth", "6 times less than Earth", "Zero"],
-                                "correct": 2,
-                                "image": null
-                            }
-                        ],
+                    "current Electricity": {
+                        "MCQs":[
+    {
+      "question": "The current vs voltage graph of a conductor is given. What is its resistance?",
+      "options": ["2 Ω", "4 Ω", "8 Ω", "1 Ω"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "A wire of resistance 2 Ω/m is bent into a circle of radius 1 m. What is the equivalent resistance between diametrically opposite points?",
+      "options": ["π Ω", "π/2 Ω", "2π Ω", "π/4 Ω"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "A toaster operating at 240 V has a resistance of 120 Ω. Its power is:",
+      "options": ["400 W", "2 W", "480 W", "240 W"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "A carbon resistor of (47 ± 4.7) kΩ is to be marked. What is the correct colour code?",
+      "options": ["Yellow – Green – Violet – Gold", "Yellow – Violet – Orange – Silver", "Violet – Yellow – Orange – Silver", "Green – Orange – Violet – Gold"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "What is the value of resistance of the shown resistor?",
+      "options": ["100 kΩ", "10 kΩ", "1 kΩ", "1000 kΩ"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "Two wires A and B made of same material and equal lengths have RA = 3RB. What is the ratio of radius of A to B?",
+      "options": ["3", "√3", "1/√3", "1/3"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "A wire connected to 230 V has power dissipation P1. If cut into two equal pieces and connected parallel, power dissipation becomes P2. What is P2/P1?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "In India electricity is 220 V, in USA it is 110 V. If resistance of a 60 W bulb in India is R, what is the resistance of a 60 W bulb for USA?",
+      "options": ["R", "2R", "R/4", "R/2"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "A building has 15 bulbs of 40 W, 5 bulbs of 100 W, 5 fans of 80 W, and 1 heater of 1 kW (220 V). What is the max fuse rating?",
+      "options": ["14 A", "8 A", "10 A", "12 A"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "A current of 1.0 A flows in the circuit shown. What is the resistance of P?",
+      "options": ["1.5 Ω", "2.5 Ω", "3.5 Ω", "4.5 Ω"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "What is the current drawn out from the battery (given 15 Ω, 5 V)?",
+      "options": ["1 A", "2 A", "3 A", "4 A"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "A wire has resistance 1 Ω at 20°C. If temperature coefficient is 0.00125/°C, at what temperature is the resistance 2 Ω?",
+      "options": ["800 °C", "700 °C", "850 °C", "820 °C"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "A 2.1 V cell gives 0.2 A through 10 Ω. What is its internal resistance?",
+      "options": ["0.2 Ω", "0.5 Ω", "0.8 Ω", "1.0 Ω"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "A piece of copper and germanium are cooled from room temperature to 80 K. Their resistance:",
+      "options": ["Each increases", "Each decreases", "Copper increases, Germanium decreases", "Copper decreases, Germanium increases"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "In Joule’s heating law, for constant R and t, if H is on Y-axis and I² on X-axis, the graph is:",
+      "options": ["Straight line", "Parabola", "Circle", "Ellipse"],
+      "correct": 0,
+      "image": null
+    }
+  ],
                         "2 Marks": [
                             {
                                 "question": "State Newton's law of universal gravitation.",
