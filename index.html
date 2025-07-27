@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshad Rules!</title>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Dark mode toggle button -->
+    <button class="dark-mode-toggle" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Name input modal (hidden by default) -->
+    <div class="modal-overlay" id="nameModal" style="display: none;">
+        <div class="modal-content">
+            <h2 class="modal-title">Welcome to Harshad Rules!!</h2>
+            <p>Please enter your name to personalize your experience:</p>
+            <input type="text" class="name-input" id="userNameInput" placeholder="Your name">
+            <button class="submit-name" id="submitName">Continue</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Home Page -->
+        <div id="homePage" class="page">
+            <div class="header">
+                <h1 class="greeting" id="greetingText">Hello! 👋</h1>
+                <p class="subtitle">What do you want to study today?</p>
+            </div>
+            
+            <div class="subjects-grid">
+                <div class="subject-card physics" onclick="goToChapters('Physics')">
+                    <h2>⚡ Physics</h2>
+                    <p>Explore the laws of nature</p>
+                </div>
+                <div class="subject-card chemistry" onclick="goToChapters('Chemistry')">
+                    <h2>🧪 Chemistry</h2>
+                    <p>Discover molecular mysteries</p>
+                </div>
+                <div class="subject-card maths" onclick="goToChapters('Maths')">
+                    <h2>📐 Mathematics</h2>
+                    <p>Master numerical concepts</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chapters Page -->
+        <div id="chaptersPage" class="page">
+            <button class="nav-btn back-btn" onclick="goToHome()">← Back to Subjects</button>
+            <div class="header">
+                <h1 class="greeting" id="subjectTitle">Physics Chapters</h1>
+            </div>
+            
+            <div class="chapters-list" id="chaptersList">
+                <!-- Chapters will be populated here -->
+            </div>
+        </div>
+
+        <!-- Question Types Page -->
+        <div id="questionTypesPage" class="page">
+            <button class="nav-btn back-btn" onclick="goToChapters()">← Back to Chapters</button>
+            <div class="header">
+                <h1 class="greeting" id="chapterTitle">Chapter: Motion</h1>
+            </div>
+            
+            <div class="question-types-grid">
+                <div class="question-type-card mcq" onclick="goToFlashcards('MCQs')">
+                    <h3>📝 MCQs</h3>
+                    <p>Multiple Choice Questions</p>
+                </div>
+                <div class="question-type-card marks-2" onclick="goToFlashcards('2 Marks')">
+                    <h3>✏️ 2 Marks</h3>
+                    <p>Short Answer Questions</p>
+                </div>
+                <div class="question-type-card marks-3" onclick="goToFlashcards('3 Marks')">
+                    <h3>📖 3 Marks</h3>
+                    <p>Medium Answer Questions</p>
+                </div>
+                <div class="question-type-card marks-5" onclick="goToFlashcards('5 Marks')">
+                    <h3>📚 5 Marks</h3>
+                    <p>Long Answer Questions</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flashcards Page -->
+        <div id="flashcardsPage" class="page">
+            <button class="nav-btn back-btn" onclick="goToQuestionTypes()">← Back to Question Types</button>
+            
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                    <div class="card-face card-front">
+                        <div class="question-text" id="questionText">
+                            Click to start studying!
+                        </div>
+                        <img id="questionImage" class="question-image" style="display: none;" />
+                        <div class="mcq-options" id="mcqOptions" style="display: none;">
+                            <!-- MCQ options will be populated here -->
+                        </div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="answer-text" id="answerText">
+                            Answer will appear here
+                        </div>
+                        <img id="answerImage" class="question-image" style="display: none;" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation">
+                <button class="nav-btn" id="prevBtn" onclick="previousCard()" disabled>← Previous</button>
+                <div class="progress" id="progress">1 / 5</div>
+                <button class="nav-btn" id="nextBtn" onclick="nextCard()">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
