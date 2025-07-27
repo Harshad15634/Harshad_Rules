@@ -1,0 +1,758 @@
+{
+                "Physics": {
+                    "Electrostatics": {
+                        "MCQs": [
+    {
+      "question": "Two identical point charges of magnitude –q are fixed as shown. A third charge +q is placed midway at point P. If displaced slightly, in which direction(s) will +q be stable?",
+      "options": ["A1 and A2", "B1 and B2", "Both directions", "No stable"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Which charge configuration produces a uniform electric field?",
+      "options": ["Point charge", "Uniformly charged infinite line", "Uniformly charged infinite plane", "Uniformly charged spherical shell"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "What is the ratio of the charges q1/q2 for the given electric field line pattern?",
+      "options": ["1/5", "25/11", "5", "11/25"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "An electric dipole at 30° with an electric field 2 × 10^5 N/C experiences a torque of 8 N·m. If dipole length is 1 cm, the charge on the dipole is:",
+      "options": ["4 mC", "8 mC", "5 mC", "7 mC"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Four Gaussian surfaces with different charges are shown. Rank the electric flux in increasing order.",
+      "options": ["D < C < B < A", "A < B = C < D", "C < A = B < D", "D > C > B > A"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "The total electric flux for the following closed surface inside water is:",
+      "options": ["80q/ε₀", "q/(40ε₀)", "q/(80ε₀)", "q/(160ε₀)"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Two identical conducting balls with charges q1 and q2 are separated by distance r. After touching and separating, the force between them will be:",
+      "options": ["Less than before", "Same as before", "More than before", "Zero"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "Rank the electrostatic potential energies for the given charge system in increasing order.",
+      "options": ["1 = 4 < 2 < 3", "2 = 4 < 3 < 1", "2 = 3 < 1 < 4", "3 < 1 < 2 < 4"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "An electric field E = 10x î exists. The potential difference V₀ – V_A at x = 2 m is:",
+      "options": ["10 V", "-20 V", "+20 V", "-10 V"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "A thin conducting spherical shell of radius R has charge Q. The correct plot for electrostatic potential is:",
+      "options": ["(a)", "(b)", "(c)", "(d)"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Two points A and B are at 7 V and -4 V. The work done in moving 50 electrons from A to B is:",
+      "options": ["8.80 × 10^–17 J", "-8.80 × 10^–17 J", "4.40 × 10^–17 J", "5.80 × 10^–17 J"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "If voltage on a capacitor is increased from V to 2V, which conclusion is correct?",
+      "options": ["Q remains same, C is doubled", "Q is doubled, C doubled", "C remains same, Q doubled", "Both Q and C remain same"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "A parallel plate capacitor stores charge Q at voltage V. If area and distance between plates are doubled, which quantity changes?",
+      "options": ["Capacitance", "Charge", "Voltage", "Energy density"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "Three capacitors are connected in triangle. The equivalent capacitance between A and C is:",
+      "options": ["1 µF", "2 µF", "3 µF", "1/4 µF"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Two metallic spheres (1 cm and 3 cm radii) are charged with –1×10^–2 C and 5×10^–2 C. After connecting, the final charge on the bigger sphere is:",
+      "options": ["3 × 10^–2 C", "4 × 10^–2 C", "1 × 10^–2 C", "2 × 10^–2 C"],
+      "correct": 0,
+      "image": null
+    }
+  ],
+                        
+                        "2 Marks": [
+                            {
+                                "question": "What is meant by quantisation of charges?",
+                                "answer": "The charge q on any object is equal to an integral multiple of the fundamental unit of charge ‘e’.q = ne  ,Where ‘n’ is an integer e. \n e = charge of an electron =1.6 × 10-19 C.",
+                                "image": null
+                            },
+                            {
+                                "question": "Write down Coulomb’s law in vector form and mention what each term represents.",
+                                "answer": "Coulomb's law in vector form is given by:\nF = k * (q₁ * q₂) / r² * r̂\nWhere:\n- F is the electrostatic force vector between the charges,\n- k is Coulomb's constant (8.99 × 10⁹ N m²/C²),\n- q₁ and q₂ are the magnitudes of the point charges,\n- r is the distance between the centers of the two charges, and\n- r̂ is the unit vector pointing from one charge to the other."
+                            },
+                            {
+                                "question": "State Newton's first law of motion.",
+                                "answer": "An object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an external force.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is acceleration? Write its SI unit.",
+                                "answer": "Acceleration is the rate of change of velocity with respect to time. Its SI unit is m/s² (meter per second squared).",
+                                "image": null
+                            },
+                            {
+                                "question": "Define average velocity.",
+                                "answer": "Average velocity is the total displacement divided by the total time taken. It is a vector quantity with both magnitude and direction.",
+                                "image": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Derive the equation v = u + at using velocity-time graph.",
+                                "answer": "In a velocity-time graph for uniformly accelerated motion:\n- Initial velocity = u (at t = 0)\n- Final velocity = v (at time t)\n- Acceleration = slope = (v - u)/t\n\nTherefore: a = (v - u)/t\nRearranging: at = v - u\nHence: v = u + at",
+                                "image": null
+                            },
+                            {
+                                "question": "A car starts from rest and accelerates at 2 m/s² for 10 seconds. Find its final velocity and distance traveled.",
+                                "answer": "Given: u = 0 m/s, a = 2 m/s², t = 10 s\n\nFinal velocity: v = u + at = 0 + 2×10 = 20 m/s\n\nDistance: s = ut + ½at² = 0×10 + ½×2×10² = 100 m\n\nTherefore, final velocity = 20 m/s and distance = 100 m",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the concept of relative motion with an example.",
+                                "answer": "Relative motion refers to the motion of an object as observed from another moving object. The velocity of an object depends on the reference frame.\n\nExample: Two trains moving at 60 km/h and 40 km/h in the same direction. Their relative velocity is 60-40 = 20 km/h. If moving in opposite directions, relative velocity is 60+40 = 100 km/h.",
+                                "image": null
+                            },
+                            {
+                                "question": "What are the equations of motion? State the conditions for their validity.",
+                                "answer": "The three equations of motion are:\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\n\nConditions: These are valid for uniformly accelerated motion in a straight line, where acceleration remains constant throughout the motion.",
+                                "image": null
+                            },
+                            {
+                                "question": "Distinguish between speed and velocity with examples.",
+                                "answer": "Speed is a scalar quantity representing the rate of change of distance. Velocity is a vector quantity representing the rate of change of displacement.\n\nExample: A car moving in a circle at 60 km/h has constant speed but changing velocity (direction changes). Speed = 60 km/h, but velocity changes due to direction change.",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "A stone is thrown vertically upward with an initial velocity of 20 m/s. Calculate: (a) Maximum height reached (b) Time to reach maximum height (c) Total time of flight (d) Velocity when it returns to ground.",
+                                "answer": "Given: u = 20 m/s (upward), g = 10 m/s² (downward)\n\n(a) At maximum height, v = 0\nUsing v² = u² - 2gh (negative because g opposes motion)\n0 = 20² - 2×10×h\nh = 400/20 = 20 m\n\n(b) Time to reach maximum height:\nv = u - gt\n0 = 20 - 10t\nt = 2 s\n\n(c) Total time of flight = 2 × time to reach max height = 2 × 2 = 4 s\n\n(d) Velocity when returning to ground = -20 m/s (same magnitude, opposite direction)",
+                                "image": null
+                            },
+                            {
+                                "question": "Derive the equation s = ut + ½at² graphically using velocity-time graph.",
+                                "answer": "Consider a velocity-time graph for uniformly accelerated motion:\n- Initial velocity = u\n- Final velocity = v = u + at\n- The graph forms a trapezoid\n\nDistance = Area under v-t graph\n= Area of rectangle + Area of triangle\n= u×t + ½×(v-u)×t\n= ut + ½×(at)×t    [since v-u = at]\n= ut + ½at²\n\nTherefore, s = ut + ½at²",
+                                "image": null
+                            },
+                            {
+                                "question": "Two trains are moving towards each other with speeds 60 km/h and 40 km/h. If they are initially 200 km apart, find when and where they will meet.",
+                                "answer": "Given: Speed of train A = 60 km/h, Speed of train B = 40 km/h\nInitial separation = 200 km\n\nRelative speed = 60 + 40 = 100 km/h (approaching each other)\n\nTime to meet = Distance/Relative speed = 200/100 = 2 hours\n\nDistance covered by train A = 60 × 2 = 120 km\nDistance covered by train B = 40 × 2 = 80 km\n\nThey will meet after 2 hours, at a point 120 km from train A's starting position.",
+                                "image": null
+                            },
+                            {
+                                "question": "A ball is dropped from a height of 45 m. Another ball is thrown downward from the same height 1 second later with an initial velocity of 10 m/s. Which ball will reach the ground first?",
+                                "answer": "Ball 1 (dropped): u₁ = 0, h = 45 m\nUsing s = ut + ½gt²\n45 = 0 + ½×10×t₁²\nt₁ = 3 seconds\n\nBall 2 (thrown after 1 sec): u₂ = 10 m/s, h = 45 m\n45 = 10t₂ + ½×10×t₂²\n45 = 10t₂ + 5t₂²\n5t₂² + 10t₂ - 45 = 0\nt₂² + 2t₂ - 9 = 0\nSolving: t₂ = 2.16 seconds\n\nTotal time for ball 2 = 1 + 2.16 = 3.16 seconds\n\nBall 1 reaches first at t = 3 seconds.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain uniform circular motion. Derive the expression for centripetal acceleration.",
+                                "answer": "Uniform circular motion is the motion of an object in a circular path at constant speed. Though speed is constant, velocity changes due to direction change.\n\nDerivation of centripetal acceleration:\nConsider an object moving in a circle of radius r with speed v.\nIn time dt, it moves through angle dθ.\nChange in velocity dv = v×dθ (perpendicular to velocity)\nAcceleration = dv/dt = v×(dθ/dt) = v×ω = v×(v/r) = v²/r\n\nCentripetal acceleration = v²/r (directed towards center)\nAlternatively: a = ω²r = 4π²r/T²",
+                                "image": null
+                            }
+                        ]
+                    },
+                    "Gravitation": {
+                        "MCQs": [
+                            {
+                                "question": "The value of acceleration due to gravity on Earth is approximately:",
+                                "options": ["9.8 m/s²", "9.8 m/s", "10 m/s²", "Both A and C"],
+                                "correct": 3,
+                                "image": null
+                            },
+                            {
+                                "question": "Newton's law of universal gravitation states that gravitational force is:",
+                                "options": ["Directly proportional to distance", "Inversely proportional to mass", "Inversely proportional to square of distance", "Independent of mass"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The gravitational constant G has units:",
+                                "options": ["N⋅m²/kg²", "N⋅m²/kg", "N⋅m/kg²", "N/kg²"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "At what height above Earth's surface does gravity become zero?",
+                                "options": ["At 100 km", "At Moon's distance", "Never becomes zero", "At 1000 km"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The weight of an object on Moon is:",
+                                "options": ["Same as on Earth", "6 times more than Earth", "6 times less than Earth", "Zero"],
+                                "correct": 2,
+                                "image": null
+                            }
+                        ],
+                        "2 Marks": [
+                            {
+                                "question": "State Newton's law of universal gravitation.",
+                                "answer": "Every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is the difference between mass and weight?",
+                                "answer": "Mass is the amount of matter in an object and remains constant everywhere. Weight is the gravitational force acting on an object and varies with location. Mass is scalar, weight is vector.",
+                                "image": null
+                            },
+                            {
+                                "question": "Define acceleration due to gravity.",
+                                "answer": "Acceleration due to gravity is the acceleration produced in a freely falling object due to Earth's gravitational force. Its value is approximately 9.8 m/s² near Earth's surface.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is gravitational field strength?",
+                                "answer": "Gravitational field strength at a point is the gravitational force per unit mass experienced by a small test mass placed at that point. It is equal to acceleration due to gravity.",
+                                "image": null
+                            },
+                            {
+                                "question": "Why do all objects fall at the same rate in vacuum?",
+                                "answer": "In vacuum, there is no air resistance. The acceleration due to gravity is independent of mass (g = GM/r²), so all objects experience the same acceleration regardless of their mass.",
+                                "image": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Derive the relation between gravitational field strength and acceleration due to gravity.",
+                                "answer": "Gravitational field strength (E) = Gravitational force per unit mass\nE = F/m\n\nFrom Newton's law: F = GMm/r²\nTherefore: E = (GMm/r²)/m = GM/r²\n\nAcceleration due to gravity: g = GM/r²\n\nHence, gravitational field strength = acceleration due to gravity\nE = g",
+                                "image": null
+                            },
+                            {
+                                "question": "How does the value of g vary with altitude? Derive the expression.",
+                                "answer": "At Earth's surface: g = GM/R²\nAt height h above surface: g' = GM/(R+h)²\n\nRatio: g'/g = R²/(R+h)² = 1/(1+h/R)²\n\nFor small h compared to R: g' ≈ g(1-2h/R)\n\nTherefore, g decreases with altitude. The fractional decrease is approximately 2h/R for small heights.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is escape velocity? Derive its expression.",
+                                "answer": "Escape velocity is the minimum velocity needed to escape Earth's gravitational field completely.\n\nAt escape: KE = PE\n½mv² = GMm/R\nv² = 2GM/R\nv = √(2GM/R)\n\nSince g = GM/R²: GM = gR²\nv = √(2gR²/R) = √(2gR)\n\nEscape velocity = √(2gR) ≈ 11.2 km/s for Earth",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain why satellites do not fall to Earth despite being under gravitational force.",
+                                "answer": "Satellites are continuously falling towards Earth due to gravity, but they also have sufficient horizontal velocity. This creates circular motion where the gravitational force provides the centripetal force needed for circular orbit.\n\nFor circular orbit: mg = mv²/r\nOrbital velocity: v = √(gr)\n\nThe satellite falls at the same rate that Earth's surface curves away, maintaining constant altitude.",
+                                "image": null
+                            },
+                            {
+                                "question": "Compare the gravitational force between Earth-Moon and Earth-Sun systems.",
+                                "answer": "Earth-Moon force: F₁ = GMₑMₘ/r₁²\nEarth-Sun force: F₂ = GMₑMₛ/r₂²\n\nMₛ >> Mₘ (Sun's mass >> Moon's mass)\nr₂ >> r₁ (Earth-Sun distance >> Earth-Moon distance)\n\nActual calculation shows F₂ ≈ 180×F₁, so Sun's gravitational force on Earth is much stronger than Moon's.",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "State and prove Newton's law of universal gravitation. Discuss its significance.",
+                                "answer": "Statement: Every particle attracts every other particle with force proportional to product of masses and inversely proportional to square of distance.\n\nF = Gm₁m₂/r²\n\nProof concept: From Kepler's laws and circular motion analysis of planets.\nFor circular orbit: F = mv²/r and v = 2πr/T\nFrom Kepler's third law: T² ∝ r³\nSubstituting gives F ∝ m/r²\n\nSignificance: Explains planetary motion, tides, weight variation, satellite orbits, and led to discovery of new planets.",
+                                "image": null
+                            },
+                            {
+                                "question": "Derive the expression for gravitational potential energy and explain the concept of gravitational potential.",
+                                "answer": "Work done to bring mass m from infinity to distance r:\nW = ∫[∞ to r] F·dr = ∫[∞ to r] (-GMm/r²)dr\nW = GMm∫[∞ to r] (1/r²)dr = GMm[-1/r][∞ to r]\nW = -GMm/r\n\nGravitational PE = -GMm/r (taking PE = 0 at infinity)\n\nGravitational potential V = PE/m = -GM/r\nIt represents work done per unit mass to bring from infinity.\nNegative sign indicates attractive nature of gravity.",
+                                "image": null
+                            },
+                            {
+                                "question": "Calculate the orbital velocity and time period of a satellite orbiting Earth at height h above surface.",
+                                "answer": "For circular orbit at height h:\nRadius of orbit = R + h (where R = Earth's radius)\n\nGravitational force = Centripetal force\nGMm/(R+h)² = mv²/(R+h)\n\nOrbital velocity: v = √[GM/(R+h)]\nSince g = GM/R²: GM = gR²\nv = √[gR²/(R+h)] = R√[g/(R+h)]\n\nTime period: T = 2π(R+h)/v = 2π√[(R+h)³/GM]\nT = 2π√[(R+h)³/gR²]\n\nFor surface orbits (h=0): v = √(gR) ≈ 7.9 km/s, T ≈ 84 min",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the variation of g with depth inside Earth. Derive the expression.",
+                                "answer": "At depth d below surface:\nOnly the mass within radius (R-d) contributes to gravity.\nMass within radius (R-d) = M × [(R-d)/R]³ (assuming uniform density)\n\ng_d = GM'/(R-d)² where M' = M(R-d)³/R³\ng_d = GM(R-d)³/[R³(R-d)²] = GM(R-d)/R³\ng_d = g(R-d)/R = g(1-d/R)\n\nTherefore: g_d = g(1-d/R)\n\nAt center (d=R): g = 0\nAt surface (d=0): g = g₀\nLinear decrease with depth",
+                                "image": null
+                            },
+                            {
+                                "question": "Discuss the motion of planets and derive Kepler's laws from Newton's law of gravitation.",
+                                "answer": "Kepler's First Law: Planetary orbits are elliptical with Sun at focus.\nDerivation: From F = GMm/r² and angular momentum conservation, solving differential equations gives elliptical trajectories.\n\nKepler's Second Law: Planets sweep equal areas in equal times.\nProof: Angular momentum L = mr²ω = constant\nArea swept = ½r²θ, dA/dt = ½r²(dθ/dt) = L/2m = constant\n\nKepler's Third Law: T² ∝ r³\nFor circular orbits: GMm/r² = mω²r, ω = 2π/T\nGM/r² = 4π²r/T²\nT² = 4π²r³/GM\nTherefore T² ∝ r³\n\nThese laws explained planetary motion and validated universal gravitation.",
+                                "image": null
+                            }
+                        ]
+                    }
+                },
+                "Chemistry": {
+                    "Atomic Structure": {
+                        "MCQs": [
+                            {
+                                "question": "What is the atomic number of carbon?",
+                                "options": ["6", "12", "14", "8"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "Which particle has no charge?",
+                                "options": ["Proton", "Electron", "Neutron", "Ion"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The mass number of an atom is:",
+                                "options": ["Number of protons", "Number of electrons", "Number of neutrons", "Number of protons + neutrons"],
+                                "correct": 3,
+                                "image": null
+                            },
+                            {
+                                "question": "Isotopes have the same:",
+                                "options": ["Mass number", "Number of neutrons", "Atomic number", "Physical properties"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The electron was discovered by:",
+                                "options": ["Rutherford", "Thomson", "Dalton", "Bohr"],
+                                "correct": 1,
+                                "image": null
+                            }
+                        ],
+                        "2 Marks": [
+                            {
+                                "question": "Define atomic number and mass number.",
+                                "answer": "Atomic number is the number of protons in the nucleus of an atom. Mass number is the total number of protons and neutrons in the nucleus.",
+                                "image": null
+                            },
+                            {
+                                "question": "What are isotopes? Give an example.",
+                                "answer": "Isotopes are atoms of the same element with the same atomic number but different mass numbers. Example: Carbon-12 and Carbon-14 both have 6 protons but 6 and 8 neutrons respectively.",
+                                "image": null
+                            },
+                            {
+                                "question": "State the main postulates of Dalton's atomic theory.",
+                                "answer": "1. All matter is made of indivisible atoms. 2. Atoms of the same element are identical. 3. Atoms combine in simple whole number ratios to form compounds. 4. Atoms cannot be created or destroyed.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is an ion? How are cations and anions formed?",
+                                "answer": "An ion is a charged atom or molecule. Cations are formed when atoms lose electrons (positive charge). Anions are formed when atoms gain electrons (negative charge).",
+                                "image": null
+                            },
+                            {
+                                "question": "Describe Thomson's model of atom.",
+                                "answer": "Thomson proposed that an atom is a sphere of positive charge with electrons embedded in it like plums in a pudding. This is called the 'plum pudding model'.",
+                                "image": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Explain Rutherford's gold foil experiment and its conclusions.",
+                                "answer": "Rutherford bombarded a thin gold foil with alpha particles. Observations: Most particles passed through, some deflected at large angles, very few bounced back. Conclusions: Atom is mostly empty space, positive charge concentrated in a small nucleus, electrons revolve around nucleus.",
+                                "image": null
+                            },
+                            {
+                                "question": "Compare the properties of protons, neutrons, and electrons.",
+                                "answer": "Protons: Mass ≈ 1 amu, charge +1, located in nucleus. Neutrons: Mass ≈ 1 amu, charge 0, located in nucleus. Electrons: Mass ≈ 1/1836 amu, charge -1, revolve around nucleus in shells.",
+                                "image": null
+                            },
+                            {
+                                "question": "What are the limitations of Rutherford's model? How did Bohr overcome them?",
+                                "answer": "Limitations: Could not explain stability of atom and atomic spectra. Bohr's improvements: Electrons revolve in fixed orbits without radiating energy. Energy is emitted/absorbed only when electrons jump between orbits.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the concept of electronic configuration with examples.",
+                                "answer": "Electronic configuration shows the arrangement of electrons in different shells. Shells are filled in order K, L, M, N with maximum capacities 2, 8, 18, 32. Examples: Sodium (11) = 2, 8, 1; Chlorine (17) = 2, 8, 7.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is radioactivity? Name the three types of radiations.",
+                                "answer": "Radioactivity is the spontaneous emission of radiation from unstable atomic nuclei. Three types: Alpha (α) - helium nuclei, Beta (β) - electrons, Gamma (γ) - electromagnetic waves. Alpha has least penetration, gamma has most.",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "Describe the historical development of atomic models from Dalton to Bohr.",
+                                "answer": "Dalton (1803): Indivisible solid spheres. Thomson (1897): Plum pudding model with embedded electrons. Rutherford (1911): Nuclear model with electrons orbiting nucleus. Bohr (1913): Quantized orbits with fixed energy levels. Each model built upon previous discoveries and explained new experimental observations.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain Bohr's atomic model in detail with its postulates and significance.",
+                                "answer": "Postulates: 1. Electrons revolve in circular orbits without energy loss. 2. Angular momentum is quantized: mvr = nh/2π. 3. Energy is emitted/absorbed during transitions. Significance: Explained hydrogen spectrum, introduced quantum concept, foundation for quantum mechanics. Limitations: Failed for multi-electron atoms and could not explain fine structure.",
+                                "image": null
+                            },
+                            {
+                                "question": "Calculate the number of protons, neutrons, and electrons in the following: ¹²C, ¹⁴C, ³⁵Cl⁻, ²³Na⁺",
+                                "answer": "¹²C: Protons = 6, Neutrons = 12-6 = 6, Electrons = 6\n¹⁴C: Protons = 6, Neutrons = 14-6 = 8, Electrons = 6\n³⁵Cl⁻: Protons = 17, Neutrons = 35-17 = 18, Electrons = 17+1 = 18\n²³Na⁺: Protons = 11, Neutrons = 23-11 = 12, Electrons = 11-1 = 10",
+                                "image": null
+                            },
+                            {
+                                "question": "Discuss the dual nature of matter and its significance in atomic structure.",
+                                "answer": "De Broglie proposed that matter has wave-particle duality: λ = h/mv. For electrons in atoms, this leads to wave mechanics. Electrons exist as standing waves in orbits. Only certain wavelengths fit in circular orbits, explaining quantization. This led to the development of quantum mechanical model and electron probability distributions.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the concept of isobars and isotones with examples. How do they differ from isotopes?",
+                                "answer": "Isotopes: Same atomic number, different mass numbers (¹²C, ¹⁴C). Isobars: Same mass number, different atomic numbers (¹⁴C, ¹⁴N). Isotones: Same number of neutrons, different protons (¹³C and ¹⁴N both have 7 neutrons). Applications: Isotopes in carbon dating, isobars in nuclear medicine, isotones help understand nuclear stability patterns.",
+                                "image": null
+                            }
+                        ]
+                    },
+                    "Chemical Bonding": {
+                        "MCQs": [
+                            {
+                                "question": "Ionic bonds are formed between:",
+                                "options": ["Metal and metal", "Non-metal and non-metal", "Metal and non-metal", "Noble gases"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The number of covalent bonds in NH₃ is:",
+                                "options": ["1", "2", "3", "4"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "Which has the highest melting point?",
+                                "options": ["NaCl", "H₂O", "CO₂", "CH₄"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "Electronegativity is highest for:",
+                                "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "Coordinate bond is present in:",
+                                "options": ["HCl", "NH₄⁺", "H₂O", "CH₄"],
+                                "correct": 1,
+                                "image": null
+                            }
+                        ],
+                        "2 Marks": [
+                            {
+                                "question": "What is an ionic bond? Give one example.",
+                                "answer": "An ionic bond is formed by the transfer of electrons from a metal to a non-metal, creating oppositely charged ions that attract each other. Example: NaCl (sodium chloride).",
+                                "image": null
+                            },
+                            {
+                                "question": "Define covalent bond with an example.",
+                                "answer": "A covalent bond is formed by the sharing of electrons between two non-metal atoms. Example: H₂ molecule where two hydrogen atoms share one pair of electrons.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is electronegativity? How does it affect bond formation?",
+                                "answer": "Electronegativity is the tendency of an atom to attract shared electrons. Large difference leads to ionic bonds, small difference leads to covalent bonds.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain coordinate covalent bond.",
+                                "answer": "A coordinate covalent bond is formed when both electrons in the shared pair come from the same atom. The donor atom provides both electrons to the acceptor atom.",
+                                "image": null
+                            },
+                            {
+                                "question": "What are the properties of ionic compounds?",
+                                "answer": "High melting and boiling points, conduct electricity in molten state or solution, soluble in polar solvents, brittle nature, form crystalline structures.",
+                                "image": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Compare ionic and covalent compounds in terms of their properties.",
+                                "answer": "Ionic: High melting point, conduct electricity when molten, soluble in water, brittle. Covalent: Low melting point, do not conduct electricity, soluble in organic solvents, not brittle. This is due to different bonding mechanisms and electron distribution.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the formation of NaCl with electron dot structure.",
+                                "answer": "Na (2,8,1) loses 1 electron to become Na⁺ (2,8). Cl (2,8,7) gains 1 electron to become Cl⁻ (2,8,8). Electron dot: Na⁺ [Cl]⁻ where Cl has 8 dots around it. Electrostatic attraction forms ionic bond.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is VSEPR theory? Predict the shape of NH₃.",
+                                "answer": "VSEPR (Valence Shell Electron Pair Repulsion) theory states that electron pairs around central atom repel and arrange to minimize repulsion. NH₃ has 3 bonding pairs + 1 lone pair = tetrahedral arrangement, but molecular shape is pyramidal.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain hydrogen bonding with examples.",
+                                "answer": "Hydrogen bonding occurs when H is bonded to highly electronegative atoms (F, O, N) and is attracted to lone pairs on other molecules. Examples: H₂O (ice structure), HF, NH₃. Responsible for high boiling points and unusual properties.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is lattice energy? How does it affect the stability of ionic compounds?",
+                                "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions. Higher lattice energy means greater stability. It depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "Describe the different types of chemical bonds with examples and their characteristic properties.",
+                                "answer": "1. Ionic bonds: Electron transfer (NaCl) - high melting point, electrical conductivity. 2. Covalent bonds: Electron sharing (H₂O) - lower melting points, poor conductors. 3. Coordinate bonds: One atom provides both electrons (NH₄⁺). 4. Metallic bonds: Sea of electrons (metals) - conductivity, malleability. 5. Hydrogen bonds: Special dipole interaction - responsible for water's properties.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the concept of hybridization. Describe sp³, sp², and sp hybridization with examples.",
+                                "answer": "Hybridization is mixing of atomic orbitals to form equivalent hybrid orbitals. sp³: 4 equivalent orbitals, tetrahedral (CH₄), bond angle 109.5°. sp²: 3 equivalent orbitals, trigonal planar (C₂H₄), bond angle 120°. sp: 2 equivalent orbitals, linear (C₂H₂), bond angle 180°. Explains molecular geometry and bonding patterns.",
+                                "image": null
+                            },
+                            {
+                                "question": "Draw Lewis structures for H₂O, NH₃, CO₂, and CH₄. Predict their molecular geometry.",
+                                "answer": "H₂O: O with 2 bonding pairs, 2 lone pairs → bent shape, 104.5°. NH₃: N with 3 bonding pairs, 1 lone pair → pyramidal, 107°. CO₂: C with 2 double bonds, no lone pairs → linear, 180°. CH₄: C with 4 bonding pairs → tetrahedral, 109.5°. Lone pairs affect geometry more than bonding pairs.",
+                                "image": null
+                            },
+                            {
+                                "question": "Discuss the factors affecting the formation of ionic and covalent bonds.",
+                                "answer": "Ionic bond formation: 1. Low ionization energy of metal. 2. High electron affinity of non-metal. 3. High lattice energy. 4. Large electronegativity difference (>1.7). Covalent bond formation: 1. Similar electronegativity (<1.7). 2. High ionization energies of both atoms. 3. Ability to achieve stable electron configuration by sharing.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain molecular orbital theory for the formation of H₂ molecule. Compare it with valence bond theory.",
+                                "answer": "MOT: Atomic orbitals combine to form molecular orbitals. H₂: 1s + 1s → σ₁s (bonding) + σ*₁s (antibonding). Two electrons occupy σ₁s. Bond order = (bonding - antibonding)/2 = 1. VBT: Overlapping of half-filled orbitals. MOT explains paramagnetism of O₂, VBT cannot. MOT considers entire molecule, VBT focuses on bonds between atoms.",
+                                "image": null
+                            }
+                        ]
+                    }
+                },
+                "Maths": {
+                    "Quadratic Equations": {
+                        "MCQs": [
+                            {
+                                "question": "The standard form of a quadratic equation is:",
+                                "options": ["ax + b = 0", "ax² + bx + c = 0", "ax³ + bx² + cx + d = 0", "ax² + b = 0"],
+                                "correct": 1,
+                                "image": null
+                            },
+                            {
+                                "question": "The discriminant of 2x² - 3x + 1 = 0 is:",
+                                "options": ["1", "17", "9", "-7"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "If discriminant = 0, the roots are:",
+                                "options": ["Real and distinct", "Real and equal", "Complex", "Irrational"],
+                                "correct": 1,
+                                "image": null
+                            },
+                            {
+                                "question": "The sum of roots of ax² + bx + c = 0 is:",
+                                "options": ["b/a", "-b/a", "c/a", "-c/a"],
+                                "correct": 1,
+                                "image": null
+                            },
+                            {
+                                "question": "The quadratic formula is:",
+                                "options": ["x = (-b ± √(b²-4ac))/2a", "x = (b ± √(b²-4ac))/2a", "x = (-b ± √(b²+4ac))/2a", "x = (-b ± √(4ac-b²))/2a"],
+                                "correct": 0,
+                                "image": null
+                            }
+                        ],
+                        "2 Marks": [
+                            {
+                                "question": "Define a quadratic equation and give its general form.",
+                                "answer": "A quadratic equation is a polynomial equation of degree 2. Its general form is ax² + bx + c = 0, where a ≠ 0 and a, b, c are real numbers.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is the discriminant? What does it tell us about the roots?",
+                                "answer": "Discriminant (Δ) = b² - 4ac. If Δ > 0: real and distinct roots. If Δ = 0: real and equal roots. If Δ < 0: complex roots.",
+                                "image": null
+                            },
+                            {
+                                "question": "Find the roots of x² - 5x + 6 = 0 by factoring.",
+                                "answer": "x² - 5x + 6 = 0\n(x - 2)(x - 3) = 0\nTherefore, x = 2 or x = 3",
+                                "image": null
+                            },
+                            {
+                                "question": "State the relationship between roots and coefficients.",
+                                "answer": "For ax² + bx + c = 0, if α and β are roots:\nSum of roots: α + β = -b/a\nProduct of roots: αβ = c/a",
+                                "image": null
+                            },
+                            {
+                                "question": "Solve x² - 4x + 4 = 0 by completing the square.",
+                                "answer": "x² - 4x + 4 = 0\n(x - 2)² = 0\nTherefore, x = 2 (repeated root)",
+                                "image": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Derive the quadratic formula from the general form ax² + bx + c = 0.",
+                                "answer": "ax² + bx + c = 0\nDivide by a: x² + (b/a)x + c/a = 0\nComplete the square: x² + (b/a)x + (b/2a)² = (b/2a)² - c/a\n(x + b/2a)² = (b² - 4ac)/4a²\nx + b/2a = ±√(b² - 4ac)/2a\nx = (-b ± √(b² - 4ac))/2a",
+                                "image": null
+                            },
+                            {
+                                "question": "Find the nature of roots of 3x² - 5x + 2 = 0 without solving.",
+                                "answer": "Given: 3x² - 5x + 2 = 0\na = 3, b = -5, c = 2\nDiscriminant = b² - 4ac = (-5)² - 4(3)(2) = 25 - 24 = 1\nSince Δ = 1 > 0, the roots are real and distinct.",
+                                "image": null
+                            },
+                            {
+                                "question": "If α and β are roots of x² - 6x + 8 = 0, find α² + β² without solving the equation.",
+                                "answer": "Given: x² - 6x + 8 = 0\nα + β = 6, αβ = 8\nα² + β² = (α + β)² - 2αβ = 6² - 2(8) = 36 - 16 = 20",
+                                "image": null
+                            },
+                            {
+                                "question": "Form a quadratic equation whose roots are 2 and -3.",
+                                "answer": "If roots are 2 and -3:\nSum of roots = 2 + (-3) = -1\nProduct of roots = 2 × (-3) = -6\nEquation: x² - (sum)x + product = 0\nTherefore: x² + x - 6 = 0",
+                                "image": null
+                            },
+                            {
+                                "question": "Solve 2x² - 7x + 3 = 0 using the quadratic formula.",
+                                "answer": "2x² - 7x + 3 = 0\na = 2, b = -7, c = 3\nx = (7 ± √(49 - 24))/4 = (7 ± √25)/4 = (7 ± 5)/4\nx = 12/4 = 3 or x = 2/4 = 1/2",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "A rectangular plot has area 528 m². If its length is 3m more than twice its breadth, find its dimensions.",
+                                "answer": "Let breadth = x meters\nLength = 2x + 3 meters\nArea = length × breadth = 528\n(2x + 3)(x) = 528\n2x² + 3x = 528\n2x² + 3x - 528 = 0\nUsing quadratic formula: x = (-3 ± √(9 + 4224))/4 = (-3 ± √4233)/4 = (-3 ± 65.06)/4\nx = 15.5 (taking positive value)\nBreadth = 15.5 m, Length = 34 m",
+                                "image": null
+                            },
+                            {
+                                "question": "The sum of a number and its reciprocal is 13/6. Find the number.",
+                                "answer": "Let the number be x\nx + 1/x = 13/6\n(x² + 1)/x = 13/6\n6(x² + 1) = 13x\n6x² + 6 = 13x\n6x² - 13x + 6 = 0\nUsing quadratic formula: x = (13 ± √(169 - 144))/12 = (13 ± 5)/12\nx = 18/12 = 3/2 or x = 8/12 = 2/3\nThe numbers are 3/2 and 2/3.",
+                                "image": null
+                            },
+                            {
+                                "question": "If α and β are roots of x² - px + q = 0, find the equation whose roots are α² and β².",
+                                "answer": "Given: α + β = p, αβ = q\nFor new equation with roots α² and β²:\nSum = α² + β² = (α + β)² - 2αβ = p² - 2q\nProduct = α²β² = (αβ)² = q²\nRequired equation: x² - (p² - 2q)x + q² = 0",
+                                "image": null
+                            },
+                            {
+                                "question": "A train travels 360 km at uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the original speed.",
+                                "answer": "Let original speed = x km/h\nTime taken = 360/x hours\nNew speed = (x + 5) km/h\nNew time = 360/(x + 5) hours\nGiven: 360/x - 360/(x + 5) = 1\n360(x + 5) - 360x = x(x + 5)\n1800 = x² + 5x\nx² + 5x - 1800 = 0\nUsing quadratic formula: x = (-5 ± √(25 + 7200))/2 = (-5 ± 85)/2\nx = 40 km/h (taking positive value)",
+                                "image": null
+                            },
+                            {
+                                "question": "Two pipes can fill a tank in 20 and 30 minutes respectively. If both pipes are opened together, in how much time will the tank be filled?",
+                                "answer": "Pipe A fills 1/20 of tank per minute\nPipe B fills 1/30 of tank per minute\nTogether they fill: 1/20 + 1/30 = (3 + 2)/60 = 5/60 = 1/12 of tank per minute\nTime to fill complete tank = 12 minutes\n\nAlternatively: Combined rate = (20 × 30)/(20 + 30) = 600/50 = 12 minutes",
+                                "image": null
+                            }
+                        ]
+                    },
+                    "Triangles": {
+                        "MCQs": [
+                            {
+                                "question": "In a triangle, the sum of all angles is:",
+                                "options": ["90°", "180°", "270°", "360°"],
+                                "correct": 1,
+                                "image": null
+                            },
+                            {
+                                "question": "Two triangles are congruent if they have:",
+                                "options": ["Same shape", "Same size", "Same shape and size", "Same area"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The condition for similarity of triangles AAA stands for:",
+                                "options": ["All angles acute", "All angles equal", "All angles available", "All angles adjacent"],
+                                "correct": 1,
+                                "image": null
+                            },
+                            {
+                                "question": "In a right triangle, the side opposite to the right angle is called:",
+                                "options": ["Base", "Height", "Hypotenuse", "Perpendicular"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The Pythagoras theorem is applicable to:",
+                                "options": ["All triangles", "Equilateral triangles", "Right triangles", "Isosceles triangles"],
+                                "correct": 2,
+                                "image": null
+                            }
+                        ],
+                        "2 Marks": [
+                            {
+                                "question": "State the angle sum property of a triangle.",
+                                "answer": "The sum of all three interior angles of a triangle is always 180°. This property holds for all types of triangles regardless of their size or shape.",
+                                "image": null
+                            },
+                            {
+                                "question": "What are congruent triangles? Name any two conditions for congruency.",
+                                "answer": "Congruent triangles are triangles that have the same shape and size. Two conditions: 1) SSS - All three sides are equal. 2) SAS - Two sides and included angle are equal.",
+                                "image": null
+                            },
+                            {
+                                "question": "State the Pythagoras theorem.",
+                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides. If c is hypotenuse and a, b are other sides: c² = a² + b²",
+                                "image": null
+                            },
+                            {
+                                "question": "Define similar triangles and give one condition for similarity.",
+                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional. Condition: AAA - All angles are equal.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is the exterior angle property of a triangle?",
+                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles. This property is also called the exterior angle theorem.",
+                                "image": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Prove that the sum of angles in a triangle is 180°.",
+                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
+                                "image": null
+                            },
+                            {
+                                "question": "State and prove the exterior angle theorem.",
+                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\nTherefore: Angle ACD = Angle A + Angle B",
+                                "image": null
+                            },
+                            {
+                                "question": "In triangle ABC, if AB = AC and angle B = 50°, find angles A and C.",
+                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\nTherefore: angle A = 80°, angle C = 50°",
+                                "image": null
+                            },
+                            {
+                                "question": "Prove that triangles on the same base and between same parallels are equal in area.",
+                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\nTo prove: Area(ABC) = Area(DBC)\nProof: Both triangles have same base BC and same height (distance between parallels).\nArea of triangle = ½ × base × height\nSince base and height are same for both triangles, their areas are equal.",
+                                "image": null
+                            },
+                            {
+                                "question": "If the sides of a triangle are in ratio 3:4:5, prove that it is a right triangle.",
+                                "answer": "Let sides be 3x, 4x, 5x where x > 0\nLargest side = 5x (potential hypotenuse)\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "State and prove the Basic Proportionality Theorem (Thales' theorem).",
+                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\nTo prove: AD/DB = AE/EC\nProof: Draw perpendiculars from D and E to AC and AB respectively.\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\nTherefore: AD/DB = AE/EC",
+                                "image": null
+                            },
+                            {
+                                "question": "Prove that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
+                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\nTo prove: DE || BC and DE = ½BC\nConstruction: Extend DE to F such that EF = DE.\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\nSo triangles are congruent (SAS)\nTherefore: AD = CF and angle DAE = angle FCE\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
+                                "image": null
+                            },
+                            {
+                                "question": "In triangle ABC, D, E, F are midpoints of sides BC, CA, AB respectively. Prove that triangle DEF ≅ triangle ABC and area of triangle DEF = ¼ × area of triangle ABC.",
+                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC  \nFD || AC and FD = ½AC\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\nArea ratio = (½)² = ¼\nTherefore: Area(DEF) = ¼ × Area(ABC)\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
+                                "image": null
+                            },
+                            {
+                                "question": "Prove that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides (Pythagoras theorem).",
+                                "answer": "Given: Right triangle ABC with right angle at B.\nTo prove: AC² = AB² + BC²\nConstruction: Draw BD ⊥ AC.\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\nSo triangles are similar (AA)\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\nTherefore: AC² = AB² + BC²",
+                                "image": null
+                            },
+                            {
+                                "question": "State and prove the converse of Pythagoras theorem with an example.",
+                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\nGiven: Triangle ABC where AC² = AB² + BC²\nTo prove: Angle B = 90°\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\nTriangles ABC and PQR have all sides equal (SSS)\nTherefore angle B = angle Q = 90°\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
+                                "image": null
+                            }
+                        ]
+                    }
+                }
+        }
