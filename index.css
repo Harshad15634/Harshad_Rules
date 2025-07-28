@@ -203,12 +203,20 @@ body.dark-mode {
     padding: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     background: linear-gradient(135deg, #FFFCEF, #E9E9EA);
     border: 2px solid #D6CFE1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.card-face::-webkit-scrollbar {
+    display: none;
 }
 
 .dark-mode .card-face {
@@ -219,6 +227,14 @@ body.dark-mode {
 .card-back {
     background: linear-gradient(135deg, #E9E9EA, #D6CFE1);
     transform: rotateY(180deg);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.card-back::-webkit-scrollbar {
+    display: none;
 }
 
 .dark-mode .card-back {
@@ -229,6 +245,9 @@ body.dark-mode {
     font-size: 1.3rem;
     font-weight: 400;
     line-height: 1.6;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-shrink: 0;
 }
 
 .dark-mode .question-text,
@@ -241,6 +260,7 @@ body.dark-mode {
     gap: 15px;
     margin-top: 30px;
     width: 100%;
+    flex-shrink: 0;
 }
 
 .option-btn {
@@ -375,6 +395,7 @@ body.dark-mode {
     object-fit: contain;
     border-radius: 10px;
     margin: 15px 0;
+    flex-shrink: 0;
 }
 
 .loading {
