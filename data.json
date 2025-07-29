@@ -611,6 +611,121 @@
     }
 ]
                     },
+                    "Solid State": {
+                        "MCQs": [
+                            {
+                                "question": "Ionic bonds are formed between:",
+                                "options": ["Metal and metal", "Non-metal and non-metal", "Metal and non-metal", "Noble gases"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "The number of covalent bonds in NH₃ is:",
+                                "options": ["1", "2", "3", "4"],
+                                "correct": 2,
+                                "image": null
+                            },
+                            {
+                                "question": "Which has the highest melting point?",
+                                "options": ["NaCl", "H₂O", "CO₂", "CH₄"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "Electronegativity is highest for:",
+                                "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
+                                "correct": 0,
+                                "image": null
+                            },
+                            {
+                                "question": "Coordinate bond is present in:",
+                                "options": ["HCl", "NH₄⁺", "H₂O", "CH₄"],
+                                "correct": 1,
+                                "image": null
+                            }
+                        ],
+                        "2 Marks":  [
+    {
+      "question": "Define unit cell.",
+      "answer": "A basic repeating structural unit of a crystalline solid is called a unit cell.",
+      "image": null
+    },
+    {
+      "question": "Classify the following solids: a) P₄ b) Brass c) Diamond d) NaCl e) Iodine",
+      "answer": "a) Molecular solid b) Metallic solid c) Covalent solid d) Ionic solid e) Molecular solid",
+      "image": null
+    },
+    {
+      "question": "What are point defects?",
+      "answer": "Deviations from ideal arrangement that occurs at some points or atoms in a crystalline substance.",
+      "image": null
+    },
+    {
+      "question": "Why ionic crystals are hard and brittle?",
+      "answer": "Hard due to strong electrostatic forces; brittle because ionic bonds are non-directional.",
+      "image": null
+    },
+    {
+      "question": "What is the two dimensional coordination number in square close packing?",
+      "answer": "4 (each sphere contacts four neighbors)",
+      "image": null
+    }
+  ],
+                        "3 Marks": [
+                            {
+                                "question": "Compare ionic and covalent compounds in terms of their properties.",
+                                "answer": "Ionic: High melting point, conduct electricity when molten, soluble in water, brittle. Covalent: Low melting point, do not conduct electricity, soluble in organic solvents, not brittle. This is due to different bonding mechanisms and electron distribution.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the formation of NaCl with electron dot structure.",
+                                "answer": "Na (2,8,1) loses 1 electron to become Na⁺ (2,8). Cl (2,8,7) gains 1 electron to become Cl⁻ (2,8,8). Electron dot: Na⁺ [Cl]⁻ where Cl has 8 dots around it. Electrostatic attraction forms ionic bond.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is VSEPR theory? Predict the shape of NH₃.",
+                                "answer": "VSEPR (Valence Shell Electron Pair Repulsion) theory states that electron pairs around central atom repel and arrange to minimize repulsion. NH₃ has 3 bonding pairs + 1 lone pair = tetrahedral arrangement, but molecular shape is pyramidal.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain hydrogen bonding with examples.",
+                                "answer": "Hydrogen bonding occurs when H is bonded to highly electronegative atoms (F, O, N) and is attracted to lone pairs on other molecules. Examples: H₂O (ice structure), HF, NH₃. Responsible for high boiling points and unusual properties.",
+                                "image": null
+                            },
+                            {
+                                "question": "What is lattice energy? How does it affect the stability of ionic compounds?",
+                                "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions. Higher lattice energy means greater stability. It depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
+                                "image": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "Describe the different types of chemical bonds with examples and their characteristic properties.",
+                                "answer": "1. Ionic bonds: Electron transfer (NaCl) - high melting point, electrical conductivity. 2. Covalent bonds: Electron sharing (H₂O) - lower melting points, poor conductors. 3. Coordinate bonds: One atom provides both electrons (NH₄⁺). 4. Metallic bonds: Sea of electrons (metals) - conductivity, malleability. 5. Hydrogen bonds: Special dipole interaction - responsible for water's properties.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the concept of hybridization. Describe sp³, sp², and sp hybridization with examples.",
+                                "answer": "Hybridization is mixing of atomic orbitals to form equivalent hybrid orbitals. sp³: 4 equivalent orbitals, tetrahedral (CH₄), bond angle 109.5°. sp²: 3 equivalent orbitals, trigonal planar (C₂H₄), bond angle 120°. sp: 2 equivalent orbitals, linear (C₂H₂), bond angle 180°. Explains molecular geometry and bonding patterns.",
+                                "image": null
+                            },
+                            {
+                                "question": "Draw Lewis structures for H₂O, NH₃, CO₂, and CH₄. Predict their molecular geometry.",
+                                "answer": "H₂O: O with 2 bonding pairs, 2 lone pairs → bent shape, 104.5°. NH₃: N with 3 bonding pairs, 1 lone pair → pyramidal, 107°. CO₂: C with 2 double bonds, no lone pairs → linear, 180°. CH₄: C with 4 bonding pairs → tetrahedral, 109.5°. Lone pairs affect geometry more than bonding pairs.",
+                                "image": null
+                            },
+                            {
+                                "question": "Discuss the factors affecting the formation of ionic and covalent bonds.",
+                                "answer": "Ionic bond formation: 1. Low ionization energy of metal. 2. High electron affinity of non-metal. 3. High lattice energy. 4. Large electronegativity difference (>1.7). Covalent bond formation: 1. Similar electronegativity (<1.7). 2. High ionization energies of both atoms. 3. Ability to achieve stable electron configuration by sharing.",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain molecular orbital theory for the formation of H₂ molecule. Compare it with valence bond theory.",
+                                "answer": "MOT: Atomic orbitals combine to form molecular orbitals. H₂: 1s + 1s → σ₁s (bonding) + σ*₁s (antibonding). Two electrons occupy σ₁s. Bond order = (bonding - antibonding)/2 = 1. VBT: Overlapping of half-filled orbitals. MOT explains paramagnetism of O₂, VBT cannot. MOT considers entire molecule, VBT focuses on bonds between atoms.",
+                                "image": null
+                            }
+                        ]
+                    },
                     "Chemical Bonding": {
                         "MCQs": [
                             {
