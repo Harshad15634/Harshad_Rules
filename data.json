@@ -181,7 +181,7 @@
       "question": "The current vs voltage graph of a conductor is given. What is its resistance?",
       "options": ["2 Ω", "4 Ω", "8 Ω", "1 Ω"],
       "correct": 0,
-      "image": null
+      "image": "p1m1.jpg"
     },
     {
       "question": "A wire of resistance 2 Ω/m is bent into a circle of radius 1 m. What is the equivalent resistance between diametrically opposite points?",
