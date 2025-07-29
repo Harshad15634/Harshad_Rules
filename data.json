@@ -352,39 +352,158 @@
                     }
                 },
                 "Chemistry": {
-                    "Atomic Structure": {
+                    "Metallurgy": {
                         "MCQs": [
-                            {
-                                "question": "What is the atomic number of carbon?",
-                                "options": ["6", "12", "14", "8"],
-                                "correct": 0,
-                                "image": null
-                            },
-                            {
-                                "question": "Which particle has no charge?",
-                                "options": ["Proton", "Electron", "Neutron", "Ion"],
-                                "correct": 2,
-                                "image": null
-                            },
-                            {
-                                "question": "The mass number of an atom is:",
-                                "options": ["Number of protons", "Number of electrons", "Number of neutrons", "Number of protons + neutrons"],
-                                "correct": 3,
-                                "image": null
-                            },
-                            {
-                                "question": "Isotopes have the same:",
-                                "options": ["Mass number", "Number of neutrons", "Atomic number", "Physical properties"],
-                                "correct": 2,
-                                "image": null
-                            },
-                            {
-                                "question": "The electron was discovered by:",
-                                "options": ["Rutherford", "Thomson", "Dalton", "Bohr"],
-                                "correct": 1,
-                                "image": null
-                            }
-                        ],
+    {
+      "question": "Bauxite has the composition",
+      "options": ["Al2O3", "Al2O3.nH2O", "Fe2O3.2H2O", "None of these"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Roasting of sulphide ore gives the gas (A). (A) is a colourless gas. Aqueous solution of (A) is acidic. The gas (A) is",
+      "options": ["CO2", "SO2", "SO3", "H2S"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Which one of the following reaction represents calcinations?",
+      "options": ["2Zn + O2 → 2ZnO", "2ZnS + 3O2 → 2ZnO + 2SO2", "MgCO3 → MgO + CO2", "Both (a) and (c)"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "The metal oxide which cannot be reduced to metal by carbon is",
+      "options": ["PbO", "Al2O3", "ZnO", "FeO"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Which of the metal is extracted by Hall-Herold process?",
+      "options": ["Al", "Ni", "Cu", "Zn"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "Which of the following statements, about the advantage of roasting of sulphide ore before reduction is not true?",
+      "options": ["∆G° of sulphide is greater than those for CS2 and H2S", "∆G° is negative for roasting of sulphide ore to oxide", "Roasting of the sulphide to its oxide is thermodynamically feasible", "Carbon and hydrogen are suitable reducing agents for metal sulphides"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "Match items in column - I with the items of column - II and assign the correct code.",
+      "options": [
+        "A-i, B-ii, C-iii, D-iv",
+        "A-iii, B-iv, C-i, D-v",
+        "A-iv, B-ii, C-iii, D-i",
+        "A-ii, B-iii, C-i, D-v"
+      ],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "Wolframite ore is separated from tinstone by the process of",
+      "options": ["Smelting", "Calcination", "Roasting", "Electromagnetic separation"],
+      "correct": 3,
+      "image": null
+    },
+    {
+      "question": "Which one of the following is not feasible",
+      "options": ["Zn(s) + Cu²⁺(aq) → Cu(s) + Zn²⁺(aq)", "Cu(s) + Zn²⁺(aq) → Zn(s) + Cu²⁺(aq)", "Cu(s) + 2Ag⁺(aq) → Ag(s) + Cu²⁺(aq)", "Fe(s) + Cu²⁺(aq) → Cu(s) + Fe²⁺(aq)"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Electrochemical process is used to extract",
+      "options": ["Iron", "Lead", "Sodium", "Silver"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "Flux is a substance which is used to convert",
+      "options": ["Mineral into silicate", "Infusible impurities to soluble impurities", "Soluble impurities to infusible impurities", "All these"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Which one of the following ore is magnesium?",
+      "options": ["Magnesite", "Hematite", "Galena", "Calamine"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "In the extraction of aluminium, cryolite is added to",
+      "options": ["Lower the melting point of alumina", "Remove impurities from alumina", "Decrease the electrical conductivity", "Increase the rate of reduction"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "Zinc is extracted by",
+      "options": ["Acid leaching", "Reduction using silver", "Electrochemical process", "Acid leaching"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "Extraction of gold and silver involves leaching with cyanide ion. Silver is later recovered by",
+      "options": ["Carbon reduction", "Reduction using silver", "Electrochemical process", "Acid leaching"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "Considering Ellingham diagram, which of the following metals can be used to reduce alumina?",
+      "options": ["Fe", "Cu", "Mg", "Zn"],
+      "correct": 2,
+      "image": null
+    },
+    {
+      "question": "The following set of reactions are used in refining Zirconium",
+      "options": ["Zr (impure + I2) → ZrI4 : ZrI4 → Zr (Pure) + I2"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "This method is known as",
+      "options": ["Liquation", "Van Arkel process", "Zone refining", "Mond's process"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "The incorrect statement among the following is",
+      "options": ["Leaching", "Roasting", "Froth flotation", "Both (a) and (c)"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "In the metallurgy of gold, the metal is leached with dilute sodium chloride solution and in the electrolytic refining of copper, the metal is used as anode as electrode.",
+      "options": ["Pure copper", "Impure copper", "Carbon rod", "Platinum electrode"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Which of the following plot gives Ellingham diagram",
+      "options": ["∆G° Vs T", "∆G° Vs P", "∆G° Vs 1/T", "∆G° Vs V"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "In the Ellingham diagram, for the formation of carbon monoxide",
+      "options": ["∆G°/∆T is negative", "∆G°/∆T is positive", "∆G°/∆T is initially positive, after 700°C, ∆G°/∆T is negative", "∆G°/∆T is negative"],
+      "correct": 0,
+      "image": null
+    },
+    {
+      "question": "Which of the following reduction is not thermodynamically feasible?",
+      "options": ["Cr2O3 + 2Al → Al2O3 + 2Cr", "Al2O3 + 2Cr → Cr2O3 + 2Al", "SnO2 + 2Al → Al2O3 + 2Sn", "None of these"],
+      "correct": 1,
+      "image": null
+    },
+    {
+      "question": "Which of the following is not true with respect to Ellingham diagram?",
+      "options": ["Free energy changes follow a straight line. Deviation occurs when there is a phase change.", "The graph for the formation of CO2 is a straight line almost parallel to free energy axis.", "Negative slope of CO shows that it becomes more stable with increase in temperature.", "Positive slope of metal oxides shows that their stabilities decrease with increase in temperature."],
+      "correct": 1,
+      "image": null
+    }
+  ],
                         "2 Marks": [
                             {
                                 "question": "Define atomic number and mass number.",
