@@ -317,68 +317,33 @@
         "image": null
     }
                         ],
-                        "5 Marks":[
-    {
-        "question": "Explain zone refining process with an example.",
-        "answer": "Principle: Fractional crystallization where impurities are more soluble in melt than solid metal. Process: 1) Impure metal rod heated with mobile induction heater creating molten zone. 2) Heater moved slowly - pure metal crystallizes while impurities move with molten zone. 3) Repeated multiple times for high purity. Conditions: Carried out in inert gas atmosphere. Examples: Ge, Si and Ga used as semiconductors.",
-        "image": null
-    },
-    {
-        "question": "Using Ellingham diagram: (A) Predict conditions where Al reduces MgO",
-        "answer": "Above 1623K: ΔG° of Al₂O₃ formation is more negative than MgO. Reaction: 3MgO + 2Al → Al₂O₃ + 3Mg (ΔG° becomes negative above this temperature).",
-        "image": null
-    },
-    {
-        "question": "Using Ellingham diagram: (B) Predict conditions where Mg reduces Al₂O₃",
-        "answer": "Below 1623K: ΔG° of MgO formation is more negative than Al₂O₃. Reaction: Al₂O₃ + 3Mg → 3MgO + 2Al (ΔG° becomes negative below this temperature).",
-        "image": null
-    },
-    {
-        "question": "Using Ellingham diagram: (C) Explain reduction of Fe₂O₃ by coke at 1200K",
-        "answer": "Feasible because carbon line cuts across Fe₂O₃ line around 1000K. Carbon can reduce metal oxides when its ΔG° line is below the oxide's line at given temperature.",
-        "image": null
-    },
-    {
-        "question": "Explain the electrometallurgy of aluminium (Hall-Heroult Process)",
-        "answer": "Setup: Cathode - Carbon-lined iron tank, Anode - Carbon blocks. Electrolyte: Alumina (20%) + Cryolite + CaCl₂. Reactions: Al₂O₃ → 2Al³⁺ + 3O²⁻; Cathode: 2Al³⁺ + 6e⁻ → 2Al(l); Anode: 6O²⁻ → 3O₂ + 12e⁻. Additional anode reactions with carbon: C + O²⁻ → CO + 2e⁻ and C + 2O²⁻ → CO₂ + 4e⁻. Cryolite lowers melting point and increases conductivity.",
-        "image": null
-    },
-    {
-        "question": "Describe the role of: (i) Silica in copper extraction",
-        "answer": "Acts as acidic flux to remove FeO impurity: FeO (gangue) + SiO₂ (flux) → FeSiO₃ (slag). Forms fusible slag that can be separated from copper matte (Cu₂S + FeS).",
-        "image": null
-    },
-    {
-        "question": "Describe the role of: (ii) Cryolite in aluminium extraction",
-        "answer": "1) Lowers melting point of alumina from ~2072°C to ~950°C. 2) Increases electrical conductivity. 3) Makes process economically viable by reducing energy requirements.",
-        "image": null
-    },
-    {
-        "question": "Describe the role of: (iii) Iodine in zirconium refining",
-        "answer": "Forms volatile ZrI₄: Zr + 2I₂ → ZrI₄ (vapour at 550K). Impurities don't react. Pure zirconium obtained by decomposition at 1800K: ZrI₄ → Zr + 2I₂ (Van Arkel process).",
-        "image": null
-    },
-    {
-        "question": "Describe the role of: (iv) Sodium cyanide in froth floatation",
-        "answer": "Depressant for ZnS in PbS ore: Forms Na₂[Zn(CN)₄] layer on ZnS surface preventing its flotation while allowing PbS to float. Enables selective separation of sulphide ores.",
-        "image": null
-    },
-    {
-        "question": "Explain electrolytic refining of silver",
-        "answer": "Setup: Anode - Impure Ag rods, Cathode - Pure Ag, Electrolyte - Acidified AgNO₃. Reactions: Anode: Ag(s) → Ag⁺(aq) + e⁻; Cathode: Ag⁺(aq) + e⁻ → Ag(s). Less electropositive impurities settle as anode mud (Au, Pt).",
-        "image": null
-    },
-    {
-        "question": "Explain selection of reducing agent based on thermodynamics",
-        "answer": "Key factors: 1) ΔG should be negative for coupled reaction. 2) Ellingham diagram compares ΔG° vs T. Example: Above 1623K Al reduces MgO (Al₂O₃ line below MgO), below 1623K Mg reduces Al₂O₃ (MgO line below Al₂O₃). Carbon reduces oxides when its line is below metal oxide line.",
-        "image": null
-    },
-    {
-        "question": "Write short note on electrochemical principles of metallurgy",
-        "answer": "Used for active metals (Na, K) where carbon reduction isn't feasible. Key points: 1) ΔG° = -nFE° (spontaneous if E° positive). 2) More reactive metals displace less reactive ones (Zn + Cu²⁺ → Zn²⁺ + Cu). 3) Two approaches: Electrolysis (e.g., Down's process for Na) or chemical reduction using stronger reducing agent.",
-        "image": null
-    }
-]
+                        "5 Marks": [
+                            {
+                                "question": "State and prove Newton's law of universal gravitation. Discuss its significance.",
+                                "answer": "Statement: Every particle attracts every other particle with force proportional to product of masses and inversely proportional to square of distance.\n\nF = Gm₁m₂/r²\n\nProof concept: From Kepler's laws and circular motion analysis of planets.\nFor circular orbit: F = mv²/r and v = 2πr/T\nFrom Kepler's third law: T² ∝ r³\nSubstituting gives F ∝ m/r²\n\nSignificance: Explains planetary motion, tides, weight variation, satellite orbits, and led to discovery of new planets.",
+                                "image": null
+                            },
+                            {
+                                "question": "Derive the expression for gravitational potential energy and explain the concept of gravitational potential.",
+                                "answer": "Work done to bring mass m from infinity to distance r:\nW = ∫[∞ to r] F·dr = ∫[∞ to r] (-GMm/r²)dr\nW = GMm∫[∞ to r] (1/r²)dr = GMm[-1/r][∞ to r]\nW = -GMm/r\n\nGravitational PE = -GMm/r (taking PE = 0 at infinity)\n\nGravitational potential V = PE/m = -GM/r\nIt represents work done per unit mass to bring from infinity.\nNegative sign indicates attractive nature of gravity.",
+                                "image": null
+                            },
+                            {
+                                "question": "Calculate the orbital velocity and time period of a satellite orbiting Earth at height h above surface.",
+                                "answer": "For circular orbit at height h:\nRadius of orbit = R + h (where R = Earth's radius)\n\nGravitational force = Centripetal force\nGMm/(R+h)² = mv²/(R+h)\n\nOrbital velocity: v = √[GM/(R+h)]\nSince g = GM/R²: GM = gR²\nv = √[gR²/(R+h)] = R√[g/(R+h)]\n\nTime period: T = 2π(R+h)/v = 2π√[(R+h)³/GM]\nT = 2π√[(R+h)³/gR²]\n\nFor surface orbits (h=0): v = √(gR) ≈ 7.9 km/s, T ≈ 84 min",
+                                "image": null
+                            },
+                            {
+                                "question": "Explain the variation of g with depth inside Earth. Derive the expression.",
+                                "answer": "At depth d below surface:\nOnly the mass within radius (R-d) contributes to gravity.\nMass within radius (R-d) = M × [(R-d)/R]³ (assuming uniform density)\n\ng_d = GM'/(R-d)² where M' = M(R-d)³/R³\ng_d = GM(R-d)³/[R³(R-d)²] = GM(R-d)/R³\ng_d = g(R-d)/R = g(1-d/R)\n\nTherefore: g_d = g(1-d/R)\n\nAt center (d=R): g = 0\nAt surface (d=0): g = g₀\nLinear decrease with depth",
+                                "image": null
+                            },
+                            {
+                                "question": "Discuss the motion of planets and derive Kepler's laws from Newton's law of gravitation.",
+                                "answer": "Kepler's First Law: Planetary orbits are elliptical with Sun at focus.\nDerivation: From F = GMm/r² and angular momentum conservation, solving differential equations gives elliptical trajectories.\n\nKepler's Second Law: Planets sweep equal areas in equal times.\nProof: Angular momentum L = mr²ω = constant\nArea swept = ½r²θ, dA/dt = ½r²(dθ/dt) = L/2m = constant\n\nKepler's Third Law: T² ∝ r³\nFor circular orbits: GMm/r² = mω²r, ω = 2π/T\nGM/r² = 4π²r/T²\nT² = 4π²r³/GM\nTherefore T² ∝ r³\n\nThese laws explained planetary motion and validated universal gravitation.",
+                                "image": null
+                            }
+                        ]
                     }
                 },
                 "Chemistry": {
@@ -535,86 +500,116 @@
     }
   ],
                         "2 Marks": [
-                            {
-                                "question": "Define atomic number and mass number.",
-                                "answer": "Atomic number is the number of protons in the nucleus of an atom. Mass number is the total number of protons and neutrons in the nucleus.",
-                                "image": null
-                            },
-                            {
-                                "question": "What are isotopes? Give an example.",
-                                "answer": "Isotopes are atoms of the same element with the same atomic number but different mass numbers. Example: Carbon-12 and Carbon-14 both have 6 protons but 6 and 8 neutrons respectively.",
-                                "image": null
-                            },
-                            {
-                                "question": "State the main postulates of Dalton's atomic theory.",
-                                "answer": "1. All matter is made of indivisible atoms. 2. Atoms of the same element are identical. 3. Atoms combine in simple whole number ratios to form compounds. 4. Atoms cannot be created or destroyed.",
-                                "image": null
-                            },
-                            {
-                                "question": "What is an ion? How are cations and anions formed?",
-                                "answer": "An ion is a charged atom or molecule. Cations are formed when atoms lose electrons (positive charge). Anions are formed when atoms gain electrons (negative charge).",
-                                "image": null
-                            },
-                            {
-                                "question": "Describe Thomson's model of atom.",
-                                "answer": "Thomson proposed that an atom is a sphere of positive charge with electrons embedded in it like plums in a pudding. This is called the 'plum pudding model'.",
-                                "image": null
-                            }
-                        ],
+    {
+        "question": "What are the various steps involved in extraction of pure metals from their ores?",
+        "answer": "i) Concentration of the ore. ii) Extraction of the crude metal. iii) Refining of the crude metal.",
+        "image": null
+    },
+    {
+        "question": "What is the role of Quicklime in the extraction of Iron from its oxide Fe₂O₃?",
+        "answer": "Quicklime (CaO) is used as a basic flux in the extraction of iron from its oxide Fe₂O₃. It combines with the acidic silica gangue to form calcium silicate (slag). Reaction: CaO(s) + SiO₂(s) → CaSiO₃(s).",
+        "image": null
+    },
+    {
+        "question": "Which type of ores can be concentrated by froth flotation method? Give two examples for such ores.",
+        "answer": "Sulphide ores can be concentrated by froth flotation method. Examples: 1) Galena (PbS), 2) Zinc blende (ZnS).",
+        "image": null
+    },
+    {
+        "question": "Explain the following terms with suitable examples. i) Gangue ii) Slag",
+        "answer": "i) Gangue: The non-metallic impurities, rocky materials and siliceous matter present in the ores. Example: SiO₂ is the gangue present in the iron ore Fe₂O₃. ii) Slag: A fusible chemical substance formed by the reaction of gangue with a flux. Example: CaO (Flux) + SiO₂ (Gangue) → CaSiO₃ (Slag).",
+        "image": null
+    },
+    {
+        "question": "Give the basic requirement for vapour phase refining.",
+        "answer": "The metal is treated with a suitable reagent to form a volatile compound, which is then decomposed to give the pure metal.",
+        "image": null
+    }
+],
                         "3 Marks": [
-                            {
-                                "question": "Explain Rutherford's gold foil experiment and its conclusions.",
-                                "answer": "Rutherford bombarded a thin gold foil with alpha particles. Observations: Most particles passed through, some deflected at large angles, very few bounced back. Conclusions: Atom is mostly empty space, positive charge concentrated in a small nucleus, electrons revolve around nucleus.",
-                                "image": null
-                            },
-                            {
-                                "question": "Compare the properties of protons, neutrons, and electrons.",
-                                "answer": "Protons: Mass ≈ 1 amu, charge +1, located in nucleus. Neutrons: Mass ≈ 1 amu, charge 0, located in nucleus. Electrons: Mass ≈ 1/1836 amu, charge -1, revolve around nucleus in shells.",
-                                "image": null
-                            },
-                            {
-                                "question": "What are the limitations of Rutherford's model? How did Bohr overcome them?",
-                                "answer": "Limitations: Could not explain stability of atom and atomic spectra. Bohr's improvements: Electrons revolve in fixed orbits without radiating energy. Energy is emitted/absorbed only when electrons jump between orbits.",
-                                "image": null
-                            },
-                            {
-                                "question": "Explain the concept of electronic configuration with examples.",
-                                "answer": "Electronic configuration shows the arrangement of electrons in different shells. Shells are filled in order K, L, M, N with maximum capacities 2, 8, 18, 32. Examples: Sodium (11) = 2, 8, 1; Chlorine (17) = 2, 8, 7.",
-                                "image": null
-                            },
-                            {
-                                "question": "What is radioactivity? Name the three types of radiations.",
-                                "answer": "Radioactivity is the spontaneous emission of radiation from unstable atomic nuclei. Three types: Alpha (α) - helium nuclei, Beta (β) - electrons, Gamma (γ) - electromagnetic waves. Alpha has least penetration, gamma has most.",
-                                "image": null
-                            }
+    {
+        "question": "What is the difference between minerals and ores?",
+        "answer": "1) Minerals are naturally occurring substances obtained by mining which contain metals in free state or in compounds like oxides, sulphides, etc. Ores are minerals that contain a high percentage of metal for convenient and economical extraction. 2) All minerals are not ores. 3) All ores are minerals. Example: Bauxite and China clay are minerals of Al, but only Bauxite is an ore of Al.",
+        "image": null
+    },
+    {
+        "question": "Describe a method for refining nickel (or) Explain Mond's process.",
+        "answer": "1) Impure nickel is heated in a stream of CO at 350K to form volatile nickel tetracarbonyl: Ni(s) + 4CO(g) → [Ni(CO)₄](g). 2) The complex is then heated to 460K where it decomposes to give pure nickel: [Ni(CO)₄](g) → Ni(s) + 4CO(g). Solid impurities are left behind in the first step.",
+        "image": null
+    },
+    {
+        "question": "Give uses of zinc.",
+        "answer": "1) Used in galvanization to protect iron from rusting. 2) Production of die-castings in automobile/electrical industries. 3) Zinc oxide used in paints, rubber, cosmetics. 4) Zinc sulphide used in luminous paints, X-ray screens.",
+        "image": null
+    },
+    {
+        "question": "Give the limitations of Ellingham diagram.",
+        "answer": "1) Only shows thermodynamic feasibility, not reaction rate. 2) Doesn't indicate side reactions. 3) Assumes reactants/products are in equilibrium (not always true). 4) Doesn't account for kinetic barriers.",
+        "image": null
+    }
                         ],
-                        "5 Marks": [
-                            {
-                                "question": "Describe the historical development of atomic models from Dalton to Bohr.",
-                                "answer": "Dalton (1803): Indivisible solid spheres. Thomson (1897): Plum pudding model with embedded electrons. Rutherford (1911): Nuclear model with electrons orbiting nucleus. Bohr (1913): Quantized orbits with fixed energy levels. Each model built upon previous discoveries and explained new experimental observations.",
-                                "image": null
-                            },
-                            {
-                                "question": "Explain Bohr's atomic model in detail with its postulates and significance.",
-                                "answer": "Postulates: 1. Electrons revolve in circular orbits without energy loss. 2. Angular momentum is quantized: mvr = nh/2π. 3. Energy is emitted/absorbed during transitions. Significance: Explained hydrogen spectrum, introduced quantum concept, foundation for quantum mechanics. Limitations: Failed for multi-electron atoms and could not explain fine structure.",
-                                "image": null
-                            },
-                            {
-                                "question": "Calculate the number of protons, neutrons, and electrons in the following: ¹²C, ¹⁴C, ³⁵Cl⁻, ²³Na⁺",
-                                "answer": "¹²C: Protons = 6, Neutrons = 12-6 = 6, Electrons = 6\n¹⁴C: Protons = 6, Neutrons = 14-6 = 8, Electrons = 6\n³⁵Cl⁻: Protons = 17, Neutrons = 35-17 = 18, Electrons = 17+1 = 18\n²³Na⁺: Protons = 11, Neutrons = 23-11 = 12, Electrons = 11-1 = 10",
-                                "image": null
-                            },
-                            {
-                                "question": "Discuss the dual nature of matter and its significance in atomic structure.",
-                                "answer": "De Broglie proposed that matter has wave-particle duality: λ = h/mv. For electrons in atoms, this leads to wave mechanics. Electrons exist as standing waves in orbits. Only certain wavelengths fit in circular orbits, explaining quantization. This led to the development of quantum mechanical model and electron probability distributions.",
-                                "image": null
-                            },
-                            {
-                                "question": "Explain the concept of isobars and isotones with examples. How do they differ from isotopes?",
-                                "answer": "Isotopes: Same atomic number, different mass numbers (¹²C, ¹⁴C). Isobars: Same mass number, different atomic numbers (¹⁴C, ¹⁴N). Isotones: Same number of neutrons, different protons (¹³C and ¹⁴N both have 7 neutrons). Applications: Isotopes in carbon dating, isobars in nuclear medicine, isotones help understand nuclear stability patterns.",
-                                "image": null
-                            }
-                        ]
+                        "5 Marks":[
+    {
+        "question": "Explain zone refining process with an example.",
+        "answer": "Principle: Fractional crystallization where impurities are more soluble in melt than solid metal. Process: 1) Impure metal rod heated with mobile induction heater creating molten zone. 2) Heater moved slowly - pure metal crystallizes while impurities move with molten zone. 3) Repeated multiple times for high purity. Conditions: Carried out in inert gas atmosphere. Examples: Ge, Si and Ga used as semiconductors.",
+        "image": null
+    },
+    {
+        "question": "Using Ellingham diagram: (A) Predict conditions where Al reduces MgO",
+        "answer": "Above 1623K: ΔG° of Al₂O₃ formation is more negative than MgO. Reaction: 3MgO + 2Al → Al₂O₃ + 3Mg (ΔG° becomes negative above this temperature).",
+        "image": null
+    },
+    {
+        "question": "Using Ellingham diagram: (B) Predict conditions where Mg reduces Al₂O₃",
+        "answer": "Below 1623K: ΔG° of MgO formation is more negative than Al₂O₃. Reaction: Al₂O₃ + 3Mg → 3MgO + 2Al (ΔG° becomes negative below this temperature).",
+        "image": null
+    },
+    {
+        "question": "Using Ellingham diagram: (C) Explain reduction of Fe₂O₃ by coke at 1200K",
+        "answer": "Feasible because carbon line cuts across Fe₂O₃ line around 1000K. Carbon can reduce metal oxides when its ΔG° line is below the oxide's line at given temperature.",
+        "image": null
+    },
+    {
+        "question": "Explain the electrometallurgy of aluminium (Hall-Heroult Process)",
+        "answer": "Setup: Cathode - Carbon-lined iron tank, Anode - Carbon blocks. Electrolyte: Alumina (20%) + Cryolite + CaCl₂. Reactions: Al₂O₃ → 2Al³⁺ + 3O²⁻; Cathode: 2Al³⁺ + 6e⁻ → 2Al(l); Anode: 6O²⁻ → 3O₂ + 12e⁻. Additional anode reactions with carbon: C + O²⁻ → CO + 2e⁻ and C + 2O²⁻ → CO₂ + 4e⁻. Cryolite lowers melting point and increases conductivity.",
+        "image": null
+    },
+    {
+        "question": "Describe the role of: (i) Silica in copper extraction",
+        "answer": "Acts as acidic flux to remove FeO impurity: FeO (gangue) + SiO₂ (flux) → FeSiO₃ (slag). Forms fusible slag that can be separated from copper matte (Cu₂S + FeS).",
+        "image": null
+    },
+    {
+        "question": "Describe the role of: (ii) Cryolite in aluminium extraction",
+        "answer": "1) Lowers melting point of alumina from ~2072°C to ~950°C. 2) Increases electrical conductivity. 3) Makes process economically viable by reducing energy requirements.",
+        "image": null
+    },
+    {
+        "question": "Describe the role of: (iii) Iodine in zirconium refining",
+        "answer": "Forms volatile ZrI₄: Zr + 2I₂ → ZrI₄ (vapour at 550K). Impurities don't react. Pure zirconium obtained by decomposition at 1800K: ZrI₄ → Zr + 2I₂ (Van Arkel process).",
+        "image": null
+    },
+    {
+        "question": "Describe the role of: (iv) Sodium cyanide in froth floatation",
+        "answer": "Depressant for ZnS in PbS ore: Forms Na₂[Zn(CN)₄] layer on ZnS surface preventing its flotation while allowing PbS to float. Enables selective separation of sulphide ores.",
+        "image": null
+    },
+    {
+        "question": "Explain electrolytic refining of silver",
+        "answer": "Setup: Anode - Impure Ag rods, Cathode - Pure Ag, Electrolyte - Acidified AgNO₃. Reactions: Anode: Ag(s) → Ag⁺(aq) + e⁻; Cathode: Ag⁺(aq) + e⁻ → Ag(s). Less electropositive impurities settle as anode mud (Au, Pt).",
+        "image": null
+    },
+    {
+        "question": "Explain selection of reducing agent based on thermodynamics",
+        "answer": "Key factors: 1) ΔG should be negative for coupled reaction. 2) Ellingham diagram compares ΔG° vs T. Example: Above 1623K Al reduces MgO (Al₂O₃ line below MgO), below 1623K Mg reduces Al₂O₃ (MgO line below Al₂O₃). Carbon reduces oxides when its line is below metal oxide line.",
+        "image": null
+    },
+    {
+        "question": "Write short note on electrochemical principles of metallurgy",
+        "answer": "Used for active metals (Na, K) where carbon reduction isn't feasible. Key points: 1) ΔG° = -nFE° (spontaneous if E° positive). 2) More reactive metals displace less reactive ones (Zn + Cu²⁺ → Zn²⁺ + Cu). 3) Two approaches: Electrolysis (e.g., Down's process for Na) or chemical reduction using stronger reducing agent.",
+        "image": null
+    }
+]
                     },
                     "Chemical Bonding": {
                         "MCQs": [
