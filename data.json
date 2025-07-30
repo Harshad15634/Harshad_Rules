@@ -673,25 +673,31 @@
   ],
                         "3 Marks": [
                             {
-                                "question": "Compare ionic and covalent compounds in terms of their properties.",
-                                "answer": "Ionic: High melting point, conduct electricity when molten, soluble in water, brittle. Covalent: Low melting point, do not conduct electricity, soluble in organic solvents, not brittle. This is due to different bonding mechanisms and electron distribution.",
+                                "question": "Give any three characteristics of ionic crystals. ",
+                                "answer": "Ionic solids have high melting points. These solids do not conduct electricity, because the ions are fixed in their lattice positions. They do conduct electricity in molten state (or) when dissolved in water because, the ions are free to move in the molten state or solution. They are hard as only strong external force can change the relative positions of ions.",
                                 "image": null
                             },
                             {
-                                "question": "Explain the formation of NaCl with electron dot structure.",
-                                "answer": "Na (2,8,1) loses 1 electron to become Na⁺ (2,8). Cl (2,8,7) gains 1 electron to become Cl⁻ (2,8,8). Electron dot: Na⁺ [Cl]⁻ where Cl has 8 dots around it. Electrostatic attraction forms ionic bond.",
+                                "question": "Explain Schottky defect.  ",
+                                "answer": "Definition : Schottky defect arises due to the missing of equal number of cations and anions from the crystal lattice. \n Stoichiometry : This effect does not change the stoichiometry of the crystal. \n Size of ions : Ionic solids in which the cation and anion are of almost of similar size.\n Density : Presence of large number of schottky defects in a crystal lowers its density. ",
                                 "image": null
                             },
-                            {
-                                "question": "What is VSEPR theory? Predict the shape of NH₃.",
-                                "answer": "VSEPR (Valence Shell Electron Pair Repulsion) theory states that electron pairs around central atom repel and arrange to minimize repulsion. NH₃ has 3 bonding pairs + 1 lone pair = tetrahedral arrangement, but molecular shape is pyramidal.",
+                             {
+                                "question": "Explain ",
+                                "answer": "replce",
                                 "image": null
                             },
-                            {
-                                "question": "Explain hydrogen bonding with examples.",
-                                "answer": "Hydrogen bonding occurs when H is bonded to highly electronegative atoms (F, O, N) and is attracted to lone pairs on other molecules. Examples: H₂O (ice structure), HF, NH₃. Responsible for high boiling points and unusual properties.",
+                             {
+                                "question": "Explain ",
+                                "answer": "replce",
                                 "image": null
                             },
+                             {
+                                "question": "Explain ",
+                                "answer": "replce",
+                                "image": null
+                            },
+                           
                             {
                                 "question": "What is lattice energy? How does it affect the stability of ionic compounds?",
                                 "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions. Higher lattice energy means greater stability. It depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
