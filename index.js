@@ -287,8 +287,7 @@ function updateQuestionTypesAccess() {
                 ">
                     <h3 style="margin: 0 0 10px 0;">🔒 Limited Access</h3>
                     <p style="margin: 0; font-size: 0.9rem;">
-                        You currently have access to MCQs only. To unlock 2, 3, and 5 marks questions, 
-                        your username must contain "root" (e.g., username_root).
+                        You currently have access to MCQs only..
                     </p>
                 </div>
             `;
