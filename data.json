@@ -212,14 +212,14 @@
       "question": "The current vs voltage graph of a conductor is given. What is its resistance?",
       "options": ["2 Ω", "4 Ω", "8 Ω", "1 Ω"],
       "correct": 0,
-      "questionImage": "p1m1.jpg",
+      "questionImage": "p2m1.jpg",
       "answerImage": null
     },
     {
       "question": "A wire of resistance 2 Ω/m is bent into a circle of radius 1 m. What is the equivalent resistance between diametrically opposite points?",
       "options": ["π Ω", "π/2 Ω", "2π Ω", "π/4 Ω"],
       "correct": 0,
-      "questionImage": null,
+      "questionImage": "p2m2.jpg",
       "answerImage": null
     },
     {
@@ -240,7 +240,7 @@
       "question": "What is the value of resistance of the shown resistor?",
       "options": ["100 kΩ", "10 kΩ", "1 kΩ", "1000 kΩ"],
       "correct": 0,
-      "questionImage": null,
+      "questionImage": "p2m5.jpg",
       "answerImage": null
     },
     {
@@ -275,14 +275,14 @@
       "question": "A current of 1.0 A flows in the circuit shown. What is the resistance of P?",
       "options": ["1.5 Ω", "2.5 Ω", "3.5 Ω", "4.5 Ω"],
       "correct": 2,
-      "questionImage": null,
+      "questionImage": "p2m10.jpg",
       "answerImage": null
     },
     {
       "question": "What is the current drawn out from the battery (given 15 Ω, 5 V)?",
       "options": ["1 A", "2 A", "3 A", "4 A"],
       "correct": 0,
-      "questionImage": null,
+      "questionImage": "p2m11.jpg",
       "answerImage": null
     },
     {
