@@ -24,6 +24,12 @@ let isFlipped = false;
 let mcqAnswered = false;
 let userName = '';
 let userKey = '';
+let hasRootAccess = false;
+
+// Check if user has root access
+function checkRootAccess(name) {
+    return name.toLowerCase().includes('root');
+}
 
 // Sanitize username for Firebase key
 function sanitizeUsername(username) {
@@ -84,11 +90,16 @@ async function checkUserExists() {
         if (snapshot.exists()) {
             const userData = snapshot.val();
             userName = userData.name;
-            document.getElementById('greetingText').textContent = `Hello ${userName}! 👋`;
+            hasRootAccess = checkRootAccess(userName);
+            
+            // Update greeting with access level indicator
+            const accessIndicator = hasRootAccess ? ' 🔓' : ' 📚';
+            document.getElementById('greetingText').textContent = `Hello ${userName}!${accessIndicator}`;
             
             const now = new Date().toISOString();
             const updates = {
-                lastVisit: now
+                lastVisit: now,
+                hasRootAccess: hasRootAccess
             };
             
             // If visits array doesn't exist, create it with previous lastVisit
@@ -114,12 +125,14 @@ async function saveNewUser(name) {
     userKey = await getUniqueUsernameKey(sanitized);
     localStorage.setItem('userKey', userKey);
     userName = name;
+    hasRootAccess = checkRootAccess(name);
     
     const userDetails = await getUserDetails();
     const now = new Date().toISOString();
     
     const userData = {
         name: name,
+        hasRootAccess: hasRootAccess,
         ...userDetails,
         firstVisit: now,
         lastVisit: now,
@@ -127,7 +140,10 @@ async function saveNewUser(name) {
     };
     
     await database.ref('users/' + userKey).set(userData);
-    document.getElementById('greetingText').textContent = `Hello ${userName}! 👋`;
+    
+    // Update greeting with access level indicator
+    const accessIndicator = hasRootAccess ? ' 🔓' : ' 📚';
+    document.getElementById('greetingText').textContent = `Hello ${userName}!${accessIndicator}`;
 }
 
 // Dark mode toggle
@@ -230,10 +246,79 @@ function goToChapters(subject = currentSubject) {
 function goToQuestionTypes(chapter = currentChapter) {
     currentChapter = chapter;
     document.getElementById('chapterTitle').textContent = `Chapter: ${chapter}`;
+    
+    // Update question types grid based on access level
+    updateQuestionTypesAccess();
+    
     showPage('questionTypesPage');
 }
 
+// Update question types based on user access
+function updateQuestionTypesAccess() {
+    const questionTypesGrid = document.querySelector('.question-types-grid');
+    
+    if (!hasRootAccess) {
+        // Hide restricted question types for non-root users
+        const restrictedTypes = questionTypesGrid.querySelectorAll('.marks-2, .marks-3, .marks-5');
+        restrictedTypes.forEach(card => {
+            card.style.display = 'none';
+        });
+        
+        // Show only MCQ
+        const mcqCard = questionTypesGrid.querySelector('.mcq');
+        if (mcqCard) {
+            mcqCard.style.display = 'block';
+        }
+        
+        // Add access message if not already present
+        if (!document.getElementById('accessMessage')) {
+            const accessMessage = document.createElement('div');
+            accessMessage.id = 'accessMessage';
+            accessMessage.innerHTML = `
+                <div style="
+                    background: linear-gradient(135deg, #ff6b6b, #ffa500);
+                    color: white;
+                    padding: 20px;
+                    border-radius: 15px;
+                    text-align: center;
+                    margin: 20px auto;
+                    max-width: 500px;
+                    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+                ">
+                    <h3 style="margin: 0 0 10px 0;">🔒 Limited Access</h3>
+                    <p style="margin: 0; font-size: 0.9rem;">
+                        You currently have access to MCQs only. To unlock 2, 3, and 5 marks questions, 
+                        your username must contain "root" (e.g., username_root).
+                    </p>
+                </div>
+            `;
+            
+            const questionTypesPage = document.getElementById('questionTypesPage');
+            const header = questionTypesPage.querySelector('.header');
+            header.insertAdjacentElement('afterend', accessMessage);
+        }
+    } else {
+        // Show all question types for root users
+        const allTypes = questionTypesGrid.querySelectorAll('.question-type-card');
+        allTypes.forEach(card => {
+            card.style.display = 'block';
+        });
+        
+        // Remove access message if present
+        const accessMessage = document.getElementById('accessMessage');
+        if (accessMessage) {
+            accessMessage.remove();
+        }
+    }
+}
+
 function goToFlashcards(questionType) {
+    // Check access for non-MCQ question types
+    if (!hasRootAccess && questionType !== 'MCQs') {
+        alert('🔒 Access Denied: This question type requires root access. Please contact your administrator or use a username containing "root".');
+        return;
+    }
+    
     currentQuestionType = questionType;
     
     // Check if data exists

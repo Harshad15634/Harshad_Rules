@@ -153,11 +153,37 @@ body.dark-mode {
 
 .question-type-card {
     padding: 30px 20px;
+    position: relative;
 }
 
 .question-type-card h3 {
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+/* Restricted question type styling */
+.question-type-card.restricted {
+    opacity: 0.3;
+    cursor: not-allowed;
+    position: relative;
+}
+
+.question-type-card.restricted::before {
+    content: '🔒';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+.question-type-card.restricted:hover {
+    transform: none;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .question-type-card.restricted:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .mcq { background: linear-gradient(135deg, #F2DE9B, #FFFCEF); }
@@ -169,6 +195,45 @@ body.dark-mode {
 .dark-mode .marks-2 { background: linear-gradient(135deg, #3a2d4b, #2d244a); }
 .dark-mode .marks-3 { background: linear-gradient(135deg, #1a3a4a, #0d2d3a); }
 .dark-mode .marks-5 { background: linear-gradient(135deg, #4a2d1a, #3a1a0d); }
+
+/* Access message styling */
+#accessMessage {
+    animation: slideInFromTop 0.5s ease-out;
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Access notification styles */
+.access-notification {
+    background: linear-gradient(135deg, #ff6b6b, #ffa500);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    animation: pulse 2s infinite;
+}
+
+.dark-mode .access-notification {
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.5);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
 
 .flashcard-container {
     max-width: 700px;
