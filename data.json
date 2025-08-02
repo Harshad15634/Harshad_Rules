@@ -515,32 +515,122 @@
 ],
                         "2 Marks": [
     {
-        "question": "What are the various steps involved in extraction of pure metals from their ores?",
-        "answer": "i) Concentration of the ore.\nii) Extraction of the crude metal.\niii) Refining of the crude metal.",
+    "question": "What is meant by magnetic induction?",
+    "answer": "The magnetic induction (total magnetic field) inside the specimen \nB\nB→\n is equal to the sum of the magnetic field \nB\nB→0\n produced in vacuum due to the magnetising field and the magnetic field \nBm\nB→m\n due to the induced magnetisation of the substance.",
+    "questionImage": null,
+    "answerImage": null
+    },
+    {
+        "question": "Define magnetic flux.",
+        "answer": "",
+        "questionImage": null,
+        "answerImage": "p3s2.jpg"
+    },
+    {
+        "question": "Define magnetic dipole moment",
+        "answer": "",
+        "questionImage": null,
+        "answerImage": "p3s3.jpg"
+    },
+    {
+        "question": "State Colulomb's inverse lllaw",
+        "answer": "",
+        "questionImage": null,
+        "answerImage": "p3s4.jpg"
+    },
+    {
+        "question": "What is magnetic susceptibility?",
+        "answer": "",
+        "questionImage": null,
+        "answerImage": "p3s5.jpg"
+    },
+    {
+        "question": "State Biot-Savart Law.",
+        "answer": "",
+        "answerImage": "p3s6.jpg",
+        "questionImage": null
+    },
+    {
+        "question": "What is Magnetic Permiability.",
+        "answer": "Magnetic permeability can be defined as the measure of the ability of the material to allow the passage of magnetic field lines through it or a measure of the capacity of the substance to take magnetisation or the degree of penetration of the magnetic field through the substance.",
         "questionImage": null,
         "answerImage": null
     },
     {
-        "question": "What is the role of Quicklime in the extraction of Iron from its oxide Fe₂O₃?",
-        "answer": "Quicklime (CaO) is used as a basic flux in the extraction of iron from its oxide Fe₂O₃.\nIt combines with the acidic silica gangue to form calcium silicate (slag).\nReaction: CaO(s) + SiO₂(s) → CaSiO₃(s).",
+        "question": "State Ampere’s circuital law.",
+        "answer": "",
+        "questionImage": null,
+        "answerImage": "p3s8.jpg"
+    },
+    {
+        "question": "Compare diamagnetism, paramagnetism, and ferromagnetism. How is ferromagnetism different from paramagnetism?",
+        "answer":"",
+        "questionImage": null,
+        "answerImage": "p3s9.jpg"
+    },
+    {
+        "question": "What is meant by hysteresis?",
+        "answer": "The phenomenon of lagging of magnetic induction behind the magnetising field is called hysteresis. Hysteresis means ‘lagging behind’.",
         "questionImage": null,
         "answerImage": null
     },
     {
-        "question": "Which type of ores can be concentrated by froth flotation method? Give two examples for such ores.",
-        "answer": "Sulphide ores can be concentrated by froth flotation method.\nExamples:\n1) Galena (PbS)\n2) Zinc blende (ZnS).",
+        "question": "Define Magnetic Declination and Magnetic Inclination.",
+        "answer": "The angle between magnetic meridian at a point and geographical meridian is called the declination or magnetic declination (D).The angle subtended by the Earth's total magnetic field B with the horizontal direction in the magnetic meridian is called dip or magnetic inclination (I) at that point",
         "questionImage": null,
         "answerImage": null
     },
     {
-        "question": "Explain the following terms with suitable examples.\ni) Gangue\nii) Slag",
-        "answer": "i) Gangue: The non-metallic impurities, rocky materials and siliceous matter present in the ores.\nExample: SiO₂ is the gangue present in the iron ore Fe₂O₃.\n\nii) Slag: A fusible chemical substance formed by the reaction of gangue with a flux.\nExample: CaO (Flux) + SiO₂ (Gangue) → CaSiO₃ (Slag).",
+        "question": "What is resonance condition in cyclotron?",
+        "answer": "",
+        "questionImage": null,
+        "answerImage": "p3s2.jpg"
+    },
+    {
+        "question": "Define Ampere.",
+        "answer": "Current passed through each of the two infinitely long parallel straight conductors kept at a distance of one meter apart in vacuum causes each conductor to experience a force of 2 × 10-7 newton per meter length of the conductor..",
         "questionImage": null,
         "answerImage": null
     },
     {
-        "question": "Give the basic requirement for vapour phase refining.",
-        "answer": "The metal is treated with a suitable reagent to form a volatile compound, which is then decomposed to give the pure metal.",
+        "question": "State Fleming’s left-Hand rule.",
+        "answer": "Stretch forefinger, the middle finger, and the thumb of the left hand such that they are in mutually perpendicular directions.\nThe forefinger points the direction of the magnetic field.\nThe middle finger points in the direction of the electric current.\nThumb will point the direction of the force experienced by the conductor.",
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "Is an ammeter connected in series or parallel in a circuit? Why?",
+        "answer": "An ammeter is a low resistance instrument and it is always connected in series to the circuit.\nSuch that it will change the current passing through it.",
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "Explain the concept of velocity selector.",
+        "answer": "For a given magnitude of E field and B field, the forces act only on the particle moving with a particular speed.\n\nv = E/B\n\nThis speed is independent of mass and charge.",
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "Why is the path of a charged particle not a circle when its velocity is not perpendicular to the magnetic field?",
+        "answer": "If a charged particle moves in a region of a uniform magnetic field such that its velocity is not perpendicular to the magnetic field, then the velocity of the particle is split up into two components.\nOne component is parallel to the field while the other component perpendicular to the field.\nThe component of velocity parallel to the field remains unchanged and the component perpendicular to the field keeps changing due to Lorentz force.\nHence the path of the particle is not a circle; it is helical around the field lines.\n\nHelical path of the electron in a uniform field:",
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "Why is the path of a charged particle not a circle when its velocity is not perpendicular to the magnetic field?",
+        "answer": "", 
+        "questionImage": null,
+        "answerImage": "p3s18.jpg"
+    },
+    {
+        "question": "What happens to the domains in a ferromagnetic material in the presence of external magnetic field?",
+        "answer": "The domains having magnetic moments parallel to the field grow bigger in size.\nThe other domains (not parallel to the field) are rotated so that they are aligned with the field.",
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "How is a galvanometer converted into\n\nan ammeter and\na voltmeter?",
+        "answer": "A galvanometer can be converted into an ammeter of a given range by connecting a suitable low resistance S (called shunt) in parallel to the galvanometer.\nA galvanometer can be converted into a voltmeter by connecting a suitable high resistance Rh in series with the given galvanometer.",
         "questionImage": null,
         "answerImage": null
     }
