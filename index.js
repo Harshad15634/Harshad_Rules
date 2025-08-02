@@ -269,7 +269,7 @@ function updateQuestionTypesAccess() {
         if (mcqCard) {
             mcqCard.style.display = 'block';
         }
-        
+        /*
         // Add access message if not already present
         if (!document.getElementById('accessMessage')) {
             const accessMessage = document.createElement('div');
@@ -292,10 +292,13 @@ function updateQuestionTypesAccess() {
                 </div>
             `;
             
+            
             const questionTypesPage = document.getElementById('questionTypesPage');
             const header = questionTypesPage.querySelector('.header');
             header.insertAdjacentElement('afterend', accessMessage);
         }
+
+        */
     } else {
         // Show all question types for root users
         const allTypes = questionTypesGrid.querySelectorAll('.question-type-card');
