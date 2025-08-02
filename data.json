@@ -1007,43 +1007,93 @@
 ]
                     },
                     "Solid State": {
-                        "MCQs": [
-                            {
-                                "question": "Ionic bonds are formed between:",
-                                "options": ["Metal and metal", "Non-metal and non-metal", "Metal and non-metal", "Noble gases"],
-                                "correct": 2,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "The number of covalent bonds in NH₃ is:",
-                                "options": ["1", "2", "3", "4"],
-                                "correct": 2,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "Which has the highest melting point?",
-                                "options": ["NaCl", "H₂O", "CO₂", "CH₄"],
-                                "correct": 0,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "Electronegativity is highest for:",
-                                "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
-                                "correct": 0,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "Coordinate bond is present in:",
-                                "options": ["HCl", "NH₄⁺", "H₂O", "CH₄"],
-                                "correct": 1,
-                                "questionImage": null,
-                                "answerImage": null
-                            }
-                        ],
+                        "MCQs":[
+    {
+        "question": "Graphite and diamond are",
+        "options": ["Covalent and molecular crystals", "Ionic and covalent crystals", "Both covalent crystals", "Both molecular crystals"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "An ionic compound AₓBᵧ crystallizes in fcc type crystal structure with B ions at the centre of each face and A ion occupying corners of the cube. The correct formula is",
+        "options": ["AB", "AB₃", "A₃B", "A₈B₆"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "The ratio of close packed atoms to tetrahedral holes in cubic packing is",
+        "options": ["1:1", "1:2", "2:1", "1:4"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "Solid CO₂ is an example of",
+        "options": ["Covalent solid", "Metallic solid", "Molecular solid", "Ionic solid"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "Assertion: Monoclinic sulphur is an example of monoclinic crystal system. Reason: For monoclinic system, α ≠ b ≠ c and α = γ = 90°, β ≠ 90°.",
+        "options": [
+            "Both assertion and reason are true and reason is correct",
+            "Both are true but reason is not correct explanation",
+            "Assertion is true but reason is false",
+            "Both assertion and reason are false"
+        ],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "In calcium fluoride (fluorite structure), the coordination numbers of Ca²⁺ and F⁻ are",
+        "options": ["4 and 2", "6 and 6", "8 and 4", "4 and 8"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "The number of unit cells in 8g of element X (atomic mass 40) which crystallizes in bcc pattern is (Nₐ is Avogadro's number)",
+        "options": [
+            "6.022 × 10²³",
+            "6.022 × 10²²",
+            "60.22 × 10²³",
+            "(6.022 × 10²³)/(8 × 40)"
+        ],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "In a solid, atom M occupies ccp lattice and ⅓ of tetrahedral voids are occupied by atom N. The formula is",
+        "options": ["MN", "M₃N", "MN₃", "M₃N₂"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "The ionic radii of A⁺ and B⁻ are 0.98 × 10⁻¹⁰ m and 1.81 × 10⁻¹⁰ m. The coordination number in AB is",
+        "options": ["8", "2", "6", "4"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+    },
+    {
+        "question": "CsCl has bcc arrangement with unit cell edge length 400pm. The interatomic distance is",
+        "options": [
+            "400 pm",
+            "800 pm",
+            "√3 × 100 pm",
+            "(√3/2) × 400 pm"
+        ],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+    }
+],
                         "2 Marks":  [
     {
       "question": "Define unit cell.",
