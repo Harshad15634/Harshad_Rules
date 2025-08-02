@@ -179,6 +179,19 @@ async function loadStudyData() {
     }
 }
 
+// Format text with enhanced features
+function formatText(text) {
+    if (!text) return '';
+    
+    // Convert newlines to line breaks for proper display
+    return text
+        .replace(/\n/g, '\n') // Preserve newlines for pre-line CSS
+        .replace(/(\d+\))/g, '<span class="step-number">$1</span>') // Style numbered steps
+        .replace(/([A-Z][a-z]*:)/g, '<span class="step-number">$1</span>') // Style labels like "Given:", "Proof:"
+        .replace(/(= [^,\n]*)/g, '<span class="formula">$1</span>') // Style equations
+        .replace(/([a-zA-Z]²|[a-zA-Z]³|√\([^)]*\)|∆[A-Z]*|α|β|γ|π|θ|ω)/g, '<span class="formula">$1</span>'); // Style mathematical symbols
+}
+
 // Navigation functions
 function showPage(pageId) {
     document.querySelectorAll('.page').forEach(page => {
@@ -275,13 +288,18 @@ function updateCard() {
     // Reset card state
     resetCard();
     
-    // Set question
-    questionText.textContent = question.question;
+    // Set question with formatting
+    questionText.innerHTML = formatText(question.question);
+    questionText.classList.add('formatted-content');
     
     // Handle question image
-    if (question.image) {
-        questionImage.src = question.image;
+    if (question.questionImage) {
+        questionImage.src = question.questionImage;
         questionImage.style.display = 'block';
+        questionImage.onerror = function() {
+            this.style.display = 'none';
+            console.warn('Question image failed to load:', question.questionImage);
+        };
     } else {
         questionImage.style.display = 'none';
     }
@@ -289,7 +307,15 @@ function updateCard() {
     // Handle MCQ vs other question types
     if (currentQuestionType === 'MCQs') {
         flashcard.classList.add('mcq-mode');
-        answerText.textContent = question.question; // Show question again on back
+        
+        // For MCQs, show the question on the back too, but with answer explanation if available
+        if (question.explanation) {
+            answerText.innerHTML = formatText(question.explanation);
+        } else {
+            answerText.innerHTML = formatText(question.question);
+        }
+        answerText.classList.add('formatted-content');
+        
         mcqOptions.style.display = 'grid';
         mcqOptions.innerHTML = '';
         
@@ -300,14 +326,32 @@ function updateCard() {
             button.onclick = () => handleMCQAnswer(index, question.correct);
             mcqOptions.appendChild(button);
         });
+        
+        // Handle answer image for MCQs
+        if (question.answerImage) {
+            answerImage.src = question.answerImage;
+            answerImage.style.display = 'block';
+            answerImage.onerror = function() {
+                this.style.display = 'none';
+                console.warn('Answer image failed to load:', question.answerImage);
+            };
+        } else {
+            answerImage.style.display = 'none';
+        }
     } else {
-        answerText.textContent = question.answer;
+        // For non-MCQ questions
+        answerText.innerHTML = formatText(question.answer);
+        answerText.classList.add('formatted-content');
         mcqOptions.style.display = 'none';
         
         // Handle answer image
         if (question.answerImage) {
             answerImage.src = question.answerImage;
             answerImage.style.display = 'block';
+            answerImage.onerror = function() {
+                this.style.display = 'none';
+                console.warn('Answer image failed to load:', question.answerImage);
+            };
         } else {
             answerImage.style.display = 'none';
         }
@@ -327,10 +371,21 @@ function handleMCQAnswer(selectedIndex, correctIndex) {
         options[selectedIndex].classList.add('correct');
     } else {
         options[selectedIndex].classList.add('incorrect');
+        // Also highlight the correct answer
+        options[correctIndex].classList.add('correct');
     }
     
-    // Mark as selected
-    options[selectedIndex].classList.add('selected');
+    // Mark as selected and disable all options
+    options.forEach(option => {
+        option.classList.add('selected');
+    });
+    
+    // Auto-flip to show answer/explanation after 1.5 seconds
+    setTimeout(() => {
+        const flashcard = document.getElementById('flashcard');
+        flashcard.classList.add('flipped');
+        isFlipped = true;
+    }, 1500);
 }
 
 function previousCard() {
@@ -357,6 +412,67 @@ function updateNavigation() {
     prevBtn.disabled = currentIndex === 0;
     nextBtn.disabled = currentIndex === currentQuestions.length - 1;
     progress.textContent = `${currentIndex + 1} / ${currentQuestions.length}`;
+}
+
+// Enhanced image loading with error handling
+function loadImageWithFallback(imgElement, imagePath, fallbackText) {
+    if (!imagePath) {
+        imgElement.style.display = 'none';
+        return;
+    }
+    
+    imgElement.src = imagePath;
+    imgElement.style.display = 'block';
+    
+    imgElement.onerror = function() {
+        this.style.display = 'none';
+        console.warn(`Image failed to load: ${imagePath}`);
+        
+        // Optionally show a text fallback
+        if (fallbackText) {
+            const fallbackDiv = document.createElement('div');
+            fallbackDiv.className = 'image-fallback';
+            fallbackDiv.textContent = fallbackText;
+            fallbackDiv.style.cssText = `
+                background: #f0f0f0;
+                border: 2px dashed #ccc;
+                padding: 20px;
+                border-radius: 8px;
+                margin: 15px 0;
+                text-align: center;
+                color: #666;
+                font-style: italic;
+            `;
+            this.parentNode.insertBefore(fallbackDiv, this.nextSibling);
+        }
+    };
+    
+    imgElement.onload = function() {
+        // Remove any existing fallback divs
+        const fallbacks = this.parentNode.querySelectorAll('.image-fallback');
+        fallbacks.forEach(fallback => fallback.remove());
+    };
+}
+
+// Enhanced text processing for better formatting
+function processFormattedText(text) {
+    if (!text) return '';
+    
+    return text
+        // Preserve line breaks
+        .replace(/\n/g, '\n')
+        // Style mathematical expressions
+        .replace(/(\b[a-zA-Z]\s*=\s*[^,\n;]+)/g, '<span class="formula">$1</span>')
+        // Style units and measurements
+        .replace(/(\d+\s*[a-zA-Z]+\/[a-zA-Z]+|\d+\s*[°ΩVAF]\b)/g, '<span class="formula">$1</span>')
+        // Style chemical formulas
+        .replace(/([A-Z][a-z]?₂?₃?₄?[⁺⁻]?)/g, '<span class="formula">$1</span>')
+        // Style numbered points
+        .replace(/^(\d+[\).]\s*)/gm, '<span class="step-number">$1</span>')
+        // Style labels (Given:, Proof:, etc.)
+        .replace(/^([A-Za-z]+:)/gm, '<span class="step-number">$1</span>')
+        // Style arrows and special symbols
+        .replace(/(→|←|↔|≤|≥|≠|∆|α|β|γ|δ|π|θ|ω|λ|μ|σ|Ω)/g, '<span class="formula">$1</span>');
 }
 
 // Initialize app
@@ -412,4 +528,4 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Load study data and show home page
     await loadStudyData();
     showPage('homePage');
-}); 
+});

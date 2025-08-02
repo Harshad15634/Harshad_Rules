@@ -6,172 +6,203 @@
       "question": "Two identical point charges of magnitude –q are fixed as shown. A third charge +q is placed midway at point P. If displaced slightly, in which direction(s) will +q be stable?",
       "options": ["A1 and A2", "B1 and B2", "Both directions", "No stable"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which charge configuration produces a uniform electric field?",
       "options": ["Point charge", "Uniformly charged infinite line", "Uniformly charged infinite plane", "Uniformly charged spherical shell"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "What is the ratio of the charges q1/q2 for the given electric field line pattern?",
       "options": ["1/5", "25/11", "5", "11/25"],
       "correct": 3,
-      "image": null
+      "questionImage": "path/to/electric_field_pattern.jpg",
+      "answerImage": null
     },
     {
       "question": "An electric dipole at 30° with an electric field 2 × 10^5 N/C experiences a torque of 8 N·m. If dipole length is 1 cm, the charge on the dipole is:",
       "options": ["4 mC", "8 mC", "5 mC", "7 mC"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": "path/to/dipole_solution.jpg"
     },
     {
       "question": "Four Gaussian surfaces with different charges are shown. Rank the electric flux in increasing order.",
       "options": ["D < C < B < A", "A < B = C < D", "C < A = B < D", "D > C > B > A"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "The total electric flux for the following closed surface inside water is:",
       "options": ["80q/ε₀", "q/(40ε₀)", "q/(80ε₀)", "q/(160ε₀)"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Two identical conducting balls with charges q1 and q2 are separated by distance r. After touching and separating, the force between them will be:",
       "options": ["Less than before", "Same as before", "More than before", "Zero"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Rank the electrostatic potential energies for the given charge system in increasing order.",
       "options": ["1 = 4 < 2 < 3", "2 = 4 < 3 < 1", "2 = 3 < 1 < 4", "3 < 1 < 2 < 4"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "An electric field E = 10x î exists. The potential difference V₀ – V_A at x = 2 m is:",
       "options": ["10 V", "-20 V", "+20 V", "-10 V"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A thin conducting spherical shell of radius R has charge Q. The correct plot for electrostatic potential is:",
       "options": ["(a)", "(b)", "(c)", "(d)"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Two points A and B are at 7 V and -4 V. The work done in moving 50 electrons from A to B is:",
       "options": ["8.80 × 10^–17 J", "-8.80 × 10^–17 J", "4.40 × 10^–17 J", "5.80 × 10^–17 J"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "If voltage on a capacitor is increased from V to 2V, which conclusion is correct?",
       "options": ["Q remains same, C is doubled", "Q is doubled, C doubled", "C remains same, Q doubled", "Both Q and C remain same"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A parallel plate capacitor stores charge Q at voltage V. If area and distance between plates are doubled, which quantity changes?",
       "options": ["Capacitance", "Charge", "Voltage", "Energy density"],
       "correct": 3,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Three capacitors are connected in triangle. The equivalent capacitance between A and C is:",
       "options": ["1 µF", "2 µF", "3 µF", "1/4 µF"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Two metallic spheres (1 cm and 3 cm radii) are charged with –1×10^–2 C and 5×10^–2 C. After connecting, the final charge on the bigger sphere is:",
       "options": ["3 × 10^–2 C", "4 × 10^–2 C", "1 × 10^–2 C", "2 × 10^–2 C"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     }
   ],
                         
                         "2 Marks": [
                             {
                                 "question": "What is meant by quantisation of charges?",
-                                "answer": "The charge q on any object is equal to an integral multiple of the fundamental unit of charge ‘e’.q = ne  ,Where ‘n’ is an integer e. \n e = charge of an electron =1.6 × 10-19 C.",
-                                "image": null
+                                "answer": "The charge q on any object is equal to an integral multiple of the fundamental unit of charge 'e'.\nq = ne\nWhere 'n' is an integer e.\ne = charge of an electron = 1.6 × 10^-19 C.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
-                                "question": "Write down Coulomb’s law in vector form and mention what each term represents.",
-                                "answer": "Coulomb's law in vector form is given by:\nF = k * (q₁ * q₂) / r² * r̂\nWhere:\n- F is the electrostatic force vector between the charges,\n- k is Coulomb's constant (8.99 × 10⁹ N m²/C²),\n- q₁ and q₂ are the magnitudes of the point charges,\n- r is the distance between the centers of the two charges, and\n- r̂ is the unit vector pointing from one charge to the other."
+                                "question": "Write down Coulomb's law in vector form and mention what each term represents.",
+                                "answer": "Coulomb's law in vector form is given by:\nF = k * (q₁ * q₂) / r² * r̂\n\nWhere:\n- F is the electrostatic force vector between the charges\n- k is Coulomb's constant (8.99 × 10⁹ N m²/C²)\n- q₁ and q₂ are the magnitudes of the point charges\n- r is the distance between the centers of the two charges\n- r̂ is the unit vector pointing from one charge to the other",
+                                "questionImage": null,
+                                "answerImage": "path/to/coulomb_law_diagram.jpg"
                             },
                             {
                                 "question": "State Newton's first law of motion.",
                                 "answer": "An object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an external force.",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What is acceleration? Write its SI unit.",
-                                "answer": "Acceleration is the rate of change of velocity with respect to time. Its SI unit is m/s² (meter per second squared).",
-                                "image": null
+                                "answer": "Acceleration is the rate of change of velocity with respect to time.\nIts SI unit is m/s² (meter per second squared).",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Define average velocity.",
-                                "answer": "Average velocity is the total displacement divided by the total time taken. It is a vector quantity with both magnitude and direction.",
-                                "image": null
+                                "answer": "Average velocity is the total displacement divided by the total time taken.\nIt is a vector quantity with both magnitude and direction.",
+                                "questionImage": "path/to/velocity_diagram.jpg",
+                                "answerImage": null
                             }
                         ],
                         "3 Marks": [
                             {
                                 "question": "Derive the equation v = u + at using velocity-time graph.",
                                 "answer": "In a velocity-time graph for uniformly accelerated motion:\n- Initial velocity = u (at t = 0)\n- Final velocity = v (at time t)\n- Acceleration = slope = (v - u)/t\n\nTherefore: a = (v - u)/t\nRearranging: at = v - u\nHence: v = u + at",
-                                "image": null
+                                "questionImage": "path/to/velocity_time_graph.jpg",
+                                "answerImage": null
                             },
                             {
                                 "question": "A car starts from rest and accelerates at 2 m/s² for 10 seconds. Find its final velocity and distance traveled.",
                                 "answer": "Given: u = 0 m/s, a = 2 m/s², t = 10 s\n\nFinal velocity: v = u + at = 0 + 2×10 = 20 m/s\n\nDistance: s = ut + ½at² = 0×10 + ½×2×10² = 100 m\n\nTherefore, final velocity = 20 m/s and distance = 100 m",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain the concept of relative motion with an example.",
-                                "answer": "Relative motion refers to the motion of an object as observed from another moving object. The velocity of an object depends on the reference frame.\n\nExample: Two trains moving at 60 km/h and 40 km/h in the same direction. Their relative velocity is 60-40 = 20 km/h. If moving in opposite directions, relative velocity is 60+40 = 100 km/h.",
-                                "image": null
+                                "answer": "Relative motion refers to the motion of an object as observed from another moving object.\nThe velocity of an object depends on the reference frame.\n\nExample:\nTwo trains moving at 60 km/h and 40 km/h in the same direction.\nTheir relative velocity is 60-40 = 20 km/h.\nIf moving in opposite directions, relative velocity is 60+40 = 100 km/h.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What are the equations of motion? State the conditions for their validity.",
-                                "answer": "The three equations of motion are:\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\n\nConditions: These are valid for uniformly accelerated motion in a straight line, where acceleration remains constant throughout the motion.",
-                                "image": null
+                                "answer": "The three equations of motion are:\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\n\nConditions:\nThese are valid for uniformly accelerated motion in a straight line, where acceleration remains constant throughout the motion.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Distinguish between speed and velocity with examples.",
-                                "answer": "Speed is a scalar quantity representing the rate of change of distance. Velocity is a vector quantity representing the rate of change of displacement.\n\nExample: A car moving in a circle at 60 km/h has constant speed but changing velocity (direction changes). Speed = 60 km/h, but velocity changes due to direction change.",
-                                "image": null
+                                "answer": "Speed is a scalar quantity representing the rate of change of distance.\nVelocity is a vector quantity representing the rate of change of displacement.\n\nExample:\nA car moving in a circle at 60 km/h has constant speed but changing velocity (direction changes).\nSpeed = 60 km/h, but velocity changes due to direction change.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "5 Marks": [
                             {
-                                "question": "A stone is thrown vertically upward with an initial velocity of 20 m/s. Calculate: (a) Maximum height reached (b) Time to reach maximum height (c) Total time of flight (d) Velocity when it returns to ground.",
+                                "question": "A stone is thrown vertically upward with an initial velocity of 20 m/s. Calculate:\n(a) Maximum height reached\n(b) Time to reach maximum height\n(c) Total time of flight\n(d) Velocity when it returns to ground.",
                                 "answer": "Given: u = 20 m/s (upward), g = 10 m/s² (downward)\n\n(a) At maximum height, v = 0\nUsing v² = u² - 2gh (negative because g opposes motion)\n0 = 20² - 2×10×h\nh = 400/20 = 20 m\n\n(b) Time to reach maximum height:\nv = u - gt\n0 = 20 - 10t\nt = 2 s\n\n(c) Total time of flight = 2 × time to reach max height = 2 × 2 = 4 s\n\n(d) Velocity when returning to ground = -20 m/s (same magnitude, opposite direction)",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": "path/to/projectile_motion_diagram.jpg"
                             },
                             {
                                 "question": "Derive the equation s = ut + ½at² graphically using velocity-time graph.",
                                 "answer": "Consider a velocity-time graph for uniformly accelerated motion:\n- Initial velocity = u\n- Final velocity = v = u + at\n- The graph forms a trapezoid\n\nDistance = Area under v-t graph\n= Area of rectangle + Area of triangle\n= u×t + ½×(v-u)×t\n= ut + ½×(at)×t    [since v-u = at]\n= ut + ½at²\n\nTherefore, s = ut + ½at²",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Two trains are moving towards each other with speeds 60 km/h and 40 km/h. If they are initially 200 km apart, find when and where they will meet.",
-                                "answer": "Given: Speed of train A = 60 km/h, Speed of train B = 40 km/h\nInitial separation = 200 km\n\nRelative speed = 60 + 40 = 100 km/h (approaching each other)\n\nTime to meet = Distance/Relative speed = 200/100 = 2 hours\n\nDistance covered by train A = 60 × 2 = 120 km\nDistance covered by train B = 40 × 2 = 80 km\n\nThey will meet after 2 hours, at a point 120 km from train A's starting position.",
-                                "image": null
+                                "answer": "Given:\nSpeed of train A = 60 km/h\nSpeed of train B = 40 km/h\nInitial separation = 200 km\n\nRelative speed = 60 + 40 = 100 km/h (approaching each other)\n\nTime to meet = Distance/Relative speed = 200/100 = 2 hours\n\nDistance covered by train A = 60 × 2 = 120 km\nDistance covered by train B = 40 × 2 = 80 km\n\nThey will meet after 2 hours, at a point 120 km from train A's starting position.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "A ball is dropped from a height of 45 m. Another ball is thrown downward from the same height 1 second later with an initial velocity of 10 m/s. Which ball will reach the ground first?",
                                 "answer": "Ball 1 (dropped): u₁ = 0, h = 45 m\nUsing s = ut + ½gt²\n45 = 0 + ½×10×t₁²\nt₁ = 3 seconds\n\nBall 2 (thrown after 1 sec): u₂ = 10 m/s, h = 45 m\n45 = 10t₂ + ½×10×t₂²\n45 = 10t₂ + 5t₂²\n5t₂² + 10t₂ - 45 = 0\nt₂² + 2t₂ - 9 = 0\nSolving: t₂ = 2.16 seconds\n\nTotal time for ball 2 = 1 + 2.16 = 3.16 seconds\n\nBall 1 reaches first at t = 3 seconds.",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain uniform circular motion. Derive the expression for centripetal acceleration.",
-                                "answer": "Uniform circular motion is the motion of an object in a circular path at constant speed. Though speed is constant, velocity changes due to direction change.\n\nDerivation of centripetal acceleration:\nConsider an object moving in a circle of radius r with speed v.\nIn time dt, it moves through angle dθ.\nChange in velocity dv = v×dθ (perpendicular to velocity)\nAcceleration = dv/dt = v×(dθ/dt) = v×ω = v×(v/r) = v²/r\n\nCentripetal acceleration = v²/r (directed towards center)\nAlternatively: a = ω²r = 4π²r/T²",
-                                "image": null
+                                "answer": "Uniform circular motion is the motion of an object in a circular path at constant speed.\nThough speed is constant, velocity changes due to direction change.\n\nDerivation of centripetal acceleration:\nConsider an object moving in a circle of radius r with speed v.\nIn time dt, it moves through angle dθ.\nChange in velocity dv = v×dθ (perpendicular to velocity)\nAcceleration = dv/dt = v×(dθ/dt) = v×ω = v×(v/r) = v²/r\n\nCentripetal acceleration = v²/r (directed towards center)\nAlternatively: a = ω²r = 4π²r/T²",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ]
                     },
@@ -181,167 +212,196 @@
       "question": "The current vs voltage graph of a conductor is given. What is its resistance?",
       "options": ["2 Ω", "4 Ω", "8 Ω", "1 Ω"],
       "correct": 0,
-      "image": "p1m1.jpg"
+      "questionImage": "p1m1.jpg",
+      "answerImage": null
     },
     {
       "question": "A wire of resistance 2 Ω/m is bent into a circle of radius 1 m. What is the equivalent resistance between diametrically opposite points?",
       "options": ["π Ω", "π/2 Ω", "2π Ω", "π/4 Ω"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A toaster operating at 240 V has a resistance of 120 Ω. Its power is:",
       "options": ["400 W", "2 W", "480 W", "240 W"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A carbon resistor of (47 ± 4.7) kΩ is to be marked. What is the correct colour code?",
       "options": ["Yellow – Green – Violet – Gold", "Yellow – Violet – Orange – Silver", "Violet – Yellow – Orange – Silver", "Green – Orange – Violet – Gold"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "What is the value of resistance of the shown resistor?",
       "options": ["100 kΩ", "10 kΩ", "1 kΩ", "1000 kΩ"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Two wires A and B made of same material and equal lengths have RA = 3RB. What is the ratio of radius of A to B?",
       "options": ["3", "√3", "1/√3", "1/3"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A wire connected to 230 V has power dissipation P1. If cut into two equal pieces and connected parallel, power dissipation becomes P2. What is P2/P1?",
       "options": ["1", "2", "3", "4"],
       "correct": 3,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "In India electricity is 220 V, in USA it is 110 V. If resistance of a 60 W bulb in India is R, what is the resistance of a 60 W bulb for USA?",
       "options": ["R", "2R", "R/4", "R/2"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A building has 15 bulbs of 40 W, 5 bulbs of 100 W, 5 fans of 80 W, and 1 heater of 1 kW (220 V). What is the max fuse rating?",
       "options": ["14 A", "8 A", "10 A", "12 A"],
       "correct": 3,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A current of 1.0 A flows in the circuit shown. What is the resistance of P?",
       "options": ["1.5 Ω", "2.5 Ω", "3.5 Ω", "4.5 Ω"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "What is the current drawn out from the battery (given 15 Ω, 5 V)?",
       "options": ["1 A", "2 A", "3 A", "4 A"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A wire has resistance 1 Ω at 20°C. If temperature coefficient is 0.00125/°C, at what temperature is the resistance 2 Ω?",
       "options": ["800 °C", "700 °C", "850 °C", "820 °C"],
       "correct": 3,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A 2.1 V cell gives 0.2 A through 10 Ω. What is its internal resistance?",
       "options": ["0.2 Ω", "0.5 Ω", "0.8 Ω", "1.0 Ω"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "A piece of copper and germanium are cooled from room temperature to 80 K. Their resistance:",
       "options": ["Each increases", "Each decreases", "Copper increases, Germanium decreases", "Copper decreases, Germanium increases"],
       "correct": 3,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
-      "question": "In Joule’s heating law, for constant R and t, if H is on Y-axis and I² on X-axis, the graph is:",
+      "question": "In Joule's heating law, for constant R and t, if H is on Y-axis and I² on X-axis, the graph is:",
       "options": ["Straight line", "Parabola", "Circle", "Ellipse"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     }
   ],
                         "2 Marks": [
     {
         "question": "What are the various steps involved in extraction of pure metals from their ores?",
-        "answer": "i) Concentration of the ore. ii) Extraction of the crude metal. iii) Refining of the crude metal.",
-        "image": null
+        "answer": "i) Concentration of the ore.\nii) Extraction of the crude metal.\niii) Refining of the crude metal.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "What is the role of Quicklime in the extraction of Iron from its oxide Fe₂O₃?",
-        "answer": "Quicklime (CaO) is used as a basic flux in the extraction of iron from its oxide Fe₂O₃. It combines with the acidic silica gangue to form calcium silicate (slag). Reaction: CaO(s) + SiO₂(s) → CaSiO₃(s).",
-        "image": null
+        "answer": "Quicklime (CaO) is used as a basic flux in the extraction of iron from its oxide Fe₂O₃.\nIt combines with the acidic silica gangue to form calcium silicate (slag).\nReaction: CaO(s) + SiO₂(s) → CaSiO₃(s).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Which type of ores can be concentrated by froth flotation method? Give two examples for such ores.",
-        "answer": "Sulphide ores can be concentrated by froth flotation method. Examples: 1) Galena (PbS), 2) Zinc blende (ZnS).",
-        "image": null
+        "answer": "Sulphide ores can be concentrated by froth flotation method.\nExamples:\n1) Galena (PbS)\n2) Zinc blende (ZnS).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
-        "question": "Explain the following terms with suitable examples. i) Gangue ii) Slag",
-        "answer": "i) Gangue: The non-metallic impurities, rocky materials and siliceous matter present in the ores. Example: SiO₂ is the gangue present in the iron ore Fe₂O₃. ii) Slag: A fusible chemical substance formed by the reaction of gangue with a flux. Example: CaO (Flux) + SiO₂ (Gangue) → CaSiO₃ (Slag).",
-        "image": null
+        "question": "Explain the following terms with suitable examples.\ni) Gangue\nii) Slag",
+        "answer": "i) Gangue: The non-metallic impurities, rocky materials and siliceous matter present in the ores.\nExample: SiO₂ is the gangue present in the iron ore Fe₂O₃.\n\nii) Slag: A fusible chemical substance formed by the reaction of gangue with a flux.\nExample: CaO (Flux) + SiO₂ (Gangue) → CaSiO₃ (Slag).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Give the basic requirement for vapour phase refining.",
         "answer": "The metal is treated with a suitable reagent to form a volatile compound, which is then decomposed to give the pure metal.",
-        "image": null
+        "questionImage": null,
+        "answerImage": null
     }
 ],
                         "3 Marks": [
     {
         "question": "What is the difference between minerals and ores?",
-        "answer": "1) Minerals are naturally occurring substances obtained by mining which contain metals in free state or in compounds like oxides, sulphides, etc. Ores are minerals that contain a high percentage of metal for convenient and economical extraction. 2) All minerals are not ores. 3) All ores are minerals. Example: Bauxite and China clay are minerals of Al, but only Bauxite is an ore of Al.",
-        "image": null
+        "answer": "1) Minerals are naturally occurring substances obtained by mining which contain metals in free state or in compounds like oxides, sulphides, etc.\nOres are minerals that contain a high percentage of metal for convenient and economical extraction.\n\n2) All minerals are not ores.\n\n3) All ores are minerals.\n\nExample: Bauxite and China clay are minerals of Al, but only Bauxite is an ore of Al.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Describe a method for refining nickel (or) Explain Mond's process.",
-        "answer": "1) Impure nickel is heated in a stream of CO at 350K to form volatile nickel tetracarbonyl: Ni(s) + 4CO(g) → [Ni(CO)₄](g). 2) The complex is then heated to 460K where it decomposes to give pure nickel: [Ni(CO)₄](g) → Ni(s) + 4CO(g). Solid impurities are left behind in the first step.",
-        "image": null
+        "answer": "1) Impure nickel is heated in a stream of CO at 350K to form volatile nickel tetracarbonyl:\nNi(s) + 4CO(g) → [Ni(CO)₄](g).\n\n2) The complex is then heated to 460K where it decomposes to give pure nickel:\n[Ni(CO)₄](g) → Ni(s) + 4CO(g).\n\nSolid impurities are left behind in the first step.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Give uses of zinc.",
-        "answer": "1) Used in galvanization to protect iron from rusting. 2) Production of die-castings in automobile/electrical industries. 3) Zinc oxide used in paints, rubber, cosmetics. 4) Zinc sulphide used in luminous paints, X-ray screens.",
-        "image": null
+        "answer": "1) Used in galvanization to protect iron from rusting.\n\n2) Production of die-castings in automobile/electrical industries.\n\n3) Zinc oxide used in paints, rubber, cosmetics.\n\n4) Zinc sulphide used in luminous paints, X-ray screens.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Give the limitations of Ellingham diagram.",
-        "answer": "1) Only shows thermodynamic feasibility, not reaction rate. 2) Doesn't indicate side reactions. 3) Assumes reactants/products are in equilibrium (not always true). 4) Doesn't account for kinetic barriers.",
-        "image": null
+        "answer": "1) Only shows thermodynamic feasibility, not reaction rate.\n\n2) Doesn't indicate side reactions.\n\n3) Assumes reactants/products are in equilibrium (not always true).\n\n4) Doesn't account for kinetic barriers.",
+        "questionImage": null,
+        "answerImage": null
     }
                         ],
                         "5 Marks": [
                             {
                                 "question": "State and prove Newton's law of universal gravitation. Discuss its significance.",
                                 "answer": "Statement: Every particle attracts every other particle with force proportional to product of masses and inversely proportional to square of distance.\n\nF = Gm₁m₂/r²\n\nProof concept: From Kepler's laws and circular motion analysis of planets.\nFor circular orbit: F = mv²/r and v = 2πr/T\nFrom Kepler's third law: T² ∝ r³\nSubstituting gives F ∝ m/r²\n\nSignificance: Explains planetary motion, tides, weight variation, satellite orbits, and led to discovery of new planets.",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Derive the expression for gravitational potential energy and explain the concept of gravitational potential.",
                                 "answer": "Work done to bring mass m from infinity to distance r:\nW = ∫[∞ to r] F·dr = ∫[∞ to r] (-GMm/r²)dr\nW = GMm∫[∞ to r] (1/r²)dr = GMm[-1/r][∞ to r]\nW = -GMm/r\n\nGravitational PE = -GMm/r (taking PE = 0 at infinity)\n\nGravitational potential V = PE/m = -GM/r\nIt represents work done per unit mass to bring from infinity.\nNegative sign indicates attractive nature of gravity.",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Calculate the orbital velocity and time period of a satellite orbiting Earth at height h above surface.",
                                 "answer": "For circular orbit at height h:\nRadius of orbit = R + h (where R = Earth's radius)\n\nGravitational force = Centripetal force\nGMm/(R+h)² = mv²/(R+h)\n\nOrbital velocity: v = √[GM/(R+h)]\nSince g = GM/R²: GM = gR²\nv = √[gR²/(R+h)] = R√[g/(R+h)]\n\nTime period: T = 2π(R+h)/v = 2π√[(R+h)³/GM]\nT = 2π√[(R+h)³/gR²]\n\nFor surface orbits (h=0): v = √(gR) ≈ 7.9 km/s, T ≈ 84 min",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain the variation of g with depth inside Earth. Derive the expression.",
                                 "answer": "At depth d below surface:\nOnly the mass within radius (R-d) contributes to gravity.\nMass within radius (R-d) = M × [(R-d)/R]³ (assuming uniform density)\n\ng_d = GM'/(R-d)² where M' = M(R-d)³/R³\ng_d = GM(R-d)³/[R³(R-d)²] = GM(R-d)/R³\ng_d = g(R-d)/R = g(1-d/R)\n\nTherefore: g_d = g(1-d/R)\n\nAt center (d=R): g = 0\nAt surface (d=0): g = g₀\nLinear decrease with depth",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Discuss the motion of planets and derive Kepler's laws from Newton's law of gravitation.",
                                 "answer": "Kepler's First Law: Planetary orbits are elliptical with Sun at focus.\nDerivation: From F = GMm/r² and angular momentum conservation, solving differential equations gives elliptical trajectories.\n\nKepler's Second Law: Planets sweep equal areas in equal times.\nProof: Angular momentum L = mr²ω = constant\nArea swept = ½r²θ, dA/dt = ½r²(dθ/dt) = L/2m = constant\n\nKepler's Third Law: T² ∝ r³\nFor circular orbits: GMm/r² = mω²r, ω = 2π/T\nGM/r² = 4π²r/T²\nT² = 4π²r³/GM\nTherefore T² ∝ r³\n\nThese laws explained planetary motion and validated universal gravitation.",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ]
                     }
@@ -353,37 +413,43 @@
       "question": "Bauxite has the composition",
       "options": ["Al2O3", "Al2O3.nH2O", "Fe2O3.2H2O", "None of these"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Roasting of sulphide ore gives the gas (A). (A) is a colourless gas. Aqueous solution of (A) is acidic. The gas (A) is",
       "options": ["CO2", "SO2", "SO3", "H2S"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which one of the following reaction represents calcinations?",
       "options": ["2Zn + O2 → 2ZnO", "2ZnS + 3O2 → 2ZnO + 2SO2", "MgCO3 → MgO + CO2", "Both (a) and (c)"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "The metal oxide which cannot be reduced to metal by carbon is",
       "options": ["PbO", "Al2O3", "ZnO", "FeO"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which of the metal is extracted by Hall-Herold process?",
       "options": ["Al", "Ni", "Cu", "Zn"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which of the following statements, about the advantage of roasting of sulphide ore before reduction is not true?",
       "options": ["∆G° of sulphide is greater than those for CS2 and H2S", "∆G° is negative for roasting of sulphide ore to oxide", "Roasting of the sulphide to its oxide is thermodynamically feasible", "Carbon and hydrogen are suitable reducing agents for metal sulphides"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Match items in column - I with the items of column - II and assign the correct code.",
@@ -394,220 +460,259 @@
         "A-ii, B-iii, C-i, D-v"
       ],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Wolframite ore is separated from tinstone by the process of",
       "options": ["Smelting", "Calcination", "Roasting", "Electromagnetic separation"],
       "correct": 3,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which one of the following is not feasible",
       "options": ["Zn(s) + Cu²⁺(aq) → Cu(s) + Zn²⁺(aq)", "Cu(s) + Zn²⁺(aq) → Zn(s) + Cu²⁺(aq)", "Cu(s) + 2Ag⁺(aq) → Ag(s) + Cu²⁺(aq)", "Fe(s) + Cu²⁺(aq) → Cu(s) + Fe²⁺(aq)"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Electrochemical process is used to extract",
       "options": ["Iron", "Lead", "Sodium", "Silver"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Flux is a substance which is used to convert",
       "options": ["Mineral into silicate", "Infusible impurities to soluble impurities", "Soluble impurities to infusible impurities", "All these"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which one of the following ore is magnesium?",
       "options": ["Magnesite", "Hematite", "Galena", "Calamine"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "In the extraction of aluminium, cryolite is added to",
       "options": ["Lower the melting point of alumina", "Remove impurities from alumina", "Decrease the electrical conductivity", "Increase the rate of reduction"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Zinc is extracted by",
       "options": ["Acid leaching", "Reduction using silver", "Electrochemical process", "Acid leaching"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Extraction of gold and silver involves leaching with cyanide ion. Silver is later recovered by",
       "options": ["Carbon reduction", "Reduction using silver", "Electrochemical process", "Acid leaching"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Considering Ellingham diagram, which of the following metals can be used to reduce alumina?",
       "options": ["Fe", "Cu", "Mg", "Zn"],
       "correct": 2,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "The following set of reactions are used in refining Zirconium",
       "options": ["Zr (impure + I2) → ZrI4 : ZrI4 → Zr (Pure) + I2"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "This method is known as",
       "options": ["Liquation", "Van Arkel process", "Zone refining", "Mond's process"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "The incorrect statement among the following is",
       "options": ["Leaching", "Roasting", "Froth flotation", "Both (a) and (c)"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "In the metallurgy of gold, the metal is leached with dilute sodium chloride solution and in the electrolytic refining of copper, the metal is used as anode as electrode.",
       "options": ["Pure copper", "Impure copper", "Carbon rod", "Platinum electrode"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which of the following plot gives Ellingham diagram",
       "options": ["∆G° Vs T", "∆G° Vs P", "∆G° Vs 1/T", "∆G° Vs V"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "In the Ellingham diagram, for the formation of carbon monoxide",
       "options": ["∆G°/∆T is negative", "∆G°/∆T is positive", "∆G°/∆T is initially positive, after 700°C, ∆G°/∆T is negative", "∆G°/∆T is negative"],
       "correct": 0,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which of the following reduction is not thermodynamically feasible?",
       "options": ["Cr2O3 + 2Al → Al2O3 + 2Cr", "Al2O3 + 2Cr → Cr2O3 + 2Al", "SnO2 + 2Al → Al2O3 + 2Sn", "None of these"],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Which of the following is not true with respect to Ellingham diagram?",
       "options": ["Free energy changes follow a straight line. Deviation occurs when there is a phase change.", "The graph for the formation of CO2 is a straight line almost parallel to free energy axis.", "Negative slope of CO shows that it becomes more stable with increase in temperature.", "Positive slope of metal oxides shows that their stabilities decrease with increase in temperature."],
       "correct": 1,
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     }
   ],
                         "2 Marks": [
     {
         "question": "What are the various steps involved in extraction of pure metals from their ores?",
-        "answer": "i) Concentration of the ore. ii) Extraction of the crude metal. iii) Refining of the crude metal.",
-        "image": null
+        "answer": "i) Concentration of the ore.\nii) Extraction of the crude metal.\niii) Refining of the crude metal.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "What is the role of Quicklime in the extraction of Iron from its oxide Fe₂O₃?",
-        "answer": "Quicklime (CaO) is used as a basic flux in the extraction of iron from its oxide Fe₂O₃. It combines with the acidic silica gangue to form calcium silicate (slag). Reaction: CaO(s) + SiO₂(s) → CaSiO₃(s).",
-        "image": null
+        "answer": "Quicklime (CaO) is used as a basic flux in the extraction of iron from its oxide Fe₂O₃.\nIt combines with the acidic silica gangue to form calcium silicate (slag).\nReaction: CaO(s) + SiO₂(s) → CaSiO₃(s).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Which type of ores can be concentrated by froth flotation method? Give two examples for such ores.",
-        "answer": "Sulphide ores can be concentrated by froth flotation method. Examples: 1) Galena (PbS), 2) Zinc blende (ZnS).",
-        "image": null
+        "answer": "Sulphide ores can be concentrated by froth flotation method.\nExamples:\n1) Galena (PbS)\n2) Zinc blende (ZnS).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
-        "question": "Explain the following terms with suitable examples. i) Gangue ii) Slag",
-        "answer": "i) Gangue: The non-metallic impurities, rocky materials and siliceous matter present in the ores. Example: SiO₂ is the gangue present in the iron ore Fe₂O₃. ii) Slag: A fusible chemical substance formed by the reaction of gangue with a flux. Example: CaO (Flux) + SiO₂ (Gangue) → CaSiO₃ (Slag).",
-        "image": null
+        "question": "Explain the following terms with suitable examples.\ni) Gangue\nii) Slag",
+        "answer": "i) Gangue: The non-metallic impurities, rocky materials and siliceous matter present in the ores.\nExample: SiO₂ is the gangue present in the iron ore Fe₂O₃.\n\nii) Slag: A fusible chemical substance formed by the reaction of gangue with a flux.\nExample: CaO (Flux) + SiO₂ (Gangue) → CaSiO₃ (Slag).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Give the basic requirement for vapour phase refining.",
         "answer": "The metal is treated with a suitable reagent to form a volatile compound, which is then decomposed to give the pure metal.",
-        "image": null
+        "questionImage": null,
+        "answerImage": null
     }
 ],
                         "3 Marks": [
     {
         "question": "What is the difference between minerals and ores?",
-        "answer": "1) Minerals are naturally occurring substances obtained by mining which contain metals in free state or in compounds like oxides, sulphides, etc. Ores are minerals that contain a high percentage of metal for convenient and economical extraction. 2) All minerals are not ores. 3) All ores are minerals. Example: Bauxite and China clay are minerals of Al, but only Bauxite is an ore of Al.",
-        "image": null
+        "answer": "1) Minerals are naturally occurring substances obtained by mining which contain metals in free state or in compounds like oxides, sulphides, etc.\nOres are minerals that contain a high percentage of metal for convenient and economical extraction.\n\n2) All minerals are not ores.\n\n3) All ores are minerals.\n\nExample: Bauxite and China clay are minerals of Al, but only Bauxite is an ore of Al.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Describe a method for refining nickel (or) Explain Mond's process.",
-        "answer": "1) Impure nickel is heated in a stream of CO at 350K to form volatile nickel tetracarbonyl: Ni(s) + 4CO(g) → [Ni(CO)₄](g). 2) The complex is then heated to 460K where it decomposes to give pure nickel: [Ni(CO)₄](g) → Ni(s) + 4CO(g). Solid impurities are left behind in the first step.",
-        "image": null
+        "answer": "1) Impure nickel is heated in a stream of CO at 350K to form volatile nickel tetracarbonyl:\nNi(s) + 4CO(g) → [Ni(CO)₄](g).\n\n2) The complex is then heated to 460K where it decomposes to give pure nickel:\n[Ni(CO)₄](g) → Ni(s) + 4CO(g).\n\nSolid impurities are left behind in the first step.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Give uses of zinc.",
-        "answer": "1) Used in galvanization to protect iron from rusting. 2) Production of die-castings in automobile/electrical industries. 3) Zinc oxide used in paints, rubber, cosmetics. 4) Zinc sulphide used in luminous paints, X-ray screens.",
-        "image": null
+        "answer": "1) Used in galvanization to protect iron from rusting.\n\n2) Production of die-castings in automobile/electrical industries.\n\n3) Zinc oxide used in paints, rubber, cosmetics.\n\n4) Zinc sulphide used in luminous paints, X-ray screens.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Give the limitations of Ellingham diagram.",
-        "answer": "1) Only shows thermodynamic feasibility, not reaction rate. 2) Doesn't indicate side reactions. 3) Assumes reactants/products are in equilibrium (not always true). 4) Doesn't account for kinetic barriers.",
-        "image": null
+        "answer": "1) Only shows thermodynamic feasibility, not reaction rate.\n\n2) Doesn't indicate side reactions.\n\n3) Assumes reactants/products are in equilibrium (not always true).\n\n4) Doesn't account for kinetic barriers.",
+        "questionImage": null,
+        "answerImage": null
     }
                         ],
                         "5 Marks":[
     {
         "question": "Explain zone refining process with an example.",
-        "answer": "Principle: Fractional crystallization where impurities are more soluble in melt than solid metal. Process: 1) Impure metal rod heated with mobile induction heater creating molten zone. 2) Heater moved slowly - pure metal crystallizes while impurities move with molten zone. 3) Repeated multiple times for high purity. Conditions: Carried out in inert gas atmosphere. Examples: Ge, Si and Ga used as semiconductors.",
-        "image": null
+        "answer": "Principle: Fractional crystallization where impurities are more soluble in melt than solid metal.\n\nProcess:\n1) Impure metal rod heated with mobile induction heater creating molten zone.\n2) Heater moved slowly - pure metal crystallizes while impurities move with molten zone.\n3) Repeated multiple times for high purity.\n\nConditions: Carried out in inert gas atmosphere.\n\nExamples: Ge, Si and Ga used as semiconductors.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Using Ellingham diagram: (A) Predict conditions where Al reduces MgO",
-        "answer": "Above 1623K: ΔG° of Al₂O₃ formation is more negative than MgO. Reaction: 3MgO + 2Al → Al₂O₃ + 3Mg (ΔG° becomes negative above this temperature).",
-        "image": null
+        "answer": "Above 1623K: ΔG° of Al₂O₃ formation is more negative than MgO.\n\nReaction: 3MgO + 2Al → Al₂O₃ + 3Mg (ΔG° becomes negative above this temperature).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Using Ellingham diagram: (B) Predict conditions where Mg reduces Al₂O₃",
-        "answer": "Below 1623K: ΔG° of MgO formation is more negative than Al₂O₃. Reaction: Al₂O₃ + 3Mg → 3MgO + 2Al (ΔG° becomes negative below this temperature).",
-        "image": null
+        "answer": "Below 1623K: ΔG° of MgO formation is more negative than Al₂O₃.\n\nReaction: Al₂O₃ + 3Mg → 3MgO + 2Al (ΔG° becomes negative below this temperature).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Using Ellingham diagram: (C) Explain reduction of Fe₂O₃ by coke at 1200K",
-        "answer": "Feasible because carbon line cuts across Fe₂O₃ line around 1000K. Carbon can reduce metal oxides when its ΔG° line is below the oxide's line at given temperature.",
-        "image": null
+        "answer": "Feasible because carbon line cuts across Fe₂O₃ line around 1000K.\n\nCarbon can reduce metal oxides when its ΔG° line is below the oxide's line at given temperature.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Explain the electrometallurgy of aluminium (Hall-Heroult Process)",
-        "answer": "Setup: Cathode - Carbon-lined iron tank, Anode - Carbon blocks. Electrolyte: Alumina (20%) + Cryolite + CaCl₂. Reactions: Al₂O₃ → 2Al³⁺ + 3O²⁻; Cathode: 2Al³⁺ + 6e⁻ → 2Al(l); Anode: 6O²⁻ → 3O₂ + 12e⁻. Additional anode reactions with carbon: C + O²⁻ → CO + 2e⁻ and C + 2O²⁻ → CO₂ + 4e⁻. Cryolite lowers melting point and increases conductivity.",
-        "image": null
+        "answer": "Setup:\nCathode - Carbon-lined iron tank\nAnode - Carbon blocks\n\nElectrolyte: Alumina (20%) + Cryolite + CaCl₂\n\nReactions:\nAl₂O₃ → 2Al³⁺ + 3O²⁻\n\nCathode: 2Al³⁺ + 6e⁻ → 2Al(l)\nAnode: 6O²⁻ → 3O₂ + 12e⁻\n\nAdditional anode reactions with carbon:\nC + O²⁻ → CO + 2e⁻\nC + 2O²⁻ → CO₂ + 4e⁻\n\nCryolite lowers melting point and increases conductivity.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Describe the role of: (i) Silica in copper extraction",
-        "answer": "Acts as acidic flux to remove FeO impurity: FeO (gangue) + SiO₂ (flux) → FeSiO₃ (slag). Forms fusible slag that can be separated from copper matte (Cu₂S + FeS).",
-        "image": null
+        "answer": "Acts as acidic flux to remove FeO impurity:\nFeO (gangue) + SiO₂ (flux) → FeSiO₃ (slag)\n\nForms fusible slag that can be separated from copper matte (Cu₂S + FeS).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Describe the role of: (ii) Cryolite in aluminium extraction",
-        "answer": "1) Lowers melting point of alumina from ~2072°C to ~950°C. 2) Increases electrical conductivity. 3) Makes process economically viable by reducing energy requirements.",
-        "image": null
+        "answer": "1) Lowers melting point of alumina from ~2072°C to ~950°C.\n\n2) Increases electrical conductivity.\n\n3) Makes process economically viable by reducing energy requirements.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Describe the role of: (iii) Iodine in zirconium refining",
-        "answer": "Forms volatile ZrI₄: Zr + 2I₂ → ZrI₄ (vapour at 550K). Impurities don't react. Pure zirconium obtained by decomposition at 1800K: ZrI₄ → Zr + 2I₂ (Van Arkel process).",
-        "image": null
+        "answer": "Forms volatile ZrI₄:\nZr + 2I₂ → ZrI₄ (vapour at 550K)\n\nImpurities don't react.\n\nPure zirconium obtained by decomposition at 1800K:\nZrI₄ → Zr + 2I₂ (Van Arkel process).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Describe the role of: (iv) Sodium cyanide in froth floatation",
-        "answer": "Depressant for ZnS in PbS ore: Forms Na₂[Zn(CN)₄] layer on ZnS surface preventing its flotation while allowing PbS to float. Enables selective separation of sulphide ores.",
-        "image": null
+        "answer": "Depressant for ZnS in PbS ore:\nForms Na₂[Zn(CN)₄] layer on ZnS surface preventing its flotation while allowing PbS to float.\n\nEnables selective separation of sulphide ores.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Explain electrolytic refining of silver",
-        "answer": "Setup: Anode - Impure Ag rods, Cathode - Pure Ag, Electrolyte - Acidified AgNO₃. Reactions: Anode: Ag(s) → Ag⁺(aq) + e⁻; Cathode: Ag⁺(aq) + e⁻ → Ag(s). Less electropositive impurities settle as anode mud (Au, Pt).",
-        "image": null
+        "answer": "Setup:\nAnode - Impure Ag rods\nCathode - Pure Ag\nElectrolyte - Acidified AgNO₃\n\nReactions:\nAnode: Ag(s) → Ag⁺(aq) + e⁻\nCathode: Ag⁺(aq) + e⁻ → Ag(s)\n\nLess electropositive impurities settle as anode mud (Au, Pt).",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Explain selection of reducing agent based on thermodynamics",
-        "answer": "Key factors: 1) ΔG should be negative for coupled reaction. 2) Ellingham diagram compares ΔG° vs T. Example: Above 1623K Al reduces MgO (Al₂O₃ line below MgO), below 1623K Mg reduces Al₂O₃ (MgO line below Al₂O₃). Carbon reduces oxides when its line is below metal oxide line.",
-        "image": null
+        "answer": "Key factors:\n1) ΔG should be negative for coupled reaction.\n2) Ellingham diagram compares ΔG° vs T.\n\nExample:\nAbove 1623K Al reduces MgO (Al₂O₃ line below MgO)\nBelow 1623K Mg reduces Al₂O₃ (MgO line below Al₂O₃)\n\nCarbon reduces oxides when its line is below metal oxide line.",
+        "questionImage": null,
+        "answerImage": null
     },
     {
         "question": "Write short note on electrochemical principles of metallurgy",
-        "answer": "Used for active metals (Na, K) where carbon reduction isn't feasible. Key points: 1) ΔG° = -nFE° (spontaneous if E° positive). 2) More reactive metals displace less reactive ones (Zn + Cu²⁺ → Zn²⁺ + Cu). 3) Two approaches: Electrolysis (e.g., Down's process for Na) or chemical reduction using stronger reducing agent.",
-        "image": null
+        "answer": "Used for active metals (Na, K) where carbon reduction isn't feasible.\n\nKey points:\n1) ΔG° = -nFE° (spontaneous if E° positive)\n2) More reactive metals displace less reactive ones (Zn + Cu²⁺ → Zn²⁺ + Cu)\n3) Two approaches:\n   - Electrolysis (e.g., Down's process for Na)\n   - Chemical reduction using stronger reducing agent",
+        "questionImage": null,
+        "answerImage": null
     }
 ]
                     },
@@ -617,118 +722,120 @@
                                 "question": "Ionic bonds are formed between:",
                                 "options": ["Metal and metal", "Non-metal and non-metal", "Metal and non-metal", "Noble gases"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The number of covalent bonds in NH₃ is:",
                                 "options": ["1", "2", "3", "4"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Which has the highest melting point?",
                                 "options": ["NaCl", "H₂O", "CO₂", "CH₄"],
                                 "correct": 0,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Electronegativity is highest for:",
                                 "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
                                 "correct": 0,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Coordinate bond is present in:",
                                 "options": ["HCl", "NH₄⁺", "H₂O", "CH₄"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "2 Marks":  [
     {
       "question": "Define unit cell.",
       "answer": "A basic repeating structural unit of a crystalline solid is called a unit cell.",
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
-      "question": "Classify the following solids: a) P₄ b) Brass c) Diamond d) NaCl e) Iodine",
-      "answer": "a) Molecular solid b) Metallic solid c) Covalent solid d) Ionic solid e) Molecular solid",
-      "image": null
+      "question": "Classify the following solids:\na) P₄\nb) Brass\nc) Diamond\nd) NaCl\ne) Iodine",
+      "answer": "a) Molecular solid\nb) Metallic solid\nc) Covalent solid\nd) Ionic solid\ne) Molecular solid",
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "What are point defects?",
       "answer": "Deviations from ideal arrangement that occurs at some points or atoms in a crystalline substance.",
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "Why ionic crystals are hard and brittle?",
-      "answer": "Hard due to strong electrostatic forces; brittle because ionic bonds are non-directional.",
-      "image": null
+      "answer": "Hard due to strong electrostatic forces.\nBrittle because ionic bonds are non-directional.",
+      "questionImage": null,
+      "answerImage": null
     },
     {
       "question": "What is the two dimensional coordination number in square close packing?",
       "answer": "4 (each sphere contacts four neighbors)",
-      "image": null
+      "questionImage": null,
+      "answerImage": null
     }
   ],
                         "3 Marks": [
                             {
-                                "question": "Give any three characteristics of ionic crystals. ",
-                                "answer": "Ionic solids have high melting points. These solids do not conduct electricity, because the ions are fixed in their lattice positions. They do conduct electricity in molten state (or) when dissolved in water because, the ions are free to move in the molten state or solution. They are hard as only strong external force can change the relative positions of ions.",
-                                "image": null
+                                "question": "Give any three characteristics of ionic crystals.",
+                                "answer": "Ionic solids have high melting points.\n\nThese solids do not conduct electricity, because the ions are fixed in their lattice positions.\n\nThey do conduct electricity in molten state (or) when dissolved in water because, the ions are free to move in the molten state or solution.\n\nThey are hard as only strong external force can change the relative positions of ions.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
-                                "question": "Explain Schottky defect.  ",
-                                "answer": "Definition : Schottky defect arises due to the missing of equal number of cations and anions from the crystal lattice. \n Stoichiometry : This effect does not change the stoichiometry of the crystal. \n Size of ions : Ionic solids in which the cation and anion are of almost of similar size.\n Density : Presence of large number of schottky defects in a crystal lowers its density. ",
-                                "image": null
+                                "question": "Explain Schottky defect.",
+                                "answer": "Definition: Schottky defect arises due to the missing of equal number of cations and anions from the crystal lattice.\n\nStoichiometry: This effect does not change the stoichiometry of the crystal.\n\nSize of ions: Ionic solids in which the cation and anion are of almost of similar size.\n\nDensity: Presence of large number of schottky defects in a crystal lowers its density.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
-                             {
-                                "question": "Explain ",
-                                "answer": "replce",
-                                "image": null
-                            },
-                             {
-                                "question": "Explain ",
-                                "answer": "replce",
-                                "image": null
-                            },
-                             {
-                                "question": "Explain ",
-                                "answer": "replce",
-                                "image": null
-                            },
-                           
                             {
                                 "question": "What is lattice energy? How does it affect the stability of ionic compounds?",
-                                "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions. Higher lattice energy means greater stability. It depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
-                                "image": null
+                                "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions.\n\nHigher lattice energy means greater stability.\n\nIt depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "5 Marks": [
                             {
                                 "question": "Describe the different types of chemical bonds with examples and their characteristic properties.",
-                                "answer": "1. Ionic bonds: Electron transfer (NaCl) - high melting point, electrical conductivity. 2. Covalent bonds: Electron sharing (H₂O) - lower melting points, poor conductors. 3. Coordinate bonds: One atom provides both electrons (NH₄⁺). 4. Metallic bonds: Sea of electrons (metals) - conductivity, malleability. 5. Hydrogen bonds: Special dipole interaction - responsible for water's properties.",
-                                "image": null
+                                "answer": "1. Ionic bonds: Electron transfer (NaCl) - high melting point, electrical conductivity.\n\n2. Covalent bonds: Electron sharing (H₂O) - lower melting points, poor conductors.\n\n3. Coordinate bonds: One atom provides both electrons (NH₄⁺).\n\n4. Metallic bonds: Sea of electrons (metals) - conductivity, malleability.\n\n5. Hydrogen bonds: Special dipole interaction - responsible for water's properties.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain the concept of hybridization. Describe sp³, sp², and sp hybridization with examples.",
-                                "answer": "Hybridization is mixing of atomic orbitals to form equivalent hybrid orbitals. sp³: 4 equivalent orbitals, tetrahedral (CH₄), bond angle 109.5°. sp²: 3 equivalent orbitals, trigonal planar (C₂H₄), bond angle 120°. sp: 2 equivalent orbitals, linear (C₂H₂), bond angle 180°. Explains molecular geometry and bonding patterns.",
-                                "image": null
+                                "answer": "Hybridization is mixing of atomic orbitals to form equivalent hybrid orbitals.\n\nsp³: 4 equivalent orbitals, tetrahedral (CH₄), bond angle 109.5°.\n\nsp²: 3 equivalent orbitals, trigonal planar (C₂H₄), bond angle 120°.\n\nsp: 2 equivalent orbitals, linear (C₂H₂), bond angle 180°.\n\nExplains molecular geometry and bonding patterns.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Draw Lewis structures for H₂O, NH₃, CO₂, and CH₄. Predict their molecular geometry.",
-                                "answer": "H₂O: O with 2 bonding pairs, 2 lone pairs → bent shape, 104.5°. NH₃: N with 3 bonding pairs, 1 lone pair → pyramidal, 107°. CO₂: C with 2 double bonds, no lone pairs → linear, 180°. CH₄: C with 4 bonding pairs → tetrahedral, 109.5°. Lone pairs affect geometry more than bonding pairs.",
-                                "image": null
+                                "answer": "H₂O: O with 2 bonding pairs, 2 lone pairs → bent shape, 104.5°.\n\nNH₃: N with 3 bonding pairs, 1 lone pair → pyramidal, 107°.\n\nCO₂: C with 2 double bonds, no lone pairs → linear, 180°.\n\nCH₄: C with 4 bonding pairs → tetrahedral, 109.5°.\n\nLone pairs affect geometry more than bonding pairs.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Discuss the factors affecting the formation of ionic and covalent bonds.",
-                                "answer": "Ionic bond formation: 1. Low ionization energy of metal. 2. High electron affinity of non-metal. 3. High lattice energy. 4. Large electronegativity difference (>1.7). Covalent bond formation: 1. Similar electronegativity (<1.7). 2. High ionization energies of both atoms. 3. Ability to achieve stable electron configuration by sharing.",
-                                "image": null
+                                "answer": "Ionic bond formation:\n1. Low ionization energy of metal.\n2. High electron affinity of non-metal.\n3. High lattice energy.\n4. Large electronegativity difference (>1.7).\n\nCovalent bond formation:\n1. Similar electronegativity (<1.7).\n2. High ionization energies of both atoms.\n3. Ability to achieve stable electron configuration by sharing.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain molecular orbital theory for the formation of H₂ molecule. Compare it with valence bond theory.",
-                                "answer": "MOT: Atomic orbitals combine to form molecular orbitals. H₂: 1s + 1s → σ₁s (bonding) + σ*₁s (antibonding). Two electrons occupy σ₁s. Bond order = (bonding - antibonding)/2 = 1. VBT: Overlapping of half-filled orbitals. MOT explains paramagnetism of O₂, VBT cannot. MOT considers entire molecule, VBT focuses on bonds between atoms.",
-                                "image": null
+                                "answer": "MOT: Atomic orbitals combine to form molecular orbitals.\n\nH₂: 1s + 1s → σ₁s (bonding) + σ*₁s (antibonding).\nTwo electrons occupy σ₁s.\nBond order = (bonding - antibonding)/2 = 1.\n\nVBT: Overlapping of half-filled orbitals.\n\nMOT explains paramagnetism of O₂, VBT cannot.\nMOT considers entire molecule, VBT focuses on bonds between atoms.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ]
                     },
@@ -738,112 +845,132 @@
                                 "question": "Ionic bonds are formed between:",
                                 "options": ["Metal and metal", "Non-metal and non-metal", "Metal and non-metal", "Noble gases"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The number of covalent bonds in NH₃ is:",
                                 "options": ["1", "2", "3", "4"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Which has the highest melting point?",
                                 "options": ["NaCl", "H₂O", "CO₂", "CH₄"],
                                 "correct": 0,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Electronegativity is highest for:",
                                 "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
                                 "correct": 0,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Coordinate bond is present in:",
                                 "options": ["HCl", "NH₄⁺", "H₂O", "CH₄"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "2 Marks": [
                             {
                                 "question": "What is an ionic bond? Give one example.",
-                                "answer": "An ionic bond is formed by the transfer of electrons from a metal to a non-metal, creating oppositely charged ions that attract each other. Example: NaCl (sodium chloride).",
-                                "image": null
+                                "answer": "An ionic bond is formed by the transfer of electrons from a metal to a non-metal, creating oppositely charged ions that attract each other.\n\nExample: NaCl (sodium chloride).",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Define covalent bond with an example.",
-                                "answer": "A covalent bond is formed by the sharing of electrons between two non-metal atoms. Example: H₂ molecule where two hydrogen atoms share one pair of electrons.",
-                                "image": null
+                                "answer": "A covalent bond is formed by the sharing of electrons between two non-metal atoms.\n\nExample: H₂ molecule where two hydrogen atoms share one pair of electrons.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What is electronegativity? How does it affect bond formation?",
-                                "answer": "Electronegativity is the tendency of an atom to attract shared electrons. Large difference leads to ionic bonds, small difference leads to covalent bonds.",
-                                "image": null
+                                "answer": "Electronegativity is the tendency of an atom to attract shared electrons.\n\nLarge difference leads to ionic bonds, small difference leads to covalent bonds.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain coordinate covalent bond.",
-                                "answer": "A coordinate covalent bond is formed when both electrons in the shared pair come from the same atom. The donor atom provides both electrons to the acceptor atom.",
-                                "image": null
+                                "answer": "A coordinate covalent bond is formed when both electrons in the shared pair come from the same atom.\n\nThe donor atom provides both electrons to the acceptor atom.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What are the properties of ionic compounds?",
                                 "answer": "High melting and boiling points, conduct electricity in molten state or solution, soluble in polar solvents, brittle nature, form crystalline structures.",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "3 Marks": [
                             {
                                 "question": "Compare ionic and covalent compounds in terms of their properties.",
-                                "answer": "Ionic: High melting point, conduct electricity when molten, soluble in water, brittle. Covalent: Low melting point, do not conduct electricity, soluble in organic solvents, not brittle. This is due to different bonding mechanisms and electron distribution.",
-                                "image": null
+                                "answer": "Ionic: High melting point, conduct electricity when molten, soluble in water, brittle.\n\nCovalent: Low melting point, do not conduct electricity, soluble in organic solvents, not brittle.\n\nThis is due to different bonding mechanisms and electron distribution.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain the formation of NaCl with electron dot structure.",
-                                "answer": "Na (2,8,1) loses 1 electron to become Na⁺ (2,8). Cl (2,8,7) gains 1 electron to become Cl⁻ (2,8,8). Electron dot: Na⁺ [Cl]⁻ where Cl has 8 dots around it. Electrostatic attraction forms ionic bond.",
-                                "image": null
+                                "answer": "Na (2,8,1) loses 1 electron to become Na⁺ (2,8).\n\nCl (2,8,7) gains 1 electron to become Cl⁻ (2,8,8).\n\nElectron dot: Na⁺ [Cl]⁻ where Cl has 8 dots around it.\n\nElectrostatic attraction forms ionic bond.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What is VSEPR theory? Predict the shape of NH₃.",
-                                "answer": "VSEPR (Valence Shell Electron Pair Repulsion) theory states that electron pairs around central atom repel and arrange to minimize repulsion. NH₃ has 3 bonding pairs + 1 lone pair = tetrahedral arrangement, but molecular shape is pyramidal.",
-                                "image": null
+                                "answer": "VSEPR (Valence Shell Electron Pair Repulsion) theory states that electron pairs around central atom repel and arrange to minimize repulsion.\n\nNH₃ has 3 bonding pairs + 1 lone pair = tetrahedral arrangement, but molecular shape is pyramidal.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain hydrogen bonding with examples.",
-                                "answer": "Hydrogen bonding occurs when H is bonded to highly electronegative atoms (F, O, N) and is attracted to lone pairs on other molecules. Examples: H₂O (ice structure), HF, NH₃. Responsible for high boiling points and unusual properties.",
-                                "image": null
+                                "answer": "Hydrogen bonding occurs when H is bonded to highly electronegative atoms (F, O, N) and is attracted to lone pairs on other molecules.\n\nExamples: H₂O (ice structure), HF, NH₃.\n\nResponsible for high boiling points and unusual properties.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What is lattice energy? How does it affect the stability of ionic compounds?",
-                                "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions. Higher lattice energy means greater stability. It depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
-                                "image": null
+                                "answer": "Lattice energy is the energy required to separate one mole of ionic solid into gaseous ions.\n\nHigher lattice energy means greater stability.\n\nIt depends on charge and size of ions: smaller ions and higher charges give higher lattice energy.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "5 Marks": [
                             {
                                 "question": "Describe the different types of chemical bonds with examples and their characteristic properties.",
-                                "answer": "1. Ionic bonds: Electron transfer (NaCl) - high melting point, electrical conductivity. 2. Covalent bonds: Electron sharing (H₂O) - lower melting points, poor conductors. 3. Coordinate bonds: One atom provides both electrons (NH₄⁺). 4. Metallic bonds: Sea of electrons (metals) - conductivity, malleability. 5. Hydrogen bonds: Special dipole interaction - responsible for water's properties.",
-                                "image": null
+                                "answer": "1. Ionic bonds: Electron transfer (NaCl) - high melting point, electrical conductivity.\n\n2. Covalent bonds: Electron sharing (H₂O) - lower melting points, poor conductors.\n\n3. Coordinate bonds: One atom provides both electrons (NH₄⁺).\n\n4. Metallic bonds: Sea of electrons (metals) - conductivity, malleability.\n\n5. Hydrogen bonds: Special dipole interaction - responsible for water's properties.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain the concept of hybridization. Describe sp³, sp², and sp hybridization with examples.",
-                                "answer": "Hybridization is mixing of atomic orbitals to form equivalent hybrid orbitals. sp³: 4 equivalent orbitals, tetrahedral (CH₄), bond angle 109.5°. sp²: 3 equivalent orbitals, trigonal planar (C₂H₄), bond angle 120°. sp: 2 equivalent orbitals, linear (C₂H₂), bond angle 180°. Explains molecular geometry and bonding patterns.",
-                                "image": null
+                                "answer": "Hybridization is mixing of atomic orbitals to form equivalent hybrid orbitals.\n\nsp³: 4 equivalent orbitals, tetrahedral (CH₄), bond angle 109.5°.\n\nsp²: 3 equivalent orbitals, trigonal planar (C₂H₄), bond angle 120°.\n\nsp: 2 equivalent orbitals, linear (C₂H₂), bond angle 180°.\n\nExplains molecular geometry and bonding patterns.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Draw Lewis structures for H₂O, NH₃, CO₂, and CH₄. Predict their molecular geometry.",
-                                "answer": "H₂O: O with 2 bonding pairs, 2 lone pairs → bent shape, 104.5°. NH₃: N with 3 bonding pairs, 1 lone pair → pyramidal, 107°. CO₂: C with 2 double bonds, no lone pairs → linear, 180°. CH₄: C with 4 bonding pairs → tetrahedral, 109.5°. Lone pairs affect geometry more than bonding pairs.",
-                                "image": null
+                                "answer": "H₂O: O with 2 bonding pairs, 2 lone pairs → bent shape, 104.5°.\n\nNH₃: N with 3 bonding pairs, 1 lone pair → pyramidal, 107°.\n\nCO₂: C with 2 double bonds, no lone pairs → linear, 180°.\n\nCH₄: C with 4 bonding pairs → tetrahedral, 109.5°.\n\nLone pairs affect geometry more than bonding pairs.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Discuss the factors affecting the formation of ionic and covalent bonds.",
-                                "answer": "Ionic bond formation: 1. Low ionization energy of metal. 2. High electron affinity of non-metal. 3. High lattice energy. 4. Large electronegativity difference (>1.7). Covalent bond formation: 1. Similar electronegativity (<1.7). 2. High ionization energies of both atoms. 3. Ability to achieve stable electron configuration by sharing.",
-                                "image": null
+                                "answer": "Ionic bond formation:\n1. Low ionization energy of metal.\n2. High electron affinity of non-metal.\n3. High lattice energy.\n4. Large electronegativity difference (>1.7).\n\nCovalent bond formation:\n1. Similar electronegativity (<1.7).\n2. High ionization energies of both atoms.\n3. Ability to achieve stable electron configuration by sharing.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Explain molecular orbital theory for the formation of H₂ molecule. Compare it with valence bond theory.",
-                                "answer": "MOT: Atomic orbitals combine to form molecular orbitals. H₂: 1s + 1s → σ₁s (bonding) + σ*₁s (antibonding). Two electrons occupy σ₁s. Bond order = (bonding - antibonding)/2 = 1. VBT: Overlapping of half-filled orbitals. MOT explains paramagnetism of O₂, VBT cannot. MOT considers entire molecule, VBT focuses on bonds between atoms.",
-                                "image": null
+                                "answer": "MOT: Atomic orbitals combine to form molecular orbitals.\n\nH₂: 1s + 1s → σ₁s (bonding) + σ*₁s (antibonding).\nTwo electrons occupy σ₁s.\nBond order = (bonding - antibonding)/2 = 1.\n\nVBT: Overlapping of half-filled orbitals.\n\nMOT explains paramagnetism of O₂, VBT cannot.\nMOT considers entire molecule, VBT focuses on bonds between atoms.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ]
                     }
@@ -855,112 +982,132 @@
                                 "question": "The standard form of a quadratic equation is:",
                                 "options": ["ax + b = 0", "ax² + bx + c = 0", "ax³ + bx² + cx + d = 0", "ax² + b = 0"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The discriminant of 2x² - 3x + 1 = 0 is:",
                                 "options": ["1", "17", "9", "-7"],
                                 "correct": 0,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "If discriminant = 0, the roots are:",
                                 "options": ["Real and distinct", "Real and equal", "Complex", "Irrational"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The sum of roots of ax² + bx + c = 0 is:",
                                 "options": ["b/a", "-b/a", "c/a", "-c/a"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The quadratic formula is:",
                                 "options": ["x = (-b ± √(b²-4ac))/2a", "x = (b ± √(b²-4ac))/2a", "x = (-b ± √(b²+4ac))/2a", "x = (-b ± √(4ac-b²))/2a"],
                                 "correct": 0,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "2 Marks": [
                             {
                                 "question": "Define a quadratic equation and give its general form.",
-                                "answer": "A quadratic equation is a polynomial equation of degree 2. Its general form is ax² + bx + c = 0, where a ≠ 0 and a, b, c are real numbers.",
-                                "image": null
+                                "answer": "A quadratic equation is a polynomial equation of degree 2.\n\nIts general form is ax² + bx + c = 0, where a ≠ 0 and a, b, c are real numbers.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What is the discriminant? What does it tell us about the roots?",
-                                "answer": "Discriminant (Δ) = b² - 4ac. If Δ > 0: real and distinct roots. If Δ = 0: real and equal roots. If Δ < 0: complex roots.",
-                                "image": null
+                                "answer": "Discriminant (Δ) = b² - 4ac.\n\nIf Δ > 0: real and distinct roots.\nIf Δ = 0: real and equal roots.\nIf Δ < 0: complex roots.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Find the roots of x² - 5x + 6 = 0 by factoring.",
                                 "answer": "x² - 5x + 6 = 0\n(x - 2)(x - 3) = 0\nTherefore, x = 2 or x = 3",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "State the relationship between roots and coefficients.",
-                                "answer": "For ax² + bx + c = 0, if α and β are roots:\nSum of roots: α + β = -b/a\nProduct of roots: αβ = c/a",
-                                "image": null
+                                "answer": "For ax² + bx + c = 0, if α and β are roots:\n\nSum of roots: α + β = -b/a\nProduct of roots: αβ = c/a",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Solve x² - 4x + 4 = 0 by completing the square.",
                                 "answer": "x² - 4x + 4 = 0\n(x - 2)² = 0\nTherefore, x = 2 (repeated root)",
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "3 Marks": [
                             {
                                 "question": "Derive the quadratic formula from the general form ax² + bx + c = 0.",
-                                "answer": "ax² + bx + c = 0\nDivide by a: x² + (b/a)x + c/a = 0\nComplete the square: x² + (b/a)x + (b/2a)² = (b/2a)² - c/a\n(x + b/2a)² = (b² - 4ac)/4a²\nx + b/2a = ±√(b² - 4ac)/2a\nx = (-b ± √(b² - 4ac))/2a",
-                                "image": null
+                                "answer": "ax² + bx + c = 0\n\nDivide by a: x² + (b/a)x + c/a = 0\n\nComplete the square: x² + (b/a)x + (b/2a)² = (b/2a)² - c/a\n\n(x + b/2a)² = (b² - 4ac)/4a²\n\nx + b/2a = ±√(b² - 4ac)/2a\n\nx = (-b ± √(b² - 4ac))/2a",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Find the nature of roots of 3x² - 5x + 2 = 0 without solving.",
-                                "answer": "Given: 3x² - 5x + 2 = 0\na = 3, b = -5, c = 2\nDiscriminant = b² - 4ac = (-5)² - 4(3)(2) = 25 - 24 = 1\nSince Δ = 1 > 0, the roots are real and distinct.",
-                                "image": null
+                                "answer": "Given: 3x² - 5x + 2 = 0\n\na = 3, b = -5, c = 2\n\nDiscriminant = b² - 4ac = (-5)² - 4(3)(2) = 25 - 24 = 1\n\nSince Δ = 1 > 0, the roots are real and distinct.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "If α and β are roots of x² - 6x + 8 = 0, find α² + β² without solving the equation.",
-                                "answer": "Given: x² - 6x + 8 = 0\nα + β = 6, αβ = 8\nα² + β² = (α + β)² - 2αβ = 6² - 2(8) = 36 - 16 = 20",
-                                "image": null
+                                "answer": "Given: x² - 6x + 8 = 0\n\nα + β = 6, αβ = 8\n\nα² + β² = (α + β)² - 2αβ = 6² - 2(8) = 36 - 16 = 20",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Form a quadratic equation whose roots are 2 and -3.",
-                                "answer": "If roots are 2 and -3:\nSum of roots = 2 + (-3) = -1\nProduct of roots = 2 × (-3) = -6\nEquation: x² - (sum)x + product = 0\nTherefore: x² + x - 6 = 0",
-                                "image": null
+                                "answer": "If roots are 2 and -3:\n\nSum of roots = 2 + (-3) = -1\nProduct of roots = 2 × (-3) = -6\n\nEquation: x² - (sum)x + product = 0\n\nTherefore: x² + x - 6 = 0",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Solve 2x² - 7x + 3 = 0 using the quadratic formula.",
-                                "answer": "2x² - 7x + 3 = 0\na = 2, b = -7, c = 3\nx = (7 ± √(49 - 24))/4 = (7 ± √25)/4 = (7 ± 5)/4\nx = 12/4 = 3 or x = 2/4 = 1/2",
-                                "image": null
+                                "answer": "2x² - 7x + 3 = 0\n\na = 2, b = -7, c = 3\n\nx = (7 ± √(49 - 24))/4 = (7 ± √25)/4 = (7 ± 5)/4\n\nx = 12/4 = 3 or x = 2/4 = 1/2",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "5 Marks": [
                             {
                                 "question": "A rectangular plot has area 528 m². If its length is 3m more than twice its breadth, find its dimensions.",
-                                "answer": "Let breadth = x meters\nLength = 2x + 3 meters\nArea = length × breadth = 528\n(2x + 3)(x) = 528\n2x² + 3x = 528\n2x² + 3x - 528 = 0\nUsing quadratic formula: x = (-3 ± √(9 + 4224))/4 = (-3 ± √4233)/4 = (-3 ± 65.06)/4\nx = 15.5 (taking positive value)\nBreadth = 15.5 m, Length = 34 m",
-                                "image": null
+                                "answer": "Let breadth = x meters\nLength = 2x + 3 meters\n\nArea = length × breadth = 528\n(2x + 3)(x) = 528\n2x² + 3x = 528\n2x² + 3x - 528 = 0\n\nUsing quadratic formula: x = (-3 ± √(9 + 4224))/4 = (-3 ± √4233)/4 = (-3 ± 65.06)/4\n\nx = 15.5 (taking positive value)\n\nBreadth = 15.5 m, Length = 34 m",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The sum of a number and its reciprocal is 13/6. Find the number.",
-                                "answer": "Let the number be x\nx + 1/x = 13/6\n(x² + 1)/x = 13/6\n6(x² + 1) = 13x\n6x² + 6 = 13x\n6x² - 13x + 6 = 0\nUsing quadratic formula: x = (13 ± √(169 - 144))/12 = (13 ± 5)/12\nx = 18/12 = 3/2 or x = 8/12 = 2/3\nThe numbers are 3/2 and 2/3.",
-                                "image": null
+                                "answer": "Let the number be x\n\nx + 1/x = 13/6\n\n(x² + 1)/x = 13/6\n\n6(x² + 1) = 13x\n6x² + 6 = 13x\n6x² - 13x + 6 = 0\n\nUsing quadratic formula: x = (13 ± √(169 - 144))/12 = (13 ± 5)/12\n\nx = 18/12 = 3/2 or x = 8/12 = 2/3\n\nThe numbers are 3/2 and 2/3.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "If α and β are roots of x² - px + q = 0, find the equation whose roots are α² and β².",
-                                "answer": "Given: α + β = p, αβ = q\nFor new equation with roots α² and β²:\nSum = α² + β² = (α + β)² - 2αβ = p² - 2q\nProduct = α²β² = (αβ)² = q²\nRequired equation: x² - (p² - 2q)x + q² = 0",
-                                "image": null
+                                "answer": "Given: α + β = p, αβ = q\n\nFor new equation with roots α² and β²:\n\nSum = α² + β² = (α + β)² - 2αβ = p² - 2q\nProduct = α²β² = (αβ)² = q²\n\nRequired equation: x² - (p² - 2q)x + q² = 0",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "A train travels 360 km at uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the original speed.",
-                                "answer": "Let original speed = x km/h\nTime taken = 360/x hours\nNew speed = (x + 5) km/h\nNew time = 360/(x + 5) hours\nGiven: 360/x - 360/(x + 5) = 1\n360(x + 5) - 360x = x(x + 5)\n1800 = x² + 5x\nx² + 5x - 1800 = 0\nUsing quadratic formula: x = (-5 ± √(25 + 7200))/2 = (-5 ± 85)/2\nx = 40 km/h (taking positive value)",
-                                "image": null
+                                "answer": "Let original speed = x km/h\n\nTime taken = 360/x hours\nNew speed = (x + 5) km/h\nNew time = 360/(x + 5) hours\n\nGiven: 360/x - 360/(x + 5) = 1\n\n360(x + 5) - 360x = x(x + 5)\n1800 = x² + 5x\nx² + 5x - 1800 = 0\n\nUsing quadratic formula: x = (-5 ± √(25 + 7200))/2 = (-5 ± 85)/2\n\nx = 40 km/h (taking positive value)",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Two pipes can fill a tank in 20 and 30 minutes respectively. If both pipes are opened together, in how much time will the tank be filled?",
-                                "answer": "Pipe A fills 1/20 of tank per minute\nPipe B fills 1/30 of tank per minute\nTogether they fill: 1/20 + 1/30 = (3 + 2)/60 = 5/60 = 1/12 of tank per minute\nTime to fill complete tank = 12 minutes\n\nAlternatively: Combined rate = (20 × 30)/(20 + 30) = 600/50 = 12 minutes",
-                                "image": null
+                                "answer": "Pipe A fills 1/20 of tank per minute\nPipe B fills 1/30 of tank per minute\n\nTogether they fill: 1/20 + 1/30 = (3 + 2)/60 = 5/60 = 1/12 of tank per minute\n\nTime to fill complete tank = 12 minutes\n\nAlternatively: Combined rate = (20 × 30)/(20 + 30) = 600/50 = 12 minutes",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ]
                     },
@@ -970,112 +1117,132 @@
                                 "question": "In a triangle, the sum of all angles is:",
                                 "options": ["90°", "180°", "270°", "360°"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Two triangles are congruent if they have:",
                                 "options": ["Same shape", "Same size", "Same shape and size", "Same area"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The condition for similarity of triangles AAA stands for:",
                                 "options": ["All angles acute", "All angles equal", "All angles available", "All angles adjacent"],
                                 "correct": 1,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "In a right triangle, the side opposite to the right angle is called:",
                                 "options": ["Base", "Height", "Hypotenuse", "Perpendicular"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "The Pythagoras theorem is applicable to:",
                                 "options": ["All triangles", "Equilateral triangles", "Right triangles", "Isosceles triangles"],
                                 "correct": 2,
-                                "image": null
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "2 Marks": [
                             {
                                 "question": "State the angle sum property of a triangle.",
-                                "answer": "The sum of all three interior angles of a triangle is always 180°. This property holds for all types of triangles regardless of their size or shape.",
-                                "image": null
+                                "answer": "The sum of all three interior angles of a triangle is always 180°.\n\nThis property holds for all types of triangles regardless of their size or shape.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What are congruent triangles? Name any two conditions for congruency.",
-                                "answer": "Congruent triangles are triangles that have the same shape and size. Two conditions: 1) SSS - All three sides are equal. 2) SAS - Two sides and included angle are equal.",
-                                "image": null
+                                "answer": "Congruent triangles are triangles that have the same shape and size.\n\nTwo conditions:\n1) SSS - All three sides are equal.\n2) SAS - Two sides and included angle are equal.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "State the Pythagoras theorem.",
-                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides. If c is hypotenuse and a, b are other sides: c² = a² + b²",
-                                "image": null
+                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides.\n\nIf c is hypotenuse and a, b are other sides: c² = a² + b²",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Define similar triangles and give one condition for similarity.",
-                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional. Condition: AAA - All angles are equal.",
-                                "image": null
+                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional.\n\nCondition: AAA - All angles are equal.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "What is the exterior angle property of a triangle?",
-                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles. This property is also called the exterior angle theorem.",
-                                "image": null
+                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.\n\nThis property is also called the exterior angle theorem.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "3 Marks": [
                             {
                                 "question": "Prove that the sum of angles in a triangle is 180°.",
-                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
-                                "image": null
+                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\n\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\n\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\n\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "State and prove the exterior angle theorem.",
-                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\nTherefore: Angle ACD = Angle A + Angle B",
-                                "image": null
+                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\n\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\n\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\n\nTherefore: Angle ACD = Angle A + Angle B",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "In triangle ABC, if AB = AC and angle B = 50°, find angles A and C.",
-                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\nTherefore: angle A = 80°, angle C = 50°",
-                                "image": null
+                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\n\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\n\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\n\nTherefore: angle A = 80°, angle C = 50°",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Prove that triangles on the same base and between same parallels are equal in area.",
-                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\nTo prove: Area(ABC) = Area(DBC)\nProof: Both triangles have same base BC and same height (distance between parallels).\nArea of triangle = ½ × base × height\nSince base and height are same for both triangles, their areas are equal.",
-                                "image": null
+                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\n\nTo prove: Area(ABC) = Area(DBC)\n\nProof: Both triangles have same base BC and same height (distance between parallels).\n\nArea of triangle = ½ × base × height\n\nSince base and height are same for both triangles, their areas are equal.",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "If the sides of a triangle are in ratio 3:4:5, prove that it is a right triangle.",
-                                "answer": "Let sides be 3x, 4x, 5x where x > 0\nLargest side = 5x (potential hypotenuse)\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
-                                "image": null
+                                "answer": "Let sides be 3x, 4x, 5x where x > 0\n\nLargest side = 5x (potential hypotenuse)\n\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\n\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ],
                         "5 Marks": [
                             {
                                 "question": "State and prove the Basic Proportionality Theorem (Thales' theorem).",
-                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\nTo prove: AD/DB = AE/EC\nProof: Draw perpendiculars from D and E to AC and AB respectively.\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\nTherefore: AD/DB = AE/EC",
-                                "image": null
+                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\n\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\n\nTo prove: AD/DB = AE/EC\n\nProof: Draw perpendiculars from D and E to AC and AB respectively.\n\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\n\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\n\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\n\nTherefore: AD/DB = AE/EC",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Prove that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
-                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\nTo prove: DE || BC and DE = ½BC\nConstruction: Extend DE to F such that EF = DE.\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\nSo triangles are congruent (SAS)\nTherefore: AD = CF and angle DAE = angle FCE\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
-                                "image": null
+                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\n\nTo prove: DE || BC and DE = ½BC\n\nConstruction: Extend DE to F such that EF = DE.\n\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\n\nSo triangles are congruent (SAS)\n\nTherefore: AD = CF and angle DAE = angle FCE\n\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "In triangle ABC, D, E, F are midpoints of sides BC, CA, AB respectively. Prove that triangle DEF ≅ triangle ABC and area of triangle DEF = ¼ × area of triangle ABC.",
-                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC  \nFD || AC and FD = ½AC\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\nArea ratio = (½)² = ¼\nTherefore: Area(DEF) = ¼ × Area(ABC)\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
-                                "image": null
+                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\n\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC\nFD || AC and FD = ½AC\n\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\n\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\n\nArea ratio = (½)² = ¼\n\nTherefore: Area(DEF) = ¼ × Area(ABC)\n\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "Prove that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides (Pythagoras theorem).",
-                                "answer": "Given: Right triangle ABC with right angle at B.\nTo prove: AC² = AB² + BC²\nConstruction: Draw BD ⊥ AC.\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\nSo triangles are similar (AA)\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\nTherefore: AC² = AB² + BC²",
-                                "image": null
+                                "answer": "Given: Right triangle ABC with right angle at B.\n\nTo prove: AC² = AB² + BC²\n\nConstruction: Draw BD ⊥ AC.\n\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\n\nSo triangles are similar (AA)\n\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\n\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\n\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\n\nTherefore: AC² = AB² + BC²",
+                                "questionImage": null,
+                                "answerImage": null
                             },
                             {
                                 "question": "State and prove the converse of Pythagoras theorem with an example.",
-                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\nGiven: Triangle ABC where AC² = AB² + BC²\nTo prove: Angle B = 90°\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\nTriangles ABC and PQR have all sides equal (SSS)\nTherefore angle B = angle Q = 90°\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
-                                "image": null
+                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\n\nGiven: Triangle ABC where AC² = AB² + BC²\n\nTo prove: Angle B = 90°\n\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\n\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\n\nTriangles ABC and PQR have all sides equal (SSS)\n\nTherefore angle B = angle Q = 90°\n\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
+                                "questionImage": null,
+                                "answerImage": null
                             }
                         ]
                     }
