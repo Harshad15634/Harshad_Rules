@@ -6,7 +6,7 @@
       "question": "Two identical point charges of magnitude –q are fixed as shown. A third charge +q is placed midway at point P. If displaced slightly, in which direction(s) will +q be stable?",
       "options": ["A1 and A2", "B1 and B2", "Both directions", "No stable"],
       "correct": 1,
-      "questionImage": null,
+      "questionImage": "p1m1.jpg",
       "answerImage": null
     },
     {
@@ -20,7 +20,7 @@
       "question": "What is the ratio of the charges q1/q2 for the given electric field line pattern?",
       "options": ["1/5", "25/11", "5", "11/25"],
       "correct": 3,
-      "questionImage": "path/to/electric_field_pattern.jpg",
+      "questionImage": "p1m3.jpg",
       "answerImage": null
     },
     {
@@ -34,14 +34,14 @@
       "question": "Four Gaussian surfaces with different charges are shown. Rank the electric flux in increasing order.",
       "options": ["D < C < B < A", "A < B = C < D", "C < A = B < D", "D > C > B > A"],
       "correct": 0,
-      "questionImage": null,
+      "questionImage": "p1m5.jpg",
       "answerImage": null
     },
     {
       "question": "The total electric flux for the following closed surface inside water is:",
       "options": ["80q/ε₀", "q/(40ε₀)", "q/(80ε₀)", "q/(160ε₀)"],
       "correct": 1,
-      "questionImage": null,
+      "questionImage": "p1m6.jpg",
       "answerImage": null
     },
     {
@@ -55,7 +55,7 @@
       "question": "Rank the electrostatic potential energies for the given charge system in increasing order.",
       "options": ["1 = 4 < 2 < 3", "2 = 4 < 3 < 1", "2 = 3 < 1 < 4", "3 < 1 < 2 < 4"],
       "correct": 0,
-      "questionImage": null,
+      "questionImage": "p1m8.jpg",
       "answerImage": null
     },
     {
@@ -69,7 +69,7 @@
       "question": "A thin conducting spherical shell of radius R has charge Q. The correct plot for electrostatic potential is:",
       "options": ["(a)", "(b)", "(c)", "(d)"],
       "correct": 1,
-      "questionImage": null,
+      "questionImage": "p1m10.jpg",
       "answerImage": null
     },
     {
@@ -97,7 +97,7 @@
       "question": "Three capacitors are connected in triangle. The equivalent capacitance between A and C is:",
       "options": ["1 µF", "2 µF", "3 µF", "1/4 µF"],
       "correct": 1,
-      "questionImage": null,
+      "questionImage": "p1m14.jpg",
       "answerImage": null
     },
     {
