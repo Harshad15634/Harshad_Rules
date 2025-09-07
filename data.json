@@ -1316,44 +1316,184 @@
                     }
                 },
                 "Maths": {
-                    "Quadratic Equations": {
+                    "Applications of Matrices and Determinants": {
                         "MCQs": [
-                            {
-                                "question": "The standard form of a quadratic equation is:",
-                                "options": ["ax + b = 0", "ax² + bx + c = 0", "ax³ + bx² + cx + d = 0", "ax² + b = 0"],
-                                "correct": 1,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "The discriminant of 2x² - 3x + 1 = 0 is:",
-                                "options": ["1", "17", "9", "-7"],
-                                "correct": 0,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "If discriminant = 0, the roots are:",
-                                "options": ["Real and distinct", "Real and equal", "Complex", "Irrational"],
-                                "correct": 1,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "The sum of roots of ax² + bx + c = 0 is:",
-                                "options": ["b/a", "-b/a", "c/a", "-c/a"],
-                                "correct": 1,
-                                "questionImage": null,
-                                "answerImage": null
-                            },
-                            {
-                                "question": "The quadratic formula is:",
-                                "options": ["x = (-b ± √(b²-4ac))/2a", "x = (b ± √(b²-4ac))/2a", "x = (-b ± √(b²+4ac))/2a", "x = (-b ± √(4ac-b²))/2a"],
-                                "correct": 0,
-                                "questionImage": null,
-                                "answerImage": null
-                            }
-                        ],
+        {
+          "question": "If |adj(A)| = 9, then the order of the square matrix A is",
+          "options": ["3", "4", "2", "5"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A is a 3×3 non-singular matrix such that AᵀA = I and B = A⁻¹, then Bᵀ =",
+          "options": ["A", "B", "I₃", "Aᵀ"],
+          "correct": 3,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[3,5],[1,2]], B = adj(A) and C = 3A, then |adj(B)C| =",
+          "options": ["1/3", "1/9", "1/4", "1"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[1,2],[1,4],[6,0]], then A =",
+          "options": ["[[12,14],…]", "[[12,14],…]", "[[42,11],…]", "[[41,21],…]"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[7,3],[4,2]], then |2I - A| =",
+          "options": ["A⁻¹", "½ A⁻¹", "⅓ A⁻¹", "½ A"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[2,0],[1,5]] and B = [[1,4],[2,0]], then |adj(AB)| =",
+          "options": ["-40", "-80", "-60", "-20"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If Pₓ = adj(A) of a 3×3 matrix A and |A| = 4, then x is",
+          "options": ["15", "12", "14", "11"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[3,1,1],[2,2,0],[1,2,1]] and A·adj(A) = [[11,12,13],[21,22,23],[31,32,33]], then the value of a₂₃ is",
+          "options": ["0", "-2", "-3", "-1"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A, B, and C are invertible matrices of some order, then which one of the following is not true?",
+          "options": ["adj(A)A = A⁻¹", "adj(AB) = adj(A) adj(B)", "det(A⁻¹) = 1/det(A)", "(ABC)⁻¹ = C⁻¹ B⁻¹ A⁻¹"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If (AB)⁻¹ = [[1,2,7],[9,27,…]] and A⁻¹ = [[1,1],[2,3]], then B⁻¹ =",
+          "options": ["[[25,38],…]", "[[85,32],…]", "[[31,21],…]", "[[85,32],…]"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A Aᵀ⁻¹ is symmetric, then A² =",
+          "options": ["A⁻¹", "(Aᵀ)²", "Aᵀ", "(A⁻¹)²"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A is a non-singular matrix such that A⁻¹ = [[1,5,3],[2,1,…]], then (Aᵀ)⁻¹ =",
+          "options": ["[[…]]", "[[…]]", "[[…]]", "[[…]]"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If Aₓ = [[3,5,?],[5,…]] and A Aᵀ = I, then the value of x is",
+          "options": ["-4/5", "-3/5", "3/5", "4/5"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[1,2],[tanθ, tanθ]] and AB = 2I, then B =",
+          "options": ["cos²θ A", "cos²θ Aᵀ", "(cosθ)²I", "sin²θ A"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[cosθ, sinθ],[sinθ, cosθ]] and k adj(A) = [[0,0],[0,0]], then k =",
+          "options": ["0", "sinθ", "cosθ", "1"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[2,3],[5,2]] such that λA - I = 0, then λ is",
+          "options": ["17", "14", "19", "21"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If adj(A) = [[2,3],[4,1]] and adj(B) = [[1,2],[3,1]], then adj(AB) =",
+          "options": ["[[?]]", "[[?]]", "[[?]]", "[[?]]"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If |A| = 2, then |adj(adj(A))| =",
+          "options": ["2", "4", "16", "64"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[0,1],[1,0]] then |adj(A)| =",
+          "options": ["0", "1", "-1", "2"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A is a 3×3 matrix with |A| = 5, then |adj(A)| =",
+          "options": ["25", "5", "125", "1"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[1,2],[3,4]], then adj(A) =",
+          "options": ["[[4,-3],[-2,1]]", "[[4,2],[-3,1]]", "[[1,-2],[-3,4]]", "[[?]]"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[cosθ, -sinθ],[sinθ, cosθ]], then A⁻¹ =",
+          "options": ["[[cosθ,sinθ],[-sinθ,cosθ]]", "[[?]]", "[[?]]", "[[?]]"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[2,0],[0,3]], then |adj(A)| =",
+          "options": ["6", "9", "12", "18"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A is an orthogonal matrix, then A⁻¹ =",
+          "options": ["A", "-A", "Aᵀ", "-Aᵀ"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If A = [[1,1],[1,1]], then |A| =",
+          "options": ["0", "1", "2", "-1"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        }
+      ],
                         "2 Marks": [
                             {
                                 "question": "Define a quadratic equation and give its general form.",
@@ -1451,45 +1591,1110 @@
                             }
                         ]
                     },
-                    "Triangles": {
+                    "Complex Numbers": {
                         "MCQs": [
+        {
+          "question": "The square root of -1 is represented by",
+          "options": ["1", "-1", "i", "0"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 3 + 4i, then the conjugate of z is",
+          "options": ["3 - 4i", "3 + 4i", "-3 + 4i", "-3 - 4i"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = a + ib, then |z| is",
+          "options": ["a² + b²", "√(a² + b²)", "a² - b²", "a - b"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "The value of i⁴ is",
+          "options": ["i", "-1", "1", "0"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z₁ = 2 + 3i and z₂ = 4 - i, then z₁ + z₂ =",
+          "options": ["6 + 2i", "2 + 4i", "2 - 4i", "6 - 2i"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 3 + 4i, then |z|² =",
+          "options": ["7", "12", "25", "5"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = -3 + 4i, then Re(z) =",
+          "options": ["3", "-3", "4", "-4"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 2 - 5i, then Im(z) =",
+          "options": ["2", "-2", "5", "-5"],
+          "correct": 3,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "|-7i| =",
+          "options": ["-7", "7", "i", "-i"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z₁ = 1 + 2i and z₂ = 2 - i, then z₁z₂ =",
+          "options": ["4 + 3i", "4 - 3i", "5 + 0i", "0"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 3 - 2i, then 1/z =",
+          "options": ["(3 + 2i)/13", "(3 - 2i)/13", "(-3 + 2i)/13", "(2 - 3i)/13"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "The multiplicative inverse of i is",
+          "options": ["-i", "i", "1", "-1"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If |z| = 5 and Re(z) = 3, then Im(z) =",
+          "options": ["4", "-4", "2", "-2"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "The conjugate of -7i is",
+          "options": ["7i", "-7i", "7", "-7"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = cosθ + i sinθ, then |z| =",
+          "options": ["0", "1", "cosθ", "sinθ"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 2 + i, then z·z̄ =",
+          "options": ["5", "3", "2", "1"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = e^(iπ), then z =",
+          "options": ["1", "-1", "i", "-i"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = i, then z¹⁰⁰ =",
+          "options": ["i", "-1", "1", "-i"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If (1 + i)⁴ =",
+          "options": ["4i", "-4", "4", "-4i"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = cos(π/3) + i sin(π/3), then z⁶ =",
+          "options": ["1", "-1", "i", "-i"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 2(cos(π/2) + i sin(π/2)), then z =",
+          "options": ["2i", "-2i", "2", "-2"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 1 + i√3, then arg(z) =",
+          "options": ["π/3", "π/4", "π/6", "π/2"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "The cube roots of unity are",
+          "options": ["1, ω, ω²", "1, i, -i", "1, -1, i", "1, -1, ω"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If z = 2(cos(π/4) + i sin(π/4)), then |z| =",
+          "options": ["√2", "2", "4", "1"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If ω is a cube root of unity, then 1 + ω + ω² =",
+          "options": ["0", "1", "-1", "2"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        }
+      ],
+                        "2 Marks": [
                             {
-                                "question": "In a triangle, the sum of all angles is:",
-                                "options": ["90°", "180°", "270°", "360°"],
-                                "correct": 1,
+                                "question": "State the angle sum property of a triangle.",
+                                "answer": "The sum of all three interior angles of a triangle is always 180°.\n\nThis property holds for all types of triangles regardless of their size or shape.",
                                 "questionImage": null,
                                 "answerImage": null
                             },
                             {
-                                "question": "Two triangles are congruent if they have:",
-                                "options": ["Same shape", "Same size", "Same shape and size", "Same area"],
-                                "correct": 2,
+                                "question": "What are congruent triangles? Name any two conditions for congruency.",
+                                "answer": "Congruent triangles are triangles that have the same shape and size.\n\nTwo conditions:\n1) SSS - All three sides are equal.\n2) SAS - Two sides and included angle are equal.",
                                 "questionImage": null,
                                 "answerImage": null
                             },
                             {
-                                "question": "The condition for similarity of triangles AAA stands for:",
-                                "options": ["All angles acute", "All angles equal", "All angles available", "All angles adjacent"],
-                                "correct": 1,
+                                "question": "State the Pythagoras theorem.",
+                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides.\n\nIf c is hypotenuse and a, b are other sides: c² = a² + b²",
                                 "questionImage": null,
                                 "answerImage": null
                             },
                             {
-                                "question": "In a right triangle, the side opposite to the right angle is called:",
-                                "options": ["Base", "Height", "Hypotenuse", "Perpendicular"],
-                                "correct": 2,
+                                "question": "Define similar triangles and give one condition for similarity.",
+                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional.\n\nCondition: AAA - All angles are equal.",
                                 "questionImage": null,
                                 "answerImage": null
                             },
                             {
-                                "question": "The Pythagoras theorem is applicable to:",
-                                "options": ["All triangles", "Equilateral triangles", "Right triangles", "Isosceles triangles"],
-                                "correct": 2,
+                                "question": "What is the exterior angle property of a triangle?",
+                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.\n\nThis property is also called the exterior angle theorem.",
                                 "questionImage": null,
                                 "answerImage": null
                             }
                         ],
+                        "3 Marks": [
+                            {
+                                "question": "Prove that the sum of angles in a triangle is 180°.",
+                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\n\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\n\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\n\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the exterior angle theorem.",
+                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\n\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\n\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\n\nTherefore: Angle ACD = Angle A + Angle B",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, if AB = AC and angle B = 50°, find angles A and C.",
+                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\n\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\n\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\n\nTherefore: angle A = 80°, angle C = 50°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that triangles on the same base and between same parallels are equal in area.",
+                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\n\nTo prove: Area(ABC) = Area(DBC)\n\nProof: Both triangles have same base BC and same height (distance between parallels).\n\nArea of triangle = ½ × base × height\n\nSince base and height are same for both triangles, their areas are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "If the sides of a triangle are in ratio 3:4:5, prove that it is a right triangle.",
+                                "answer": "Let sides be 3x, 4x, 5x where x > 0\n\nLargest side = 5x (potential hypotenuse)\n\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\n\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "State and prove the Basic Proportionality Theorem (Thales' theorem).",
+                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\n\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\n\nTo prove: AD/DB = AE/EC\n\nProof: Draw perpendiculars from D and E to AC and AB respectively.\n\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\n\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\n\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\n\nTherefore: AD/DB = AE/EC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
+                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\n\nTo prove: DE || BC and DE = ½BC\n\nConstruction: Extend DE to F such that EF = DE.\n\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\n\nSo triangles are congruent (SAS)\n\nTherefore: AD = CF and angle DAE = angle FCE\n\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, D, E, F are midpoints of sides BC, CA, AB respectively. Prove that triangle DEF ≅ triangle ABC and area of triangle DEF = ¼ × area of triangle ABC.",
+                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\n\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC\nFD || AC and FD = ½AC\n\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\n\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\n\nArea ratio = (½)² = ¼\n\nTherefore: Area(DEF) = ¼ × Area(ABC)\n\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides (Pythagoras theorem).",
+                                "answer": "Given: Right triangle ABC with right angle at B.\n\nTo prove: AC² = AB² + BC²\n\nConstruction: Draw BD ⊥ AC.\n\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\n\nSo triangles are similar (AA)\n\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\n\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\n\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\n\nTherefore: AC² = AB² + BC²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the converse of Pythagoras theorem with an example.",
+                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\n\nGiven: Triangle ABC where AC² = AB² + BC²\n\nTo prove: Angle B = 90°\n\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\n\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\n\nTriangles ABC and PQR have all sides equal (SSS)\n\nTherefore angle B = angle Q = 90°\n\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ]
+                    },
+                    "Theory of Equations": {
+                        "MCQs":[
+        {
+          "question": "If α and β are the roots of x² - 5x + 6 = 0, then α + β =",
+          "options": ["5", "6", "-5", "-6"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If α and β are the roots of x² - 5x + 6 = 0, then αβ =",
+          "options": ["5", "6", "-5", "-6"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If α, β are roots of x² + 3x + 2 = 0, then the quadratic equation whose roots are 1/α and 1/β is",
+          "options": ["x² - 3x + 2 = 0", "x² + 3x + 2 = 0", "2x² + 3x + 1 = 0", "x² + 2x + 1 = 0"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If one root of x² - 5x + k = 0 is 2, then k =",
+          "options": ["10", "8", "6", "4"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "The nature of roots of x² + 4x + 5 = 0 is",
+          "options": ["Real and equal", "Real and distinct", "Imaginary", "Rational"],
+          "correct": 2,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If roots of x² - 2x + k = 0 are equal, then k =",
+          "options": ["1", "2", "3", "4"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "The sum of the coefficients of x³ - 5x² + 7x - 2 is",
+          "options": ["1", "0", "2", "3"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If α, β are roots of x² - 4x + 3 = 0, then 1/α + 1/β =",
+          "options": ["3", "4", "1", "7"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If α, β are roots of x² - 5x + 4 = 0, then α²β² =",
+          "options": ["4", "16", "25", "20"],
+          "correct": 1,
+          "questionImage": null,
+          "answerImage": null
+        },
+        {
+          "question": "If roots of x² + kx + 9 = 0 are equal, then k =",
+          "options": ["6", "-6", "3", "-3"],
+          "correct": 0,
+          "questionImage": null,
+          "answerImage": null
+        }
+      ],
                         "2 Marks": [
+                            {
+                                "question": "State the angle sum property of a triangle.",
+                                "answer": "The sum of all three interior angles of a triangle is always 180°.\n\nThis property holds for all types of triangles regardless of their size or shape.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "What are congruent triangles? Name any two conditions for congruency.",
+                                "answer": "Congruent triangles are triangles that have the same shape and size.\n\nTwo conditions:\n1) SSS - All three sides are equal.\n2) SAS - Two sides and included angle are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State the Pythagoras theorem.",
+                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides.\n\nIf c is hypotenuse and a, b are other sides: c² = a² + b²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Define similar triangles and give one condition for similarity.",
+                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional.\n\nCondition: AAA - All angles are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "What is the exterior angle property of a triangle?",
+                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.\n\nThis property is also called the exterior angle theorem.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Prove that the sum of angles in a triangle is 180°.",
+                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\n\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\n\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\n\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the exterior angle theorem.",
+                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\n\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\n\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\n\nTherefore: Angle ACD = Angle A + Angle B",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, if AB = AC and angle B = 50°, find angles A and C.",
+                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\n\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\n\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\n\nTherefore: angle A = 80°, angle C = 50°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that triangles on the same base and between same parallels are equal in area.",
+                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\n\nTo prove: Area(ABC) = Area(DBC)\n\nProof: Both triangles have same base BC and same height (distance between parallels).\n\nArea of triangle = ½ × base × height\n\nSince base and height are same for both triangles, their areas are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "If the sides of a triangle are in ratio 3:4:5, prove that it is a right triangle.",
+                                "answer": "Let sides be 3x, 4x, 5x where x > 0\n\nLargest side = 5x (potential hypotenuse)\n\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\n\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "State and prove the Basic Proportionality Theorem (Thales' theorem).",
+                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\n\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\n\nTo prove: AD/DB = AE/EC\n\nProof: Draw perpendiculars from D and E to AC and AB respectively.\n\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\n\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\n\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\n\nTherefore: AD/DB = AE/EC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
+                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\n\nTo prove: DE || BC and DE = ½BC\n\nConstruction: Extend DE to F such that EF = DE.\n\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\n\nSo triangles are congruent (SAS)\n\nTherefore: AD = CF and angle DAE = angle FCE\n\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, D, E, F are midpoints of sides BC, CA, AB respectively. Prove that triangle DEF ≅ triangle ABC and area of triangle DEF = ¼ × area of triangle ABC.",
+                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\n\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC\nFD || AC and FD = ½AC\n\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\n\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\n\nArea ratio = (½)² = ¼\n\nTherefore: Area(DEF) = ¼ × Area(ABC)\n\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides (Pythagoras theorem).",
+                                "answer": "Given: Right triangle ABC with right angle at B.\n\nTo prove: AC² = AB² + BC²\n\nConstruction: Draw BD ⊥ AC.\n\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\n\nSo triangles are similar (AA)\n\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\n\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\n\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\n\nTherefore: AC² = AB² + BC²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the converse of Pythagoras theorem with an example.",
+                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\n\nGiven: Triangle ABC where AC² = AB² + BC²\n\nTo prove: Angle B = 90°\n\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\n\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\n\nTriangles ABC and PQR have all sides equal (SSS)\n\nTherefore angle B = angle Q = 90°\n\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ]
+                    },
+                     "Inverse Trigonometric Functions": {
+                        "MCQs": [
+      {
+        "question": "The value of sin⁻¹(cos x), 0 ≤ x ≤ π is",
+        "options": ["π - x", "x - π/2", "π/2 - x", "x - π"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If sin⁻¹x + sin⁻¹y = 2π/3, then cos⁻¹x + cos⁻¹y is equal to",
+        "options": ["2π/3", "π/3", "π/6", "π"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "sin⁻¹(3/5) - cos⁻¹(12/13) + sec⁻¹(5/3) - cosec⁻¹(13/12) is equal to",
+        "options": ["2π", "π", "0", "tan⁻¹(12/65)"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If sin⁻¹(2x) = α has a solution, then",
+        "options": ["α ≤ 1/2", "α ≥ 1/2", "α < 1/2", "α > 1/2"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "sin⁻¹(cos x) = π/2 - x is valid for",
+        "options": ["-π ≤ x ≤ 0", "0 ≤ x ≤ π", "-π/2 ≤ x ≤ π/2", "-3π/4 ≤ x ≤ 3π/4"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If sin⁻¹x + sin⁻¹y + sin⁻¹z = 3π/2, the value of x^2017 + y^2018 + z^2019 - (x^101 + y^101 + z^101)/9 is",
+        "options": ["0", "1", "2", "3"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If cot⁻¹(2/5) = π/x for some x ∈ ℝ, the value of tan⁻¹x is",
+        "options": ["-π/10", "π/5", "π/10", "-π/5"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The domain of the function defined by f(x) = sin⁻¹(√(x-1)) is",
+        "options": ["[1,2]", "[-1,1]", "[0,1]", "[-1,0]"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If x = 1/5, the value of cos(cos⁻¹x + sin⁻¹x) is",
+        "options": ["-24/25", "24/25", "1/5", "-1/5"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "tan⁻¹(1/4) + tan⁻¹(2/9) is equal to",
+        "options": ["cos⁻¹(2√13/65)", "sin⁻¹(2√13/65)", "tan⁻¹(2√13/65)", "tan⁻¹(1/2)"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the function f(x) = sin⁻¹(2x - 3), then x belongs to",
+        "options": ["[-1,1]", "[√2,2]", "[-√2/2,√2/2] ∪ [√2/2,√2]", "[-√2/2,√2/2]"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If cot⁻¹2 and cot⁻¹3 are two angles of a triangle, then the third angle is",
+        "options": ["π/4", "3π/4", "π/6", "π/3"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "sin⁻¹(tan(π/4)) - sin⁻¹(√(x/6)) = π/6. Then x is a root of the equation",
+        "options": ["x² - 6x = 0", "x² - 12x = 0", "x² + 12x = 0", "x² + 6x = 0"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "sin⁻¹(√2x-1) + cos⁻¹(√1-2x) =",
+        "options": ["π/2", "π/3", "π/4", "π/6"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If cot⁻¹(sin α) + tan⁻¹(sin α) = u, then cos 2u is equal to",
+        "options": ["tan²α", "0", "-1", "tan 2α"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If x ≤ 1, then 2tan⁻¹x - sin⁻¹(2x/(1+x²)) is equal to",
+        "options": ["tan⁻¹x", "sin⁻¹x", "0", "π"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The equation tan⁻¹x - cot⁻¹x = tan⁻¹(1/√3) has",
+        "options": ["no solution", "unique solution", "two solutions", "infinite number of solutions"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If sin⁻¹x + cot⁻¹(1/2) = π/2, then x is equal to",
+        "options": ["1/2", "1/√5", "2/√5", "3/2"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If sin⁻¹x + cosec⁻¹(5√5/4) = π/2, then the value of x is",
+        "options": ["4", "5", "2", "3"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "sin(tan⁻¹x), |x| < 1 is equal to",
+        "options": ["x/√(1-x²)", "1/√(1-x²)", "1/√(1+x²)", "x/√(1+x²)"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      }
+    ],
+                        "2 Marks": [
+                            {
+                                "question": "State the angle sum property of a triangle.",
+                                "answer": "The sum of all three interior angles of a triangle is always 180°.\n\nThis property holds for all types of triangles regardless of their size or shape.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "What are congruent triangles? Name any two conditions for congruency.",
+                                "answer": "Congruent triangles are triangles that have the same shape and size.\n\nTwo conditions:\n1) SSS - All three sides are equal.\n2) SAS - Two sides and included angle are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State the Pythagoras theorem.",
+                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides.\n\nIf c is hypotenuse and a, b are other sides: c² = a² + b²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Define similar triangles and give one condition for similarity.",
+                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional.\n\nCondition: AAA - All angles are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "What is the exterior angle property of a triangle?",
+                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.\n\nThis property is also called the exterior angle theorem.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Prove that the sum of angles in a triangle is 180°.",
+                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\n\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\n\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\n\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the exterior angle theorem.",
+                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\n\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\n\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\n\nTherefore: Angle ACD = Angle A + Angle B",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, if AB = AC and angle B = 50°, find angles A and C.",
+                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\n\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\n\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\n\nTherefore: angle A = 80°, angle C = 50°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that triangles on the same base and between same parallels are equal in area.",
+                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\n\nTo prove: Area(ABC) = Area(DBC)\n\nProof: Both triangles have same base BC and same height (distance between parallels).\n\nArea of triangle = ½ × base × height\n\nSince base and height are same for both triangles, their areas are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "If the sides of a triangle are in ratio 3:4:5, prove that it is a right triangle.",
+                                "answer": "Let sides be 3x, 4x, 5x where x > 0\n\nLargest side = 5x (potential hypotenuse)\n\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\n\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "State and prove the Basic Proportionality Theorem (Thales' theorem).",
+                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\n\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\n\nTo prove: AD/DB = AE/EC\n\nProof: Draw perpendiculars from D and E to AC and AB respectively.\n\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\n\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\n\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\n\nTherefore: AD/DB = AE/EC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
+                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\n\nTo prove: DE || BC and DE = ½BC\n\nConstruction: Extend DE to F such that EF = DE.\n\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\n\nSo triangles are congruent (SAS)\n\nTherefore: AD = CF and angle DAE = angle FCE\n\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, D, E, F are midpoints of sides BC, CA, AB respectively. Prove that triangle DEF ≅ triangle ABC and area of triangle DEF = ¼ × area of triangle ABC.",
+                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\n\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC\nFD || AC and FD = ½AC\n\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\n\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\n\nArea ratio = (½)² = ¼\n\nTherefore: Area(DEF) = ¼ × Area(ABC)\n\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides (Pythagoras theorem).",
+                                "answer": "Given: Right triangle ABC with right angle at B.\n\nTo prove: AC² = AB² + BC²\n\nConstruction: Draw BD ⊥ AC.\n\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\n\nSo triangles are similar (AA)\n\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\n\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\n\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\n\nTherefore: AC² = AB² + BC²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the converse of Pythagoras theorem with an example.",
+                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\n\nGiven: Triangle ABC where AC² = AB² + BC²\n\nTo prove: Angle B = 90°\n\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\n\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\n\nTriangles ABC and PQR have all sides equal (SSS)\n\nTherefore angle B = angle Q = 90°\n\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ]
+                    },
+                    "Two Dimensional Analytical Geometry-II": {
+                        "MCQs":  [
+      {
+        "question": "The equation of the circle passing through (1,5) and (4,1) and touching y-axis is x² + y² - 5x - 6y + (9 + 4λ - 3λ + 19) = 0 where λ is equal to",
+        "options": ["0, -40/9", "0", "40/9", "-40/9"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The eccentricity of the hyperbola whose latus rectum is 8 and conjugate axis is equal to half the distance between the foci is",
+        "options": ["4/3", "4/√3", "2/3", "√3/2"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The circle x² + y² = 4x + 8y + 5 intersects the line 3x - 4y = m at two distinct points if",
+        "options": ["15 < m < 65", "35 < m < 85", "-85 < m < -35", "-35 < m < 15"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The length of the diameter of the circle which touches the x-axis at the point (1,0) and passes through the point (2,3) is",
+        "options": ["6/5", "5/3", "10/3", "3/5"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The radius of the circle 3x² + 3y² + 6bx - 6by + b² = 0 is",
+        "options": ["1", "3", "√10", "√11"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The centre of the circle inscribed in a square formed by the lines x² - 8x - 12 = 0 and y² - 14y + 45 = 0 is",
+        "options": ["(4,7)", "(7,4)", "(9,4)", "(4,9)"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The equation of the normal to the circle x² + y² - 2x - 2y + 1 = 0 which is parallel to the line 2x + 4y = 3 is",
+        "options": ["x + 2y = 3", "x + 2y + 3 = 0", "2x + 4y + 3 = 0", "x - 2y + 3 = 0"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If P(x,y) be any point on 16x² + 25y² = 400 with foci F₁(3,0) and F₂(-3,0) then PF₁ + PF₂ is",
+        "options": ["8", "6", "10", "12"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The radius of the circle passing through the point (6,2) two of whose diameter are x + y = 6 and x + 2y = 4 is",
+        "options": ["√10", "2√5", "6", "4"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The area of quadrilateral formed with foci of the hyperbolas x²/a² - y²/b² = 1 and x²/a² - y²/b² = -1 is",
+        "options": ["4(a² + b²)", "2(a² + b²)", "a² + b²", "½(a² + b²)"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the normals of the parabola y² = 4x drawn at the end points of its latus rectum are tangents to the circle (x-3)² + (y+2)² = r², then the value of r² is",
+        "options": ["2", "3", "1", "4"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If x + y = k is a normal to the parabola y² = 12x, then the value of k is",
+        "options": ["3", "-1", "1", "9"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The ellipse E₁: x²/9 + y²/4 = 1 is inscribed in a rectangle R whose sides are parallel to the coordinate axes. Another ellipse E₂ passing through the point (0,4) circumscribes the rectangle R. The eccentricity of the ellipse is",
+        "options": ["√2/2", "√3/2", "1/2", "√3/4"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "Tangents are drawn to the hyperbola x²/9 - y²/4 = 1 parallel to the straight line 2x - y = 1. One of the points of contact of tangents on the hyperbola is",
+        "options": ["(9√2/2, -1/2)", "(-9√2/2, 1/2)", "(9√2/2, 1/2)", "(3√3, -2√2)"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The equation of the circle passing through the foci of the ellipse x²/16 + y²/9 = 1 having centre at (0,3) is",
+        "options": ["x² + y² - 6y - 7 = 0", "x² + y² - 6y + 7 = 0", "x² + y² - 6y - 5 = 0", "x² + y² - 6y + 5 = 0"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "Let C be the circle with centre at (1,1) and radius = 1. If T is the circle centered at (0,y) passing through the origin and touching the circle C externally, then the radius of T is equal to",
+        "options": ["√3/2", "3/2", "1/2", "1/4"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "Consider an ellipse whose centre is of the origin and its major axis is along x-axis. If its eccentricity is 3/5 and the distance between its foci is 6, then the area of the quadrilateral inscribed in the ellipse with diagonals as major and minor axis of the ellipse is",
+        "options": ["8", "32", "80", "40"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "Area of the greatest rectangle inscribed in the ellipse x²/a² + y²/b² = 1 is",
+        "options": ["2ab", "ab", "√ab", "a/b"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "An ellipse has OB as semi minor axis, F and F' its foci and the angle FBF' is a right angle. Then the eccentricity of the ellipse is",
+        "options": ["1/√2", "1/2", "1/4", "1/3"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The eccentricity of the ellipse (x-3)² + (y-4)² = y²/9 is",
+        "options": ["√3/2", "1/3", "1/(3√2)", "1/√3"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      }
+    ],
+                        "2 Marks": [
+                            {
+                                "question": "State the angle sum property of a triangle.",
+                                "answer": "The sum of all three interior angles of a triangle is always 180°.\n\nThis property holds for all types of triangles regardless of their size or shape.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "What are congruent triangles? Name any two conditions for congruency.",
+                                "answer": "Congruent triangles are triangles that have the same shape and size.\n\nTwo conditions:\n1) SSS - All three sides are equal.\n2) SAS - Two sides and included angle are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State the Pythagoras theorem.",
+                                "answer": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of squares of the other two sides.\n\nIf c is hypotenuse and a, b are other sides: c² = a² + b²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Define similar triangles and give one condition for similarity.",
+                                "answer": "Similar triangles have the same shape but may differ in size. All corresponding angles are equal and corresponding sides are proportional.\n\nCondition: AAA - All angles are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "What is the exterior angle property of a triangle?",
+                                "answer": "An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.\n\nThis property is also called the exterior angle theorem.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "3 Marks": [
+                            {
+                                "question": "Prove that the sum of angles in a triangle is 180°.",
+                                "answer": "Draw triangle ABC. Extend side BC to D. Draw a line CE parallel to AB.\n\nAngle ACE = Angle BAC (alternate angles)\nAngle ECD = Angle ABC (corresponding angles)\n\nAngle ACB + Angle ACE + Angle ECD = 180° (straight line)\n\nTherefore: Angle ACB + Angle BAC + Angle ABC = 180°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the exterior angle theorem.",
+                                "answer": "Statement: An exterior angle of a triangle equals the sum of two non-adjacent interior angles.\n\nProof: In triangle ABC, extend BC to D.\nAngle ACD = Angle A + Angle B\n\nProof: Angle A + Angle B + Angle C = 180° (angle sum property)\nAngle ACD + Angle C = 180° (linear pair)\n\nTherefore: Angle ACD = Angle A + Angle B",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, if AB = AC and angle B = 50°, find angles A and C.",
+                                "answer": "Given: AB = AC (isosceles triangle), angle B = 50°\n\nIn isosceles triangle, base angles are equal\nSo angle B = angle C = 50°\n\nUsing angle sum property: angle A + angle B + angle C = 180°\nangle A + 50° + 50° = 180°\nangle A = 80°\n\nTherefore: angle A = 80°, angle C = 50°",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that triangles on the same base and between same parallels are equal in area.",
+                                "answer": "Given: Triangles ABC and DBC on same base BC, between parallels AD and BC.\n\nTo prove: Area(ABC) = Area(DBC)\n\nProof: Both triangles have same base BC and same height (distance between parallels).\n\nArea of triangle = ½ × base × height\n\nSince base and height are same for both triangles, their areas are equal.",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "If the sides of a triangle are in ratio 3:4:5, prove that it is a right triangle.",
+                                "answer": "Let sides be 3x, 4x, 5x where x > 0\n\nLargest side = 5x (potential hypotenuse)\n\nChecking Pythagoras theorem:\n(3x)² + (4x)² = 9x² + 16x² = 25x² = (5x)²\n\nSince the theorem holds, the triangle is right-angled with the right angle opposite to the side of length 5x.",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ],
+                        "5 Marks": [
+                            {
+                                "question": "State and prove the Basic Proportionality Theorem (Thales' theorem).",
+                                "answer": "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\n\nGiven: In triangle ABC, DE || BC where D is on AB and E is on AC.\n\nTo prove: AD/DB = AE/EC\n\nProof: Draw perpendiculars from D and E to AC and AB respectively.\n\nArea(ADE)/Area(DBE) = (½ × AE × h₁)/(½ × EC × h₁) = AE/EC\n\nSimilarly, Area(ADE)/Area(DEC) = AD/DB\n\nSince DE || BC, Area(DBE) = Area(DEC) (same base DE, equal heights)\n\nTherefore: AD/DB = AE/EC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that the line segment joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
+                                "answer": "Given: In triangle ABC, D and E are midpoints of AB and AC respectively.\n\nTo prove: DE || BC and DE = ½BC\n\nConstruction: Extend DE to F such that EF = DE.\n\nProof: In triangles ADE and CFE:\nAE = EC (E is midpoint)\nDE = EF (construction)\nAngle AED = Angle CEF (vertically opposite)\n\nSo triangles are congruent (SAS)\n\nTherefore: AD = CF and angle DAE = angle FCE\n\nThis makes DBCF a parallelogram, so DE || BC and DE = ½BC",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "In triangle ABC, D, E, F are midpoints of sides BC, CA, AB respectively. Prove that triangle DEF ≅ triangle ABC and area of triangle DEF = ¼ × area of triangle ABC.",
+                                "answer": "Given: D, E, F are midpoints of BC, CA, AB respectively.\n\nBy midpoint theorem:\nDE || AB and DE = ½AB\nEF || BC and EF = ½BC\nFD || AC and FD = ½AC\n\nSince DE = ½AB = AF, EF = ½BC = BD, FD = ½AC = CE\n\nTriangle DEF has sides half of triangle ABC, so triangles are similar with ratio 1:2.\n\nArea ratio = (½)² = ¼\n\nTherefore: Area(DEF) = ¼ × Area(ABC)\n\nAlso, triangle DEF ≅ triangles AFE, BFD, CDE (each with area ¼ of ABC)",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "Prove that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides (Pythagoras theorem).",
+                                "answer": "Given: Right triangle ABC with right angle at B.\n\nTo prove: AC² = AB² + BC²\n\nConstruction: Draw BD ⊥ AC.\n\nProof: In triangles ABC and ADB:\nAngle ABC = Angle ADB = 90°\nAngle A is common\n\nSo triangles are similar (AA)\n\nTherefore: AB/AC = AD/AB\nSo AB² = AC × AD ... (1)\n\nSimilarly, in triangles ABC and BDC:\nBC² = AC × DC ... (2)\n\nAdding (1) and (2): AB² + BC² = AC × AD + AC × DC = AC(AD + DC) = AC²\n\nTherefore: AC² = AB² + BC²",
+                                "questionImage": null,
+                                "answerImage": null
+                            },
+                            {
+                                "question": "State and prove the converse of Pythagoras theorem with an example.",
+                                "answer": "Statement: If the square of one side of a triangle equals the sum of squares of the other two sides, then the triangle is right-angled.\n\nGiven: Triangle ABC where AC² = AB² + BC²\n\nTo prove: Angle B = 90°\n\nConstruction: Draw triangle PQR with PQ = AB, QR = BC, and angle Q = 90°\n\nProof: In right triangle PQR: PR² = PQ² + QR² (Pythagoras theorem)\nPR² = AB² + BC² = AC² (given)\nSo PR = AC\n\nTriangles ABC and PQR have all sides equal (SSS)\n\nTherefore angle B = angle Q = 90°\n\nExample: Triangle with sides 3, 4, 5 since 5² = 3² + 4² = 25",
+                                "questionImage": null,
+                                "answerImage": null
+                            }
+                        ]
+                    },
+                     "Applications of Vector Algebra": {
+                        "MCQs": [
+      {
+        "question": "If vectors a and b are parallel vectors, then [a,c,b] is equal to",
+        "options": ["2", "-1", "1", "0"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a vector α lies in the plane of β and γ, then",
+        "options": ["[α,β,γ] = 1", "[α,β,γ] = -1", "[α,β,γ] = 0", "[α,β,γ] = 2"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a·b = 0, b·c = 0, c·a = 0, then the value of [a,b,c] is",
+        "options": ["|a||b||c|", "⅓|a||b||c|", "1", "-1"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a, b, c are three unit vectors such that a is perpendicular to b, and is parallel to c then a×(b×c) is equal to",
+        "options": ["a", "b", "c", "0"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If [a,b,c] = 1, then the value of (a·(b×c) + b·(c×a) + c·(a×b))/(c×(a×b) + a×(b×c) + c×(b×a)) is",
+        "options": ["1", "-1", "2", "3"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The volume of the parallelepiped with its edges represented by the vectors î+ĵ, î+2ĵ, î+ĵ+k̂ is",
+        "options": ["π/2", "π/3", "π", "π/4"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a and b are unit vectors such that [a,b,a×b] = ¼, then the angle between a and b is",
+        "options": ["π/6", "π/4", "π/3", "π/2"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a = î+ĵ+k̂, b = î+ĵ, c = î and (a×b)×c = λa+μb, then the value of λ+μ is",
+        "options": ["0", "1", "6", "3"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a, b, c are non-coplanar, non-zero vectors such that [a,b,c] = 3, then {[a×b,b×c,c×a]}² is equal to",
+        "options": ["81", "9", "27", "18"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a, b, c are three non-coplanar unit vectors such that a×(b×c) = (b+c)/2, then the angle between a and b is",
+        "options": ["π/2", "3π/4", "π/4", "π"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the volume of the parallelepiped with a×b, b×c, c×a as coterminous edges is 8 cubic units, then the volume of the parallelepiped with (a×b)×(b×c), (b×c)×(c×a) and (c×a)×(a×b) as coterminous edges is",
+        "options": ["8 cubic units", "512 cubic units", "64 cubic units", "24 cubic units"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "Consider the vectors a, b, c, d such that (a×b)×(c×d) = 0. Let P₁ and P₂ be the planes determined by the pairs of vectors a, b and c, d respectively. Then the angle between P₁ and P₂ is",
+        "options": ["0°", "45°", "60°", "90°"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If (a×b)×c = a×(b×c), where a, b, c are any three vectors such that b·c ≠ 0 and a·b ≠ 0, then a and c are",
+        "options": ["perpendicular", "parallel", "inclined at an angle π/3", "inclined at an angle π/6"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If a = 2î+3ĵ-k̂, b = î+2ĵ-5k̂, c = 3î+5ĵ-k̂, then a vector perpendicular to a and lies in the plane containing b and c is",
+        "options": ["-17î+21ĵ-97k̂", "17î+21ĵ-123k̂", "-17î-21ĵ+97k̂", "-17î-21ĵ-97k̂"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The angle between the lines (x-2)/3 = (y-1)/(-2) = (z+2)/2 and (x-1)/1 = (y+2)/3 = (z+5)/2 is",
+        "options": ["π/6", "π/4", "π/3", "π/2"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the line (x-2)/(3) = (y+1)/(-5) = (z+2)/2 lies in the plane αx + βy - z + 3 = 0, then (α,β) is",
+        "options": ["(-5,5)", "(-6,7)", "(5,-5)", "(6,-7)"],
+        "correct": 2,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The angle between the line r = (2î+3ĵ-k̂) + t(2î+ĵ-2k̂) and the plane r·(î+ĵ) + 4 = 0 is",
+        "options": ["0°", "30°", "45°", "90°"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The coordinates of the point where the line r = (6î-3ĵ-k̂) + t(-î+4k̂) meets the plane r·(î+ĵ-k̂) = 3 are",
+        "options": ["(2,1,0)", "(7,-1,-7)", "(1,-2,6)", "(5,-1,1)"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "Distance from the origin to the plane 3x - 6y + 2z + 7 = 0 is",
+        "options": ["0", "1", "2", "3"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The distance between the planes x + 2y + 3z + 7 = 0 and 2x + 4y + 6z + 7 = 0 is",
+        "options": ["7/(2√2)", "7/2", "√7/2", "7/(2√2)"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the direction cosines of a line are 1/c, 1/c, 1/c, then",
+        "options": ["c = ±√3", "c = ±3", "c > 0", "0 < c < 1"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "The vector equation r = (î-2ĵ-k̂) + t(6ĵ-k̂) represents a straight line passing through the points",
+        "options": ["(0,-6,1) and (1,-2,-1)", "(0,-6,1) and (-1,-4,-2)", "(1,-2,-1) and (1,-4,2)", "(1,-2,-1) and (0,-6,1)"],
+        "correct": 3,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the distance of the point (1,1,1) from the origin is half of its distance from the plane x + y + z + k = 0, then the values of k are",
+        "options": ["±3", "±6", "3,-9", "-3,9"],
+        "correct": 1,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the planes r·(2î-ĵ+λk̂) = 3 and r·(4î+ĵ-μk̂) = 5 are parallel, then the value of λ and μ are",
+        "options": ["-1/2, -2", "1/2, -2", "-1/2, 2", "1/2, 2"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      },
+      {
+        "question": "If the length of the perpendicular from the origin to the plane 2x + 3y + λz = 1, λ > 0 is 1/√5, then the value of λ is",
+        "options": ["2√3", "3√2", "0", "1"],
+        "correct": 0,
+        "questionImage": null,
+        "answerImage": null
+      }
+    ],
+                 "2 Marks": [
                             {
                                 "question": "State the angle sum property of a triangle.",
                                 "answer": "The sum of all three interior angles of a triangle is always 180°.\n\nThis property holds for all types of triangles regardless of their size or shape.",
