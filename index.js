@@ -25,6 +25,7 @@ let mcqAnswered = false;
 let userName = '';
 let userKey = '';
 let hasRootAccess = false;
+let mcqSessionFlipped = false; // Track if we're in a flipped MCQ session
 
 // Check if user has root access
 function checkRootAccess(name) {
@@ -334,6 +335,7 @@ function goToFlashcards(questionType) {
     currentQuestions = studyData[currentSubject][currentChapter][questionType];
     currentIndex = 0;
     mcqAnswered = false;
+    mcqSessionFlipped = false; // Reset session flip state
     resetCard();
     updateCard();
     updateNavigation();
@@ -344,22 +346,24 @@ function goToFlashcards(questionType) {
 function resetCard() {
     const flashcard = document.getElementById('flashcard');
     
-    // Only reset flip state for non-MCQ questions
-    if (currentQuestionType !== 'MCQs') {
-        flashcard.classList.remove('flipped');
+    // For MCQs, only reset to front if we haven't established a flipped session yet
+    if (currentQuestionType === 'MCQs') {
+        if (!mcqSessionFlipped) {
+            flashcard.classList.remove('flipped');
+            isFlipped = false;
+        }
+        flashcard.classList.add('mcq-mode');
+    } else {
+        // For non-MCQ questions, always reset to front
+        flashcard.classList.remove('flipped', 'mcq-mode');
         isFlipped = false;
-    }
-    
-    // Remove mcq-mode class for all question types except MCQs
-    if (currentQuestionType !== 'MCQs') {
-        flashcard.classList.remove('mcq-mode');
     }
     
     mcqAnswered = false;
 }
 
 function flipCard() {
-    // Don't allow flipping if it's MCQ mode
+    // Don't allow manual flipping if it's MCQ mode
     if (currentQuestionType === 'MCQs') {
         return;
     }
@@ -378,7 +382,7 @@ function updateCard() {
     const mcqOptions = document.getElementById('mcqOptions');
     const flashcard = document.getElementById('flashcard');
     
-    // Reset card state (but preserve flip state for MCQs)
+    // Reset card state but preserve MCQ session flip state
     resetCard();
     
     // Set question with formatting
@@ -431,6 +435,12 @@ function updateCard() {
         } else {
             answerImage.style.display = 'none';
         }
+        
+        // If we're in a flipped session, maintain the flipped state
+        if (mcqSessionFlipped) {
+            flashcard.classList.add('flipped');
+            isFlipped = true;
+        }
     } else {
         // For non-MCQ questions
         answerText.innerHTML = formatText(question.answer);
@@ -480,6 +490,7 @@ function handleMCQAnswer(selectedIndex, correctIndex) {
         const flashcard = document.getElementById('flashcard');
         flashcard.classList.add('flipped');
         isFlipped = true;
+        mcqSessionFlipped = true; // Mark that we've flipped in this MCQ session
     }, 1500);
 }
 
