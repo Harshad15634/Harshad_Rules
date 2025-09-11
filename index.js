@@ -343,12 +343,18 @@ function goToFlashcards(questionType) {
 // Flashcard functions
 function resetCard() {
     const flashcard = document.getElementById('flashcard');
-    flashcard.classList.remove('flipped');
+    
+    // Only reset flip state for non-MCQ questions
+    if (currentQuestionType !== 'MCQs') {
+        flashcard.classList.remove('flipped');
+        isFlipped = false;
+    }
+    
     // Remove mcq-mode class for all question types except MCQs
     if (currentQuestionType !== 'MCQs') {
         flashcard.classList.remove('mcq-mode');
     }
-    isFlipped = false;
+    
     mcqAnswered = false;
 }
 
@@ -372,7 +378,7 @@ function updateCard() {
     const mcqOptions = document.getElementById('mcqOptions');
     const flashcard = document.getElementById('flashcard');
     
-    // Reset card state
+    // Reset card state (but preserve flip state for MCQs)
     resetCard();
     
     // Set question with formatting
@@ -467,6 +473,8 @@ function handleMCQAnswer(selectedIndex, correctIndex) {
         option.classList.add('selected');
     });
     
+    mcqAnswered = true;
+    
     // Auto-flip to show answer/explanation after 1.5 seconds
     setTimeout(() => {
         const flashcard = document.getElementById('flashcard');
@@ -551,7 +559,7 @@ function processFormattedText(text) {
         // Style mathematical expressions
         .replace(/(\b[a-zA-Z]\s*=\s*[^,\n;]+)/g, '<span class="formula">$1</span>')
         // Style units and measurements
-        .replace(/(\d+\s*[a-zA-Z]+\/[a-zA-Z]+|\d+\s*[°ΩVAF]\b)/g, '<span class="formula">$1</span>')
+        .replace(/(\d+\s*[a-zA-Z]+\/[a-zA-Z]+|\d+\s*[°ΩVAFº]\b)/g, '<span class="formula">$1</span>')
         // Style chemical formulas
         .replace(/([A-Z][a-z]?₂?₃?₄?[⁺⁻]?)/g, '<span class="formula">$1</span>')
         // Style numbered points
